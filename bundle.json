@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_utc": "2026-11-04T01:53:13Z",
+ "generated_utc": "2026-11-04T02:04:15Z",
  "meta": {
   "gvp": {
    "fetched_utc": "2026-11-02T08:30:00Z",
@@ -14,26 +14,27 @@
    "citation_checked_utc": "2026-11-02T08:30:02Z"
   },
   "hans": {
-   "fetched_utc": "2026-11-02T08:30:08Z",
-   "count": 4,
+   "fetched_utc": "2026-11-04T01:54:29Z",
+   "count": 3,
    "error": null,
-   "latest_sent_utc": "2026-11-01T20:17:32Z"
+   "latest_sent_utc": "2026-11-03T20:35:18Z"
   },
   "rss": {
-   "fetched_utc": "2026-11-02T08:30:09Z",
+   "fetched_utc": "2026-11-04T01:54:31Z",
    "report_start": "2026-10-08",
    "report_end": "2026-10-14",
    "count": 27,
    "error": null
   },
-  "updated_utc": "2026-11-02T08:39:31Z",
+  "updated_utc": "2026-11-04T02:04:15Z",
   "claude": {
-   "run_utc": "2026-11-02T08:39:31Z",
+   "run_utc": "2026-11-04T02:04:15Z",
    "status": "ok",
    "returned": 20,
    "kept": 20,
    "dropped": 0,
-   "added": 20,
+   "added": 14,
+   "flagged": 0,
    "error": null
   }
  },
@@ -12186,29 +12187,19 @@
    "color_code": "ORANGE",
    "alert_level": "WATCH",
    "observatory": "Alaska Volcano Observatory",
-   "notice_id": "DOI-USGS-AVO-2026-11-01T20:02:20+00:00",
-   "sent_utc": "2026-11-01T20:05:10Z",
-   "url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-11-01T20:02:20+00:00"
-  },
-  {
-   "vnum": 311360,
-   "name": "Shishaldin",
-   "color_code": "YELLOW",
-   "alert_level": "ADVISORY",
-   "observatory": "Alaska Volcano Observatory",
-   "notice_id": "DOI-USGS-AVO-2026-11-01T20:02:20+00:00",
-   "sent_utc": "2026-11-01T20:05:10Z",
-   "url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-11-01T20:02:20+00:00"
+   "notice_id": "DOI-USGS-AVO-2026-11-03T20:22:40+00:00",
+   "sent_utc": "2026-11-03T20:24:18Z",
+   "url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-11-03T20:22:40+00:00"
   },
   {
    "vnum": 332010,
    "name": "Kilauea",
-   "color_code": "YELLOW",
-   "alert_level": "ADVISORY",
+   "color_code": "ORANGE",
+   "alert_level": "WATCH",
    "observatory": "Hawaiian Volcano Observatory",
-   "notice_id": "DOI-USGS-HVO-2026-11-01T18:45:57+00:00",
-   "sent_utc": "2026-11-01T20:17:32Z",
-   "url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-11-01T18:45:57+00:00"
+   "notice_id": "DOI-USGS-HVO-2026-11-03T17:31:38+00:00",
+   "sent_utc": "2026-11-03T20:35:18Z",
+   "url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-11-03T17:31:38+00:00"
   },
   {
    "vnum": 284141,
@@ -12846,6 +12837,210 @@
    "url": "https://www.geonet.org.nz/vabs/1SR8mZx5dVl65H8je3ysay",
    "reported_name": "Whakaari/White Island",
    "eruption": false
+  },
+  {
+   "id": "hans:332010:DOI-USGS-HVO-2026-11-03T17:31:38+00:00",
+   "vnum": 332010,
+   "source": "hans",
+   "verified": true,
+   "date": "2026-11-03",
+   "title": "警戒變更：YELLOW/ADVISORY → ORANGE/WATCH",
+   "summary": "Hawaiian Volcano Observatory 目前航空色碼 ORANGE，警戒等級 WATCH。",
+   "agency": "Hawaiian Volcano Observatory",
+   "url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-11-03T17:31:38+00:00"
+  },
+  {
+   "id": "hans:311360:off:2026-11-04",
+   "vnum": 311360,
+   "source": "hans",
+   "verified": true,
+   "date": "2026-11-04",
+   "title": "已不在 HANS 升高清單",
+   "summary": "Alaska Volcano Observatory 的警戒已降回非升高狀態（實際等級請見觀測站公告）。",
+   "agency": "Alaska Volcano Observatory",
+   "url": "https://volcanoes.usgs.gov/hans-public/"
+  },
+  {
+   "id": "claude:241040:2026-10-29",
+   "vnum": 241040,
+   "source": "claude",
+   "verified": false,
+   "date": "2026-10-29",
+   "title": "未經官方確認",
+   "summary": "GeoNet 指出，懷特島最近一次觀測到火山灰排放是在 10 月 29 日，此後攝影機與衛星影像都沒有再偵測到火山灰。這次弱噴發自 10 月 21 日起持續，期間火山警戒等級為 3 級。",
+   "agency": "GeoNet (Earth Sciences New Zealand)",
+   "url": "https://www.geonet.org.nz/vabs/1SR8mZx5dVl65H8je3ysay",
+   "reported_name": "Whakaari/White Island",
+   "eruption": true
+  },
+  {
+   "id": "claude:273030:2026-11-03",
+   "vnum": 273030,
+   "source": "claude",
+   "verified": false,
+   "date": "2026-11-03",
+   "title": "未經官方確認",
+   "summary": "馬榮火山於當地時間 11 月 3 日 08:22 排放火山灰，煙柱高出山頂火口 1,600 公尺，向西南飄散。警戒等級維持 3 級。",
+   "agency": "GMA News (citing PHIVOLCS)",
+   "url": "https://www.gmanetwork.com/news/topstories/regions/1008071/mayon-volcano-emits-ash-anew/story/",
+   "reported_name": "Mayon",
+   "eruption": true
+  },
+  {
+   "id": "claude:263300:2026-11-02",
+   "vnum": 263300,
+   "source": "claude",
+   "verified": false,
+   "date": "2026-11-02",
+   "title": "未經官方確認",
+   "summary": "MAGMA Indonesia 發布的 VONA 指出，塞梅魯火山於 UTC 12:00 噴發，灰雲頂高約海拔 4,476 公尺（高出山頂約 800 公尺），向西南飄移。航空顏色代碼為橙色。",
+   "agency": "MAGMA Indonesia (PVMBG)",
+   "url": "https://magma.esdm.go.id/v1/vona/23102?signature=9358c9d40a37d7d5d9c47970d1b355eaebabaaa662075db0be8497ab56029473",
+   "reported_name": "Semeru",
+   "eruption": true
+  },
+  {
+   "id": "claude:263300:2026-11-03",
+   "vnum": 263300,
+   "source": "claude",
+   "verified": false,
+   "date": "2026-11-03",
+   "title": "未經官方確認",
+   "summary": "塞梅魯火山於當地時間 11 月 3 日 12:06 噴發並伴隨火山碎屑流，但因雲霧遮蔽，流動距離無法觀測。地震儀記錄最大振幅 22 公釐，當日共記錄 4 次噴發，警戒維持第三級（Siaga）。",
+   "agency": "ANTARA News",
+   "url": "https://www.antaranews.com/berita/5828803/gunung-semeru-erupsi-disertai-luncuran-awan-panas",
+   "reported_name": "Semeru",
+   "eruption": true
+  },
+  {
+   "id": "claude:262000:2026-10-31",
+   "vnum": 262000,
+   "source": "claude",
+   "verified": false,
+   "date": "2026-10-31",
+   "title": "未經官方確認",
+   "summary": "PVMBG 報告，喀拉喀托之子火山於 10 月 31 日當地時間 18:30 至 20:50 間噴發 7 次，火山灰柱高度無法觀測。警戒維持第三級（Siaga），噴發中心 5 公里內禁止進入。",
+   "agency": "RRI (citing PVMBG)",
+   "url": "https://rri.co.id/nasional/2862225/gunung-anak-krakatau-kembali-erupsi-status-siaga-dan-radius-bahaya-ditetapkan",
+   "reported_name": "Krakatau",
+   "eruption": true
+  },
+  {
+   "id": "claude:282080:2026-11-03",
+   "vnum": 282080,
+   "source": "claude",
+   "verified": false,
+   "date": "2026-11-03",
+   "title": "未經官方確認",
+   "summary": "櫻島南岳山頂火口於日本時間 11 月 3 日 11:11 噴發，噴煙高出火口 1,000 公尺，量中等，向東南飄散。",
+   "agency": "日本氣象協會 tenki.jp（氣象廳火山觀測報）",
+   "url": "https://tenki.jp/bousai/volcano/506/live/2026-11-03-11-21-00.html",
+   "reported_name": "Aira",
+   "eruption": true
+  },
+  {
+   "id": "claude:300270:2026-10-31",
+   "vnum": 300270,
+   "source": "claude",
+   "verified": false,
+   "date": "2026-10-31",
+   "title": "未經官方確認",
+   "summary": "東京 VAAC 報告，希韋魯奇火山於 UTC 22:33 噴發，火山灰上升至約 FL220（海拔約 6,700 公尺），向東北飄散。",
+   "agency": "Tokyo VAAC (JMA)",
+   "url": "https://www.data.jma.go.jp/vaac/data/TextData/2026/20261031_30027000_0364_Text.html",
+   "reported_name": "Sheveluch",
+   "eruption": true
+  },
+  {
+   "id": "claude:300270:2026-11-03",
+   "vnum": 300270,
+   "source": "claude",
+   "verified": false,
+   "date": "2026-11-03",
+   "title": "未經官方確認",
+   "summary": "東京 VAAC 根據 KBGS 與衛星資料報告，希韋魯奇火山於 UTC 23:52 噴發，火山灰上升至約 FL230（海拔約 7,000 公尺），向東飄移。",
+   "agency": "Tokyo VAAC (JMA)",
+   "url": "https://www.data.jma.go.jp/vaac/data/TextData/2026/20261104_30027000_0366_Text.html",
+   "reported_name": "Sheveluch",
+   "eruption": true
+  },
+  {
+   "id": "claude:342090:2026-11-03",
+   "vnum": 342090,
+   "source": "claude",
+   "verified": false,
+   "date": "2026-11-03",
+   "title": "未經官方確認",
+   "summary": "華盛頓 VAAC 報告，富埃戈火山頻繁排放火山灰，灰雲高至 FL150（海拔約 4,600 公尺），向西南飄移。衛星顯示灰雲延伸至山頂西南約 40 海里處。",
+   "agency": "Washington VAAC (NOAA)",
+   "url": "https://www.ospo.noaa.gov/VAAC/ARCH26/FUEG/2026K030807.html",
+   "reported_name": "Fuego",
+   "eruption": true
+  },
+  {
+   "id": "claude:342030:2026-11-02",
+   "vnum": 342030,
+   "source": "claude",
+   "verified": false,
+   "date": "2026-11-02",
+   "title": "未經官方確認",
+   "summary": "華盛頓 VAAC 報告，網路攝影機於 UTC 約 10:10 觀測到聖瑪利亞火山（Santiaguito 熔岩穹丘）排放火山灰。灰雲估計高至 FL130（海拔約 4,000 公尺），向西南飄移。",
+   "agency": "Washington VAAC (NOAA)",
+   "url": "https://www.ospo.noaa.gov/VAAC/ARCH26/SANTAMA/2026K021038.html",
+   "reported_name": "Santa Maria",
+   "eruption": true
+  },
+  {
+   "id": "claude:344040:2026-11-02",
+   "vnum": 344040,
+   "source": "claude",
+   "verified": false,
+   "date": "2026-11-02",
+   "title": "未經官方確認",
+   "summary": "華盛頓 VAAC 報告，網路攝影機於 UTC 15:40 觀測到特利卡火山有輕微火山灰排放，估計高至 FL040（海拔約 1,200 公尺），向西南飄移。衛星影像未偵測到火山灰。",
+   "agency": "Washington VAAC (NOAA)",
+   "url": "https://www.ospo.noaa.gov/VAAC/ARCH26/TELI/2026K021603.html",
+   "reported_name": "Telica",
+   "eruption": true
+  },
+  {
+   "id": "claude:352010:2026-11-03",
+   "vnum": 352010,
+   "source": "claude",
+   "verified": false,
+   "date": "2026-11-03",
+   "title": "未經官方確認",
+   "summary": "華盛頓 VAAC 報告，網路攝影機於 UTC 04:20 觀測到雷文塔多火山排放火山灰。灰雲估計高至 FL140（海拔約 4,300 公尺），向西北飄移。",
+   "agency": "Washington VAAC (NOAA)",
+   "url": "https://www.ospo.noaa.gov/VAAC/ARCH26/REVE/2026K030457.html",
+   "reported_name": "Reventador",
+   "eruption": true
+  },
+  {
+   "id": "claude:268030:2026-11-03",
+   "vnum": 268030,
+   "source": "claude",
+   "verified": false,
+   "date": "2026-11-03",
+   "title": "未經官方確認",
+   "summary": "MAGMA Indonesia 發布的 VONA 指出，伊布火山於 UTC 00:31 噴發，灰色火山灰高出山頂約 500 公尺（海拔約 1,825 公尺），向西飄移。航空顏色代碼為橙色。",
+   "agency": "MAGMA Indonesia (PVMBG)",
+   "url": "https://magma.esdm.go.id/v1/vona/23109?signature=7288ed92a03e280dc7f858bab774fa22b09d06496b78d2a358ff6448fd24ff58",
+   "reported_name": "Ibu",
+   "eruption": true
+  },
+  {
+   "id": "claude:357070:2026-10-28",
+   "vnum": 357070,
+   "source": "claude",
+   "verified": false,
+   "date": "2026-10-28",
+   "title": "未經官方確認",
+   "summary": "奇揚火山群於 10 月 28 日多次噴出含火山灰的氣體煙柱，高約 1.3 至 2.4 公里，向東北或西北飄散。同日 SERNAGEOMIN 改用新的數字警戒等級，該火山列為 EAV 3。",
+   "agency": "The Watchers",
+   "url": "https://watchers.news/2026/10/30/the-weekly-volcanic-activity-report-october-22-28-2026/",
+   "reported_name": "Chillan, Nevados de",
+   "eruption": true
   }
  ]
 }
