@@ -1,0 +1,22 @@
+{
+  "說明": "IAVCEI 十年火山名單：1990 年代聯合國國際減災十年選定的 16 座（Avachinsky-Koryaksky 在 GVP 是兩座，所以有 17 個編號），可以直接在 GitHub 網頁上編輯。key 是 GVP 火山編號；gvp 是 GVP 原名，只用來核對編號；label 是地圖上的常駐標籤，格式「GVP 名稱 (通稱)」，names.json 改過英文名的火山會改用那個名稱。資料站每年比對一次維基百科條目的名單，有差異會寫在網頁「來源」分頁，不會自動修改這個檔。存檔後各台展示端重新整理網頁就會套用。",
+  "volcanoes": {
+    "300100": {"gvp": "Avachinsky", "label": "Avachinsky"},
+    "300090": {"gvp": "Koryaksky", "label": "Koryaksky"},
+    "341040": {"gvp": "Colima", "label": "Colima"},
+    "211060": {"gvp": "Etna", "label": "Etna"},
+    "351080": {"gvp": "Galeras", "label": "Galeras"},
+    "332020": {"gvp": "Mauna Loa", "label": "Mauna Loa"},
+    "263250": {"gvp": "Merapi", "label": "Merapi"},
+    "223030": {"gvp": "Nyiragongo", "label": "Nyiragongo"},
+    "321030": {"gvp": "Rainier", "label": "Rainier"},
+    "282080": {"gvp": "Aira", "label": "Aira (Sakurajima)"},
+    "342030": {"gvp": "Santa Maria", "label": "Santa Maria (Santiaguito)"},
+    "212040": {"gvp": "Santorini", "label": "Santorini"},
+    "273070": {"gvp": "Taal", "label": "Taal"},
+    "383030": {"gvp": "Tenerife", "label": "Tenerife (Teide)"},
+    "252120": {"gvp": "Ulawun", "label": "Ulawun"},
+    "282100": {"gvp": "Unzendake", "label": "Unzendake (Unzen)"},
+    "211020": {"gvp": "Vesuvius", "label": "Vesuvius"}
+  }
+}
