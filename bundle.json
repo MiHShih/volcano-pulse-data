@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_utc": "2026-11-08T01:13:39Z",
+ "generated_utc": "2026-11-08T01:17:36Z",
  "meta": {
   "gvp": {
    "fetched_utc": "2026-11-02T08:30:00Z",
@@ -14,27 +14,27 @@
    "citation_checked_utc": "2026-11-02T08:30:02Z"
   },
   "hans": {
-   "fetched_utc": "2026-11-08T01:13:38Z",
+   "fetched_utc": "2026-11-08T01:17:35Z",
    "count": 3,
    "error": null,
    "latest_sent_utc": "2026-11-07T18:50:05Z"
   },
   "rss": {
-   "fetched_utc": "2026-11-08T01:13:39Z",
+   "fetched_utc": "2026-11-08T01:17:36Z",
    "report_start": "2026-10-08",
    "report_end": "2026-10-14",
    "count": 27,
    "error": null
   },
-  "updated_utc": "2026-11-08T01:13:39Z",
+  "updated_utc": "2026-11-08T01:17:36Z",
   "claude": {
-   "run_utc": "2026-11-08T01:13:39Z",
+   "run_utc": "2026-11-08T01:17:36Z",
    "feed_utc": "2026-11-08T01:13:21Z",
    "status": "ok",
    "returned": 37,
    "kept": 30,
    "dropped": 7,
-   "added": 8,
+   "added": 0,
    "error": null
   },
   "media": {
