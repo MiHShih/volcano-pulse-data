@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_utc": "2026-11-08T01:00:06Z",
+ "generated_utc": "2026-11-08T01:13:39Z",
  "meta": {
   "gvp": {
    "fetched_utc": "2026-11-02T08:30:00Z",
@@ -14,33 +14,33 @@
    "citation_checked_utc": "2026-11-02T08:30:02Z"
   },
   "hans": {
-   "fetched_utc": "2026-11-08T01:00:05Z",
+   "fetched_utc": "2026-11-08T01:13:38Z",
    "count": 3,
    "error": null,
    "latest_sent_utc": "2026-11-07T18:50:05Z"
   },
   "rss": {
-   "fetched_utc": "2026-11-08T01:00:06Z",
+   "fetched_utc": "2026-11-08T01:13:39Z",
    "report_start": "2026-10-08",
    "report_end": "2026-10-14",
    "count": 27,
    "error": null
   },
-  "updated_utc": "2026-11-08T01:00:06Z",
+  "updated_utc": "2026-11-08T01:13:39Z",
   "claude": {
-   "run_utc": "2026-11-08T01:00:06Z",
-   "feed_utc": "2026-11-07T23:00:51Z",
+   "run_utc": "2026-11-08T01:13:39Z",
+   "feed_utc": "2026-11-08T01:13:21Z",
    "status": "ok",
-   "returned": 25,
-   "kept": 20,
-   "dropped": 5,
-   "added": 5,
+   "returned": 37,
+   "kept": 30,
+   "dropped": 7,
+   "added": 8,
    "error": null
   },
   "media": {
-   "generated_utc": "2026-11-07T23:00:56Z",
-   "volcanoes": 12,
-   "videos": 28,
+   "generated_utc": "2026-11-08T01:12:34Z",
+   "volcanoes": 13,
+   "videos": 30,
    "error": null
   },
   "decade_check": {
@@ -13371,10 +13371,114 @@
    "url": "https://en.tempo.co/read/2123172/indonesias-mount-marapi-erupts-blanketing-farms-in-volcanic-ash",
    "reported_name": "Marapi",
    "eruption": true
+  },
+  {
+   "id": "claude:352090:2026-11-07",
+   "vnum": 352090,
+   "source": "claude",
+   "verified": false,
+   "date": "2026-11-07",
+   "title": "未經官方確認",
+   "summary": "Washington VAAC 發布諮詢，Sangay 火山灰柱升至 20,000 ft (6,100 m)，對航空有影響。來源未提供地震或氣體數據。",
+   "agency": "volcanodiscovery.com",
+   "url": "https://www.volcanodiscovery.com/sangay/news/403671/vaac-advisory-2026-771.html",
+   "reported_name": "Sangay",
+   "eruption": true
+  },
+  {
+   "id": "claude:267020:2026-11-08",
+   "vnum": 267020,
+   "source": "claude",
+   "verified": false,
+   "date": "2026-11-08",
+   "title": "未經官方確認",
+   "summary": "VAAC 發布 Karangetang 火山灰諮詢，火山灰柱上升至 9,000 ft (2,700 m)，顯示噴發持續中。",
+   "agency": "volcanodiscovery.com",
+   "url": "https://www.volcanodiscovery.com/karangetang/news/404063/vaac-advisory-2026-34.html",
+   "reported_name": "Karangetang",
+   "eruption": true
+  },
+  {
+   "id": "claude:352010:2026-11-08",
+   "vnum": 352010,
+   "source": "claude",
+   "verified": false,
+   "date": "2026-11-08",
+   "title": "未經官方確認",
+   "summary": "VAAC 發布 Reventador 火山灰諮詢，火山灰柱高達 14,000 ft (4,300 m)，噴發持續。",
+   "agency": "volcanodiscovery.com",
+   "url": "https://www.volcanodiscovery.com/reventador/news/403905/vaac-advisory-2026-1181.html",
+   "reported_name": "Reventador",
+   "eruption": true
+  },
+  {
+   "id": "claude:268030:2026-11-08",
+   "vnum": 268030,
+   "source": "claude",
+   "verified": false,
+   "date": "2026-11-08",
+   "title": "未經官方確認",
+   "summary": "VAAC 發布 Ibu 火山灰諮詢，回報噴發持續發生。",
+   "agency": "volcanodiscovery.com",
+   "url": "https://www.volcanodiscovery.com/ibu/news/403894/vaac-advisory-2026-1268.html",
+   "reported_name": "Ibu",
+   "eruption": true
+  },
+  {
+   "id": "claude:261140:2026-11-08",
+   "vnum": 261140,
+   "source": "claude",
+   "verified": false,
+   "date": "2026-11-08",
+   "title": "未經官方確認",
+   "summary": "VAAC 發布 Marapi 火山灰諮詢，回報有噴發發生。",
+   "agency": "volcanodiscovery.com",
+   "url": "https://www.volcanodiscovery.com/marapi/news/403883/vaac-advisory-2026-92.html",
+   "reported_name": "Marapi",
+   "eruption": true
+  },
+  {
+   "id": "claude:263300:2026-11-08",
+   "vnum": 263300,
+   "source": "claude",
+   "verified": false,
+   "date": "2026-11-08",
+   "title": "未經官方確認",
+   "summary": "VAAC Darwin 發布 Semeru 火山灰諮詢，火山灰柱高達 15,000 ft (4,600 m)，爆發活動持續。",
+   "agency": "volcanodiscovery.com",
+   "url": "https://www.volcanodiscovery.com/semeru/news/403864/vaac-advisory-2026-1275.html",
+   "reported_name": "Semeru",
+   "eruption": true
+  },
+  {
+   "id": "claude:342030:2026-11-07",
+   "vnum": 342030,
+   "source": "claude",
+   "verified": false,
+   "date": "2026-11-07",
+   "title": "未經官方確認",
+   "summary": "VAAC 發布 Santiaguito 火山灰諮詢，火山灰柱高達 14,000 ft (4,300 m)，活動持續。",
+   "agency": "volcanodiscovery.com",
+   "url": "https://www.volcanodiscovery.com/santiaguito/news/403731/vaac-advisory-2026-665.html",
+   "reported_name": "Santa Maria",
+   "eruption": true
+  },
+  {
+   "id": "claude:341090:2026-11-07",
+   "vnum": 341090,
+   "source": "claude",
+   "verified": false,
+   "date": "2026-11-07",
+   "title": "未經官方確認",
+   "summary": "VAAC 發布 Popocatépetl 火山灰諮詢，火山灰柱高達 20,000 ft (6,100 m)，爆發活動持續。",
+   "agency": "volcanodiscovery.com",
+   "url": "https://www.volcanodiscovery.com/popocatepetl/news/403633/vaac-advisory-2026-386.html",
+   "reported_name": "Popocatepetl",
+   "eruption": true
   }
  ],
  "media": {
-  "generated_utc": "2026-11-07T23:00:56Z",
+  "generated_utc": "2026-11-08T01:12:34Z",
   "live": {
    "211020": [
     {
@@ -13382,7 +13486,7 @@
      "title": "Campi Flegrei/Vesuvius Volcano  monitoring 24/7",
      "channel": "FiBro",
      "official": false,
-     "viewers": 2,
+     "viewers": 4,
      "started": "2026-06-17"
     }
    ],
@@ -13392,7 +13496,7 @@
      "title": "🔴 Live Now: 24/7 Mount Etna Volcano, Sicily, Italy (Multi-cams)",
      "channel": "afarTV",
      "official": false,
-     "viewers": 6,
+     "viewers": 8,
      "started": "2025-12-24"
     },
     {
@@ -13400,7 +13504,7 @@
      "title": "🔴 Live Now: 24/7 Etna Volcano, Sicily Italy in 4K",
      "channel": "afarTV",
      "official": false,
-     "viewers": 4,
+     "viewers": 2,
      "started": "2026-11-04"
     },
     {
@@ -13408,7 +13512,7 @@
      "title": "🔴 Etna Live Stream - S.Venerina (CT)🌋 Panoramica Vulcano|Mount Etna Volcano Eruption (Sicily, Italy)",
      "channel": "WebEtneo | 🔴 Live stream eruption Etna volcano",
      "official": false,
-     "viewers": 1,
+     "viewers": 2,
      "started": "2026-10-28"
     }
    ],
@@ -13422,20 +13526,20 @@
      "started": "2026-10-31"
     },
     {
+     "id": "q63lbqCzliQ",
+     "title": "Live Merapi - Indonesia's Mount Merapi - Volcano Eruption",
+     "channel": "Janur Merapi",
+     "official": false,
+     "viewers": 1,
+     "started": "2026-10-24"
+    },
+    {
      "id": "mSsEn7X_hgQ",
      "title": "🔴 LIVE 4K VR180° Stand Before an Erupting Volcano - Merapi Volcano, Indonesia",
      "channel": "afarTV",
      "official": false,
      "viewers": 1,
      "started": "2026-09-09"
-    },
-    {
-     "id": "q63lbqCzliQ",
-     "title": "Live Merapi - Indonesia's Mount Merapi - Volcano Eruption",
-     "channel": "Janur Merapi",
-     "official": false,
-     "viewers": null,
-     "started": "2026-10-24"
     }
    ],
    "263300": [
@@ -13444,24 +13548,24 @@
      "title": "🔴 Live Now: 24/7 Erupting Semeru Volcano in Java, Indonesia in 4K Ultra HD (CAM A)",
      "channel": "afarTV",
      "official": false,
-     "viewers": 17,
+     "viewers": 9,
      "started": "2026-09-12"
+    },
+    {
+     "id": "ieE9Nax7lO8",
+     "title": "🔴 Live Now: 24/7 Bromo and Semeru Volcano, Java, Indonesia in 4K Ultra HD",
+     "channel": "afarTV",
+     "official": false,
+     "viewers": 6,
+     "started": "2026-11-06"
     },
     {
      "id": "4BYVcI2Ow8Y",
      "title": "Live Now: 24/7 Semeru Volcano Watch (Multi-cams)",
      "channel": "afarTV",
      "official": false,
-     "viewers": 7,
+     "viewers": 4,
      "started": "2026-10-26"
-    },
-    {
-     "id": "XfJhlj2kx8o",
-     "title": "🔴 Live Now: 24/7 Erupting Semeru Volcano in Java, Indonesia in 4K Ultra HD (Cam B)",
-     "channel": "afarTV",
-     "official": false,
-     "viewers": 6,
-     "started": "2026-11-04"
     }
    ],
    "273030": [
@@ -13470,7 +13574,7 @@
      "title": "🔴 Live Now: 24/7 Mayon Volcano is Erupting in the Philippines in 4K Ultra-HD",
      "channel": "afarTV",
      "official": false,
-     "viewers": 44,
+     "viewers": 35,
      "started": "2026-01-06"
     },
     {
@@ -13482,8 +13586,8 @@
      "started": "2026-02-22"
     },
     {
-     "id": "YTloKzGNyzs",
-     "title": "🔴 LIVE: Bulkang Mayon Wide View 24/7 (Alert Level 3) — Ash Plume & Night Watch, Albay Philippines",
+     "id": "ETSUtGmqGlg",
+     "title": "🔴 LIVE: Mayon Volcano Crater Zoom 24/7 (Alert Level 3) — Summit & Lava Watch, Albay Philippines",
      "channel": "MayonStream Lab",
      "official": false,
      "viewers": 2,
@@ -13496,7 +13600,7 @@
      "title": "🔴 Live Now: 24/7 Taal Volcano, Philippines in 4K Ultra HD (CAM A)",
      "channel": "afarTV",
      "official": false,
-     "viewers": 1,
+     "viewers": 6,
      "started": "2026-10-20"
     },
     {
@@ -13514,7 +13618,7 @@
      "title": "【2K LIVE】桜島 ライブカメラB【近景】鹿児島県 垂水市 / Sakurajima, an active volcano live cam (Close-up view) JAPAN'",
      "channel": "財宝公式チャンネル",
      "official": false,
-     "viewers": 40,
+     "viewers": 42,
      "started": "2024-11-15"
     },
     {
@@ -13522,16 +13626,16 @@
      "title": "【LIVE】桜島 ライブカメラＣ【火口】鹿児島県 垂水市 / Live Streaming Sakurajima Crater Kagoshima, JAPAN'",
      "channel": "財宝公式チャンネル",
      "official": false,
-     "viewers": 16,
+     "viewers": 15,
      "started": "2022-12-07"
     },
     {
-     "id": "NfR1Y-mYEtg",
-     "title": "[4K Live] 桜島 ライブカメラ 鹿児島県 垂水市 Sakurajima Living Volcano Kagoshima Japan",
-     "channel": "共同通信LiveCamera",
+     "id": "eF9PohrRP_o",
+     "title": "【LIVE】桜島 ライブカメラA【遠景】鹿児島県 垂水市 フェリー/ Sakurajima, an active volcano live cam JAPAN\"",
+     "channel": "財宝公式チャンネル",
      "official": false,
-     "viewers": 11,
-     "started": "2025-04-29"
+     "viewers": 12,
+     "started": "2022-08-06"
     }
    ],
    "341090": [
@@ -13540,7 +13644,7 @@
      "title": "Volcán #Popocatépetl En Vivo | Vista Tlamacas, Estado de México",
      "channel": "webcamsdemexico",
      "official": false,
-     "viewers": 13,
+     "viewers": 3,
      "started": "2026-07-23"
     },
     {
@@ -13552,12 +13656,12 @@
      "started": "2026-07-23"
     },
     {
-     "id": "hvvzDUcYGXY",
-     "title": "🌋 Popocatépetl EN VIVO | El volcán a todo vapor 🌋",
-     "channel": "webcamsdemexico",
+     "id": "4Tl99Gj0csg",
+     "title": "Volcán Popocatépetl desde San Pedro Benito Juárez 8Km De Distancia",
+     "channel": "Live Cam Popocatepetl Y Mas Diegoxx 24H Noticias ",
      "official": false,
      "viewers": 3,
-     "started": "2026-11-07"
+     "started": "2026-02-17"
     }
    ],
    "342030": [
@@ -13566,7 +13670,7 @@
      "title": "🔴 Live Now: 24/7 Santa Maria (Santiaguito) Volcano in 4K Ultra HD (Cam C)",
      "channel": "afarTV",
      "official": false,
-     "viewers": 4,
+     "viewers": 3,
      "started": "2026-09-04"
     },
     {
@@ -13574,7 +13678,7 @@
      "title": "🔴 LIVE 4K VR180° Stand Before an Erupting Volcano - Santa Maria Guatemala",
      "channel": "afarTV",
      "official": false,
-     "viewers": 2,
+     "viewers": 1,
      "started": "2026-09-06"
     }
    ],
@@ -13584,7 +13688,7 @@
      "title": "🔴 Live Now: 24/7 Fuego Volcano Eruption in 4K Ultra HD (Guatemala)",
      "channel": "afarTV",
      "official": false,
-     "viewers": 21,
+     "viewers": 20,
      "started": "2026-08-23"
     },
     {
@@ -13592,7 +13696,7 @@
      "title": "🔴 En directo: 24/7 Erupción del volcán de Fuego en 4K Ultra HD (Guatemala)",
      "channel": "afarTV",
      "official": false,
-     "viewers": 7,
+     "viewers": 4,
      "started": "2026-08-23"
     }
    ],
@@ -13602,8 +13706,26 @@
      "title": "🔴 Live Now: 24/7 Erupting El Reventador Volcano, Amazon Basin, Ecuador in 4K Ultra HD",
      "channel": "afarTV",
      "official": false,
-     "viewers": 3,
+     "viewers": 4,
      "started": "2026-11-05"
+    }
+   ],
+   "352090": [
+    {
+     "id": "IOhIO_mF4Cc",
+     "title": "🔴 Live Now: 24/7 Amazon Rainforest and Sangay Volcano, Ecuador in 4K Ultra HD",
+     "channel": "afarTV",
+     "official": false,
+     "viewers": 2,
+     "started": "2026-08-19"
+    },
+    {
+     "id": "EuFOOh2VQfc",
+     "title": "🔴 LIVE 4K VR180° Enter the Amazon Beneath Sangay Volcano | Ecuador 24/7",
+     "channel": "afarTV",
+     "official": false,
+     "viewers": null,
+     "started": "2026-09-21"
     }
    ],
    "383030": [
@@ -13612,7 +13734,7 @@
      "title": "​🌋 24/7 Teide Volcano Live Monitoring | Tenerife 2026",
      "channel": "FiBro",
      "official": false,
-     "viewers": 2,
+     "viewers": null,
      "started": "2026-04-11"
     },
     {
@@ -13620,7 +13742,7 @@
      "title": "​🌋 24/7 Teide Volcano Spectrograms | Tenerife 2026",
      "channel": "FiBro",
      "official": false,
-     "viewers": 1,
+     "viewers": null,
      "started": "2026-05-04"
     }
    ]
