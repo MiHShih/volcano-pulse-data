@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_utc": "2026-11-08T01:17:36Z",
+ "generated_utc": "2026-11-08T03:51:03Z",
  "meta": {
   "gvp": {
    "fetched_utc": "2026-11-02T08:30:00Z",
@@ -14,21 +14,21 @@
    "citation_checked_utc": "2026-11-02T08:30:02Z"
   },
   "hans": {
-   "fetched_utc": "2026-11-08T01:17:35Z",
+   "fetched_utc": "2026-11-08T03:50:26Z",
    "count": 3,
    "error": null,
    "latest_sent_utc": "2026-11-07T18:50:05Z"
   },
   "rss": {
-   "fetched_utc": "2026-11-08T01:17:36Z",
+   "fetched_utc": "2026-11-08T03:50:27Z",
    "report_start": "2026-10-08",
    "report_end": "2026-10-14",
    "count": 27,
    "error": null
   },
-  "updated_utc": "2026-11-08T01:17:36Z",
+  "updated_utc": "2026-11-08T03:50:27Z",
   "claude": {
-   "run_utc": "2026-11-08T01:17:36Z",
+   "run_utc": "2026-11-08T03:50:27Z",
    "feed_utc": "2026-11-08T01:13:21Z",
    "status": "ok",
    "returned": 37,
@@ -39,8 +39,8 @@
   },
   "media": {
    "generated_utc": "2026-11-08T01:12:34Z",
-   "volcanoes": 13,
-   "videos": 30,
+   "volcanoes": 14,
+   "videos": 31,
    "error": null
   },
   "decade_check": {
@@ -13744,6 +13744,16 @@
      "official": false,
      "viewers": null,
      "started": "2026-05-04"
+    }
+   ],
+   "281032": [
+    {
+     "id": "ze-EL4lKdLw",
+     "title": "小油坑即時影像",
+     "channel": "TVO大屯火山觀測站",
+     "official": true,
+     "viewers": null,
+     "started": ""
     }
    ]
   }
