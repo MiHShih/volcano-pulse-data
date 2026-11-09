@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_utc": "2026-11-08T03:51:03Z",
+ "generated_utc": "2026-11-09T01:00:06Z",
  "meta": {
   "gvp": {
    "fetched_utc": "2026-11-02T08:30:00Z",
@@ -14,33 +14,33 @@
    "citation_checked_utc": "2026-11-02T08:30:02Z"
   },
   "hans": {
-   "fetched_utc": "2026-11-08T03:50:26Z",
+   "fetched_utc": "2026-11-09T01:00:05Z",
    "count": 3,
    "error": null,
-   "latest_sent_utc": "2026-11-07T18:50:05Z"
+   "latest_sent_utc": "2026-11-08T20:36:04Z"
   },
   "rss": {
-   "fetched_utc": "2026-11-08T03:50:27Z",
+   "fetched_utc": "2026-11-09T01:00:06Z",
    "report_start": "2026-10-08",
    "report_end": "2026-10-14",
    "count": 27,
    "error": null
   },
-  "updated_utc": "2026-11-08T03:50:27Z",
+  "updated_utc": "2026-11-09T01:00:06Z",
   "claude": {
-   "run_utc": "2026-11-08T03:50:27Z",
-   "feed_utc": "2026-11-08T01:13:21Z",
+   "run_utc": "2026-11-09T01:00:06Z",
+   "feed_utc": "2026-11-08T23:02:00Z",
    "status": "ok",
-   "returned": 37,
-   "kept": 30,
-   "dropped": 7,
-   "added": 0,
+   "returned": 45,
+   "kept": 37,
+   "dropped": 8,
+   "added": 6,
    "error": null
   },
   "media": {
-   "generated_utc": "2026-11-08T01:12:34Z",
+   "generated_utc": "2026-11-08T23:02:05Z",
    "volcanoes": 14,
-   "videos": 31,
+   "videos": 32,
    "error": null
   },
   "decade_check": {
@@ -12220,9 +12220,9 @@
    "color_code": "ORANGE",
    "alert_level": "WATCH",
    "observatory": "Alaska Volcano Observatory",
-   "notice_id": "DOI-USGS-AVO-2026-11-07T18:49:50+00:00",
-   "sent_utc": "2026-11-07T18:50:05Z",
-   "url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-11-07T18:49:50+00:00"
+   "notice_id": "DOI-USGS-AVO-2026-11-08T20:35:22+00:00",
+   "sent_utc": "2026-11-08T20:36:04Z",
+   "url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-11-08T20:35:22+00:00"
   },
   {
    "vnum": 332010,
@@ -12230,9 +12230,9 @@
    "color_code": "YELLOW",
    "alert_level": "ADVISORY",
    "observatory": "Hawaiian Volcano Observatory",
-   "notice_id": "DOI-USGS-HVO-2026-11-07T17:46:41+00:00",
-   "sent_utc": "2026-11-07T18:24:50Z",
-   "url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-11-07T17:46:41+00:00"
+   "notice_id": "DOI-USGS-HVO-2026-11-08T19:01:15+00:00",
+   "sent_utc": "2026-11-08T19:29:37Z",
+   "url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-11-08T19:01:15+00:00"
   },
   {
    "vnum": 284141,
@@ -13475,10 +13475,88 @@
    "url": "https://www.volcanodiscovery.com/popocatepetl/news/403633/vaac-advisory-2026-386.html",
    "reported_name": "Popocatepetl",
    "eruption": true
+  },
+  {
+   "id": "claude:351060:2026-11-09",
+   "vnum": 351060,
+   "source": "claude",
+   "verified": false,
+   "date": "2026-11-09",
+   "title": "未經官方確認",
+   "summary": "VAAC 針對 Puracé 發布火山灰諮詢，標示有新的火山灰排放，具航空影響。來源未提供柱高等細節。",
+   "agency": "volcanodiscovery.com",
+   "url": "https://www.volcanodiscovery.com/purace/news/404573/vaac-advisory-2026-708.html",
+   "reported_name": "Puracé",
+   "eruption": true
+  },
+  {
+   "id": "claude:357070:2026-11-08",
+   "vnum": 357070,
+   "source": "claude",
+   "verified": false,
+   "date": "2026-11-08",
+   "title": "未經官方確認",
+   "summary": "VAAC 發布 Nevados de Chillán 火山灰諮詢，火山灰柱達 15,000 ft (4,600 m)，具航空影響。",
+   "agency": "volcanodiscovery.com",
+   "url": "https://www.volcanodiscovery.com/nevados-de-chillan/news/404326/vaac-advisory-2026-047.html",
+   "reported_name": "Nevados de Chillán",
+   "eruption": true
+  },
+  {
+   "id": "claude:300270:2026-11-08",
+   "vnum": 300270,
+   "source": "claude",
+   "verified": false,
+   "date": "2026-11-08",
+   "title": "未經官方確認",
+   "summary": "KVERT 於 11 月 8 日發布 Sheveluch 活動通報，航空色碼維持 ORANGE；GVP 週報指出北側火口底熔岩穹丘持續有熔岩溢流與爆發活動。",
+   "agency": "kvert.febras.net",
+   "url": "http://kvert.febras.net/index.php?lang=en",
+   "reported_name": "Sheveluch",
+   "eruption": true
+  },
+  {
+   "id": "claude:268010:2026-11-08",
+   "vnum": 268010,
+   "source": "claude",
+   "verified": false,
+   "date": "2026-11-08",
+   "title": "未經官方確認",
+   "summary": "VAAC 對 Dukono 持續發布火山灰諮詢，顯示噴發活動持續。",
+   "agency": "volcanodiscovery.com",
+   "url": "https://www.volcanodiscovery.com/dukono/news/404549/vaac-advisory-2026-980.html",
+   "reported_name": "Dukono",
+   "eruption": true
+  },
+  {
+   "id": "claude:342090:2026-11-08",
+   "vnum": 342090,
+   "source": "claude",
+   "verified": false,
+   "date": "2026-11-08",
+   "title": "未經官方確認",
+   "summary": "VAAC 發布 Fuego 火山灰諮詢，網路攝影機觀測到火山灰排放。",
+   "agency": "volcanodiscovery.com",
+   "url": "https://www.volcanodiscovery.com/fuego/news/404421/vaac-advisory-2026-1297.html",
+   "reported_name": "Fuego",
+   "eruption": true
+  },
+  {
+   "id": "claude:341090:2026-11-08",
+   "vnum": 341090,
+   "source": "claude",
+   "verified": false,
+   "date": "2026-11-08",
+   "title": "未經官方確認",
+   "summary": "VAAC 諮詢指出 Popocatépetl 火山灰柱升至 19,000 ft (5,800 m)。",
+   "agency": "volcanodiscovery.com",
+   "url": "https://www.volcanodiscovery.com/popocatepetl/news/404345/vaac-advisory-2026-389.html",
+   "reported_name": "Popocatepetl",
+   "eruption": true
   }
  ],
  "media": {
-  "generated_utc": "2026-11-08T01:12:34Z",
+  "generated_utc": "2026-11-08T23:02:05Z",
   "live": {
    "211020": [
     {
@@ -13486,7 +13564,7 @@
      "title": "Campi Flegrei/Vesuvius Volcano  monitoring 24/7",
      "channel": "FiBro",
      "official": false,
-     "viewers": 4,
+     "viewers": 3,
      "started": "2026-06-17"
     }
    ],
@@ -13496,7 +13574,7 @@
      "title": "🔴 Live Now: 24/7 Mount Etna Volcano, Sicily, Italy (Multi-cams)",
      "channel": "afarTV",
      "official": false,
-     "viewers": 8,
+     "viewers": 9,
      "started": "2025-12-24"
     },
     {
@@ -13504,16 +13582,16 @@
      "title": "🔴 Live Now: 24/7 Etna Volcano, Sicily Italy in 4K",
      "channel": "afarTV",
      "official": false,
-     "viewers": 2,
+     "viewers": 4,
      "started": "2026-11-04"
     },
     {
-     "id": "RqT_l8v0XXQ",
-     "title": "🔴 Etna Live Stream - S.Venerina (CT)🌋 Panoramica Vulcano|Mount Etna Volcano Eruption (Sicily, Italy)",
-     "channel": "WebEtneo | 🔴 Live stream eruption Etna volcano",
+     "id": "pO2zFFeqiMo",
+     "title": "🔴 ERUZIONE ETNA - Nunziata di Mascali live webcam - Panoramica Etna est",
+     "channel": "Weather Italy - WS Cam",
      "official": false,
-     "viewers": 2,
-     "started": "2026-10-28"
+     "viewers": 3,
+     "started": "2022-09-19"
     }
    ],
    "263250": [
@@ -13526,38 +13604,38 @@
      "started": "2026-10-31"
     },
     {
-     "id": "q63lbqCzliQ",
-     "title": "Live Merapi - Indonesia's Mount Merapi - Volcano Eruption",
-     "channel": "Janur Merapi",
-     "official": false,
-     "viewers": 1,
-     "started": "2026-10-24"
-    },
-    {
      "id": "mSsEn7X_hgQ",
      "title": "🔴 LIVE 4K VR180° Stand Before an Erupting Volcano - Merapi Volcano, Indonesia",
      "channel": "afarTV",
      "official": false,
      "viewers": 1,
      "started": "2026-09-09"
+    },
+    {
+     "id": "q63lbqCzliQ",
+     "title": "Live Merapi - Indonesia's Mount Merapi - Volcano Eruption",
+     "channel": "Janur Merapi",
+     "official": false,
+     "viewers": null,
+     "started": "2026-10-24"
     }
    ],
    "263300": [
-    {
-     "id": "3nAgms-Xtms",
-     "title": "🔴 Live Now: 24/7 Erupting Semeru Volcano in Java, Indonesia in 4K Ultra HD (CAM A)",
-     "channel": "afarTV",
-     "official": false,
-     "viewers": 9,
-     "started": "2026-09-12"
-    },
     {
      "id": "ieE9Nax7lO8",
      "title": "🔴 Live Now: 24/7 Bromo and Semeru Volcano, Java, Indonesia in 4K Ultra HD",
      "channel": "afarTV",
      "official": false,
-     "viewers": 6,
+     "viewers": 11,
      "started": "2026-11-06"
+    },
+    {
+     "id": "3nAgms-Xtms",
+     "title": "🔴 Live Now: 24/7 Erupting Semeru Volcano in Java, Indonesia in 4K Ultra HD (CAM A)",
+     "channel": "afarTV",
+     "official": false,
+     "viewers": 5,
+     "started": "2026-09-12"
     },
     {
      "id": "4BYVcI2Ow8Y",
@@ -13574,7 +13652,7 @@
      "title": "🔴 Live Now: 24/7 Mayon Volcano is Erupting in the Philippines in 4K Ultra-HD",
      "channel": "afarTV",
      "official": false,
-     "viewers": 35,
+     "viewers": 44,
      "started": "2026-01-06"
     },
     {
@@ -13582,15 +13660,15 @@
      "title": "🔴 LIVE: Mayon Volcano 24/7 Monitoring (Alert Level 3) — South-Southwest Cam, Albay Philippines",
      "channel": "MayonStream Lab",
      "official": false,
-     "viewers": 3,
+     "viewers": 2,
      "started": "2026-02-22"
     },
     {
-     "id": "ETSUtGmqGlg",
-     "title": "🔴 LIVE: Mayon Volcano Crater Zoom 24/7 (Alert Level 3) — Summit & Lava Watch, Albay Philippines",
+     "id": "YTloKzGNyzs",
+     "title": "🔴 LIVE: Bulkang Mayon Wide View 24/7 (Alert Level 3) — Ash Plume & Night Watch, Albay Philippines",
      "channel": "MayonStream Lab",
      "official": false,
-     "viewers": 2,
+     "viewers": 1,
      "started": "2026-09-28"
     }
    ],
@@ -13600,7 +13678,7 @@
      "title": "🔴 Live Now: 24/7 Taal Volcano, Philippines in 4K Ultra HD (CAM A)",
      "channel": "afarTV",
      "official": false,
-     "viewers": 6,
+     "viewers": 4,
      "started": "2026-10-20"
     },
     {
@@ -13618,50 +13696,50 @@
      "title": "【2K LIVE】桜島 ライブカメラB【近景】鹿児島県 垂水市 / Sakurajima, an active volcano live cam (Close-up view) JAPAN'",
      "channel": "財宝公式チャンネル",
      "official": false,
-     "viewers": 42,
+     "viewers": 44,
      "started": "2024-11-15"
+    },
+    {
+     "id": "NfR1Y-mYEtg",
+     "title": "[4K Live] 桜島 ライブカメラ 鹿児島県 垂水市 Sakurajima Living Volcano Kagoshima Japan",
+     "channel": "共同通信LiveCamera",
+     "official": false,
+     "viewers": 13,
+     "started": "2025-04-29"
     },
     {
      "id": "Mfq8V8uE0SU",
      "title": "【LIVE】桜島 ライブカメラＣ【火口】鹿児島県 垂水市 / Live Streaming Sakurajima Crater Kagoshima, JAPAN'",
      "channel": "財宝公式チャンネル",
      "official": false,
-     "viewers": 15,
-     "started": "2022-12-07"
-    },
-    {
-     "id": "eF9PohrRP_o",
-     "title": "【LIVE】桜島 ライブカメラA【遠景】鹿児島県 垂水市 フェリー/ Sakurajima, an active volcano live cam JAPAN\"",
-     "channel": "財宝公式チャンネル",
-     "official": false,
      "viewers": 12,
-     "started": "2022-08-06"
+     "started": "2022-12-07"
     }
    ],
    "341090": [
-    {
-     "id": "xytHO8TgCBE",
-     "title": "Volcán #Popocatépetl En Vivo | Vista Tlamacas, Estado de México",
-     "channel": "webcamsdemexico",
-     "official": false,
-     "viewers": 3,
-     "started": "2026-07-23"
-    },
     {
      "id": "LtvUi_SoTJE",
      "title": "Volcán Popocatépetl En Vivo | Vista Altzomoni, Estado de México",
      "channel": "WebcamsDeMexico Live",
      "official": false,
-     "viewers": 3,
+     "viewers": 10,
      "started": "2026-07-23"
     },
     {
-     "id": "4Tl99Gj0csg",
-     "title": "Volcán Popocatépetl desde San Pedro Benito Juárez 8Km De Distancia",
-     "channel": "Live Cam Popocatepetl Y Mas Diegoxx 24H Noticias ",
+     "id": "xytHO8TgCBE",
+     "title": "Volcán #Popocatépetl En Vivo | Vista Tlamacas, Estado de México",
+     "channel": "webcamsdemexico",
      "official": false,
-     "viewers": 3,
-     "started": "2026-02-17"
+     "viewers": 9,
+     "started": "2026-07-23"
+    },
+    {
+     "id": "hvvzDUcYGXY",
+     "title": "🌋 Popocatépetl EN VIVO | El volcán a todo vapor 🌋",
+     "channel": "webcamsdemexico",
+     "official": false,
+     "viewers": 6,
+     "started": "2026-11-07"
     }
    ],
    "342030": [
@@ -13670,7 +13748,7 @@
      "title": "🔴 Live Now: 24/7 Santa Maria (Santiaguito) Volcano in 4K Ultra HD (Cam C)",
      "channel": "afarTV",
      "official": false,
-     "viewers": 3,
+     "viewers": 6,
      "started": "2026-09-04"
     },
     {
@@ -13688,7 +13766,7 @@
      "title": "🔴 Live Now: 24/7 Fuego Volcano Eruption in 4K Ultra HD (Guatemala)",
      "channel": "afarTV",
      "official": false,
-     "viewers": 20,
+     "viewers": 25,
      "started": "2026-08-23"
     },
     {
@@ -13696,8 +13774,16 @@
      "title": "🔴 En directo: 24/7 Erupción del volcán de Fuego en 4K Ultra HD (Guatemala)",
      "channel": "afarTV",
      "official": false,
-     "viewers": 4,
+     "viewers": 6,
      "started": "2026-08-23"
+    },
+    {
+     "id": "hSOYBoPMltU",
+     "title": "Transmisión en directo  Crelosa Volcán De Fuego GT",
+     "channel": "Crelosa",
+     "official": false,
+     "viewers": null,
+     "started": "2026-11-04"
     }
    ],
    "352010": [
@@ -13706,7 +13792,7 @@
      "title": "🔴 Live Now: 24/7 Erupting El Reventador Volcano, Amazon Basin, Ecuador in 4K Ultra HD",
      "channel": "afarTV",
      "official": false,
-     "viewers": 4,
+     "viewers": 8,
      "started": "2026-11-05"
     }
    ],
@@ -13716,7 +13802,7 @@
      "title": "🔴 Live Now: 24/7 Amazon Rainforest and Sangay Volcano, Ecuador in 4K Ultra HD",
      "channel": "afarTV",
      "official": false,
-     "viewers": 2,
+     "viewers": 3,
      "started": "2026-08-19"
     },
     {
@@ -13734,7 +13820,7 @@
      "title": "​🌋 24/7 Teide Volcano Live Monitoring | Tenerife 2026",
      "channel": "FiBro",
      "official": false,
-     "viewers": null,
+     "viewers": 1,
      "started": "2026-04-11"
     },
     {
