@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_utc": "2026-11-09T06:36:30Z",
+ "generated_utc": "2026-11-09T07:18:09Z",
  "meta": {
   "gvp": {
    "fetched_utc": "2026-11-09T06:17:17Z",
@@ -14,21 +14,21 @@
    "citation_checked_utc": "2026-11-09T06:17:26Z"
   },
   "hans": {
-   "fetched_utc": "2026-11-09T06:28:22Z",
+   "fetched_utc": "2026-11-09T07:17:57Z",
    "count": 3,
    "error": null,
    "latest_sent_utc": "2026-11-08T20:36:04Z"
   },
   "rss": {
-   "fetched_utc": "2026-11-09T06:28:23Z",
+   "fetched_utc": "2026-11-09T07:17:58Z",
    "report_start": "2026-10-08",
    "report_end": "2026-10-14",
    "count": 27,
    "error": null
   },
-  "updated_utc": "2026-11-09T06:28:30Z",
+  "updated_utc": "2026-11-09T07:18:04Z",
   "claude": {
-   "run_utc": "2026-11-09T06:28:30Z",
+   "run_utc": "2026-11-09T07:18:04Z",
    "feed_utc": "2026-11-08T23:02:00Z",
    "status": "ok",
    "returned": 45,
@@ -71,27 +71,27 @@
    "error": null
   },
   "ash": {
-   "fetched_utc": "2026-11-09T06:28:23Z",
+   "fetched_utc": "2026-11-09T07:17:58Z",
    "days": 30,
-   "count": 1166,
+   "count": 1168,
    "volcanoes": 30,
    "error": null
   },
   "levels": {
    "JMA": {
-    "fetched_utc": "2026-11-09T06:28:29Z",
+    "fetched_utc": "2026-11-09T07:18:03Z",
     "count": 12,
     "elevated": 11,
     "error": null
    },
    "PHIVOLCS": {
-    "fetched_utc": "2026-11-09T06:28:30Z",
+    "fetched_utc": "2026-11-09T07:18:04Z",
     "count": 5,
     "elevated": 4,
     "error": null
    },
    "GeoNet": {
-    "fetched_utc": "2026-11-09T06:28:30Z",
+    "fetched_utc": "2026-11-09T07:18:04Z",
     "count": 9,
     "elevated": 2,
     "error": null
@@ -15091,6 +15091,26 @@
  },
  "ash": [
   {
+   "id": "WAAF:1794207600:268010",
+   "vnum": 268010,
+   "from": "2026-11-09T07:00:00Z",
+   "to": "2026-11-09T13:00:00Z",
+   "top_ft": 10000,
+   "dir": "NW",
+   "spd_kt": 5,
+   "fir": "WAAF UJUNG PANDANG"
+  },
+  {
+   "id": "WAAF:1794206400:268030",
+   "vnum": 268030,
+   "from": "2026-11-09T06:40:00Z",
+   "to": "2026-11-09T12:40:00Z",
+   "top_ft": 7000,
+   "dir": "W",
+   "spd_kt": 5,
+   "fir": "WAAF UJUNG PANDANG"
+  },
+  {
    "id": "WAAF:1794201600:263300",
    "vnum": 263300,
    "from": "2026-11-09T05:20:00Z",
@@ -17429,19 +17449,29 @@
    "dir": "NW",
    "spd_kt": 5,
    "fir": "SEFG GUAYAQUIL"
-  },
-  {
-   "id": "SEFG:1793580840:352010",
-   "vnum": 352010,
-   "from": "2026-11-02T00:54:00Z",
-   "to": "2026-11-02T06:54:00Z",
-   "top_ft": 14000,
-   "dir": "NW",
-   "spd_kt": 10,
-   "fir": "SEFG GUAYAQUIL"
   }
  ],
  "ash30": [
+  {
+   "id": "WAAF:1794207600:268010",
+   "vnum": 268010,
+   "from": "2026-11-09T07:00:00Z",
+   "to": "2026-11-09T13:00:00Z",
+   "top_ft": 10000,
+   "dir": "NW",
+   "spd_kt": 5,
+   "fir": "WAAF UJUNG PANDANG"
+  },
+  {
+   "id": "WAAF:1794206400:268030",
+   "vnum": 268030,
+   "from": "2026-11-09T06:40:00Z",
+   "to": "2026-11-09T12:40:00Z",
+   "top_ft": 7000,
+   "dir": "W",
+   "spd_kt": 5,
+   "fir": "WAAF UJUNG PANDANG"
+  },
   {
    "id": "WAAF:1794201600:263300",
    "vnum": 263300,
