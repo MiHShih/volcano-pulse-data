@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_utc": "2026-11-09T07:18:09Z",
+ "generated_utc": "2026-11-10T01:00:29Z",
  "meta": {
   "gvp": {
    "fetched_utc": "2026-11-09T06:17:17Z",
@@ -14,31 +14,31 @@
    "citation_checked_utc": "2026-11-09T06:17:26Z"
   },
   "hans": {
-   "fetched_utc": "2026-11-09T07:17:57Z",
+   "fetched_utc": "2026-11-10T01:00:05Z",
    "count": 3,
    "error": null,
-   "latest_sent_utc": "2026-11-08T20:36:04Z"
+   "latest_sent_utc": "2026-11-09T21:09:11Z"
   },
   "rss": {
-   "fetched_utc": "2026-11-09T07:17:58Z",
+   "fetched_utc": "2026-11-10T01:00:06Z",
    "report_start": "2026-10-08",
    "report_end": "2026-10-14",
    "count": 27,
    "error": null
   },
-  "updated_utc": "2026-11-09T07:18:04Z",
+  "updated_utc": "2026-11-10T01:00:29Z",
   "claude": {
-   "run_utc": "2026-11-09T07:18:04Z",
-   "feed_utc": "2026-11-08T23:02:00Z",
+   "run_utc": "2026-11-10T01:00:29Z",
+   "feed_utc": "2026-11-09T23:01:07Z",
    "status": "ok",
-   "returned": 45,
-   "kept": 37,
-   "dropped": 8,
-   "added": 0,
+   "returned": 50,
+   "kept": 41,
+   "dropped": 9,
+   "added": 6,
    "error": null
   },
   "media": {
-   "generated_utc": "2026-11-08T23:02:05Z",
+   "generated_utc": "2026-11-09T23:01:12Z",
    "volcanoes": 14,
    "videos": 32,
    "error": null
@@ -71,35 +71,49 @@
    "error": null
   },
   "ash": {
-   "fetched_utc": "2026-11-09T07:17:58Z",
+   "fetched_utc": "2026-11-10T01:00:06Z",
    "days": 30,
-   "count": 1168,
+   "count": 1172,
    "volcanoes": 30,
    "error": null
   },
   "levels": {
    "JMA": {
-    "fetched_utc": "2026-11-09T07:18:03Z",
+    "fetched_utc": "2026-11-10T01:00:26Z",
     "count": 12,
     "elevated": 11,
     "error": null
    },
    "PHIVOLCS": {
-    "fetched_utc": "2026-11-09T07:18:04Z",
+    "fetched_utc": "2026-11-10T01:00:28Z",
     "count": 5,
     "elevated": 4,
     "error": null
    },
    "GeoNet": {
-    "fetched_utc": "2026-11-09T07:18:04Z",
+    "fetched_utc": "2026-11-10T01:00:29Z",
     "count": 9,
     "elevated": 2,
     "error": null
    }
   },
   "obs": {
-   "since": "2026-11-03",
-   "count": 45
+   "since": "2026-10-26",
+   "count": 63
+  },
+  "archive": {
+   "run_utc": "2026-11-10T01:00:29Z",
+   "added": {
+    "v1": 7,
+    "ash": 25,
+    "official": 0,
+    "levels": 26,
+    "daily": 7
+   }
+  },
+  "daily": {
+   "days": 30,
+   "count": 358
   }
  },
  "volcanoes": [
@@ -13465,9 +13479,9 @@
    "color_code": "ORANGE",
    "alert_level": "WATCH",
    "observatory": "Alaska Volcano Observatory",
-   "notice_id": "DOI-USGS-AVO-2026-11-08T20:35:22+00:00",
-   "sent_utc": "2026-11-08T20:36:04Z",
-   "url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-11-08T20:35:22+00:00"
+   "notice_id": "DOI-USGS-AVO-2026-11-09T20:51:49+00:00",
+   "sent_utc": "2026-11-09T21:09:11Z",
+   "url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-11-09T20:51:49+00:00"
   },
   {
    "vnum": 332010,
@@ -13475,9 +13489,9 @@
    "color_code": "YELLOW",
    "alert_level": "ADVISORY",
    "observatory": "Hawaiian Volcano Observatory",
-   "notice_id": "DOI-USGS-HVO-2026-11-08T19:01:15+00:00",
-   "sent_utc": "2026-11-08T19:29:37Z",
-   "url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-11-08T19:01:15+00:00"
+   "notice_id": "DOI-USGS-HVO-2026-11-09T18:22:07+00:00",
+   "sent_utc": "2026-11-09T18:43:38Z",
+   "url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-11-09T18:22:07+00:00"
   },
   {
    "vnum": 284141,
@@ -14798,10 +14812,88 @@
    "url": "https://www.volcanodiscovery.com/popocatepetl/news/404345/vaac-advisory-2026-389.html",
    "reported_name": "Popocatepetl",
    "eruption": true
+  },
+  {
+   "id": "claude:342090:2026-11-09",
+   "vnum": 342090,
+   "source": "claude",
+   "verified": false,
+   "date": "2026-11-09",
+   "title": "未經官方確認",
+   "summary": "VAAC 發布火山灰諮詢，Fuego 持續噴發，火山灰柱達 14,000 ft (4,300 m)。",
+   "agency": "volcanodiscovery.com",
+   "url": "https://www.volcanodiscovery.com/fuego/news/405000/vaac-advisory-2026-1301.html",
+   "reported_name": "Fuego",
+   "eruption": true
+  },
+  {
+   "id": "claude:268010:2026-11-10",
+   "vnum": 268010,
+   "source": "claude",
+   "verified": false,
+   "date": "2026-11-10",
+   "title": "未經官方確認",
+   "summary": "VAAC 發布火山灰諮詢，Dukono 持續噴發，火山灰柱達 10,000 ft (3,000 m)。",
+   "agency": "volcanodiscovery.com",
+   "url": "https://www.volcanodiscovery.com/dukono/news/405095/vaac-advisory-2026-984.html",
+   "reported_name": "Dukono",
+   "eruption": true
+  },
+  {
+   "id": "claude:268030:2026-11-10",
+   "vnum": 268030,
+   "source": "claude",
+   "verified": false,
+   "date": "2026-11-10",
+   "title": "未經官方確認",
+   "summary": "VAAC 發布火山灰諮詢，Ibu 持續噴發，火山灰柱達 7,000 ft (2,100 m)。",
+   "agency": "volcanodiscovery.com",
+   "url": "https://www.volcanodiscovery.com/ibu/news/405076/vaac-advisory-2026-1276.html",
+   "reported_name": "Ibu",
+   "eruption": true
+  },
+  {
+   "id": "claude:267020:2026-11-09",
+   "vnum": 267020,
+   "source": "claude",
+   "verified": false,
+   "date": "2026-11-09",
+   "title": "未經官方確認",
+   "summary": "VAAC 發布火山灰諮詢，Karangetang 火山灰柱達 10,000 ft (3,000 m)。",
+   "agency": "volcanodiscovery.com",
+   "url": "https://www.volcanodiscovery.com/karangetang/news/404943/vaac-advisory-2026-36.html",
+   "reported_name": "Karangetang",
+   "eruption": true
+  },
+  {
+   "id": "claude:352010:2026-11-09",
+   "vnum": 352010,
+   "source": "claude",
+   "verified": false,
+   "date": "2026-11-09",
+   "title": "未經官方確認",
+   "summary": "VAAC 發布火山灰諮詢，Reventador 持續噴發，火山灰柱達 15,000 ft (4,600 m)。",
+   "agency": "volcanodiscovery.com",
+   "url": "https://www.volcanodiscovery.com/reventador/news/404789/vaac-advisory-2026-1187.html",
+   "reported_name": "Reventador",
+   "eruption": true
+  },
+  {
+   "id": "claude:341090:2026-11-09",
+   "vnum": 341090,
+   "source": "claude",
+   "verified": false,
+   "date": "2026-11-09",
+   "title": "未經官方確認",
+   "summary": "Infobae 引述 Cenapred 與 UNAM 的每日監測，Popocatépetl 過去 24 小時記錄到 35 次 exhalaciones，警戒維持黃色第 2 階段，呼籲民眾勿靠近火口以防彈道碎屑。",
+   "agency": "Infobae",
+   "url": "https://infobae.com/mexico/2026/11/09/actividad-del-popocatepetl-hoy-el-volcan-registro-35-emisiones-este-lunes-9-de-noviembre",
+   "reported_name": "Popocatépetl",
+   "eruption": false
   }
  ],
  "media": {
-  "generated_utc": "2026-11-08T23:02:05Z",
+  "generated_utc": "2026-11-09T23:01:12Z",
   "live": {
    "211020": [
     {
@@ -14809,7 +14901,7 @@
      "title": "Campi Flegrei/Vesuvius Volcano  monitoring 24/7",
      "channel": "FiBro",
      "official": false,
-     "viewers": 3,
+     "viewers": 2,
      "started": "2026-06-17"
     }
    ],
@@ -14819,7 +14911,7 @@
      "title": "🔴 Live Now: 24/7 Mount Etna Volcano, Sicily, Italy (Multi-cams)",
      "channel": "afarTV",
      "official": false,
-     "viewers": 9,
+     "viewers": 11,
      "started": "2025-12-24"
     },
     {
@@ -14827,7 +14919,7 @@
      "title": "🔴 Live Now: 24/7 Etna Volcano, Sicily Italy in 4K",
      "channel": "afarTV",
      "official": false,
-     "viewers": 4,
+     "viewers": 5,
      "started": "2026-11-04"
     },
     {
@@ -14845,50 +14937,50 @@
      "title": "🔴 Live Now: 24/7 Merapi Volcano Erupting in 4K Ultra HD (Indonesia)",
      "channel": "afarTV",
      "official": false,
-     "viewers": 2,
+     "viewers": 3,
      "started": "2026-10-31"
-    },
-    {
-     "id": "mSsEn7X_hgQ",
-     "title": "🔴 LIVE 4K VR180° Stand Before an Erupting Volcano - Merapi Volcano, Indonesia",
-     "channel": "afarTV",
-     "official": false,
-     "viewers": 1,
-     "started": "2026-09-09"
     },
     {
      "id": "q63lbqCzliQ",
      "title": "Live Merapi - Indonesia's Mount Merapi - Volcano Eruption",
      "channel": "Janur Merapi",
      "official": false,
-     "viewers": null,
+     "viewers": 2,
      "started": "2026-10-24"
+    },
+    {
+     "id": "mSsEn7X_hgQ",
+     "title": "🔴 LIVE 4K VR180° Stand Before an Erupting Volcano - Merapi Volcano, Indonesia",
+     "channel": "afarTV",
+     "official": false,
+     "viewers": null,
+     "started": "2026-09-09"
     }
    ],
    "263300": [
-    {
-     "id": "ieE9Nax7lO8",
-     "title": "🔴 Live Now: 24/7 Bromo and Semeru Volcano, Java, Indonesia in 4K Ultra HD",
-     "channel": "afarTV",
-     "official": false,
-     "viewers": 11,
-     "started": "2026-11-06"
-    },
     {
      "id": "3nAgms-Xtms",
      "title": "🔴 Live Now: 24/7 Erupting Semeru Volcano in Java, Indonesia in 4K Ultra HD (CAM A)",
      "channel": "afarTV",
      "official": false,
-     "viewers": 5,
+     "viewers": 17,
      "started": "2026-09-12"
     },
     {
-     "id": "4BYVcI2Ow8Y",
-     "title": "Live Now: 24/7 Semeru Volcano Watch (Multi-cams)",
+     "id": "XfJhlj2kx8o",
+     "title": "🔴 Live Now: 24/7 Erupting Semeru Volcano in Java, Indonesia in 4K Ultra HD (Cam B)",
+     "channel": "afarTV",
+     "official": false,
+     "viewers": 6,
+     "started": "2026-11-04"
+    },
+    {
+     "id": "DwMEl1sSQdA",
+     "title": "🔴 LIVE 4K VR180° Stand Before an Erupting Volcano - Semeru Volcano, Indonesia",
      "channel": "afarTV",
      "official": false,
      "viewers": 4,
-     "started": "2026-10-26"
+     "started": "2026-09-11"
     }
    ],
    "273030": [
@@ -14897,7 +14989,7 @@
      "title": "🔴 Live Now: 24/7 Mayon Volcano is Erupting in the Philippines in 4K Ultra-HD",
      "channel": "afarTV",
      "official": false,
-     "viewers": 44,
+     "viewers": 57,
      "started": "2026-01-06"
     },
     {
@@ -14905,15 +14997,15 @@
      "title": "🔴 LIVE: Mayon Volcano 24/7 Monitoring (Alert Level 3) — South-Southwest Cam, Albay Philippines",
      "channel": "MayonStream Lab",
      "official": false,
-     "viewers": 2,
+     "viewers": 5,
      "started": "2026-02-22"
     },
     {
-     "id": "YTloKzGNyzs",
-     "title": "🔴 LIVE: Bulkang Mayon Wide View 24/7 (Alert Level 3) — Ash Plume & Night Watch, Albay Philippines",
+     "id": "ETSUtGmqGlg",
+     "title": "🔴 LIVE: Mayon Volcano Crater Zoom 24/7 (Alert Level 3) — Summit & Lava Watch, Albay Philippines",
      "channel": "MayonStream Lab",
      "official": false,
-     "viewers": 1,
+     "viewers": 2,
      "started": "2026-09-28"
     }
    ],
@@ -14923,7 +15015,7 @@
      "title": "🔴 Live Now: 24/7 Taal Volcano, Philippines in 4K Ultra HD (CAM A)",
      "channel": "afarTV",
      "official": false,
-     "viewers": 4,
+     "viewers": 2,
      "started": "2026-10-20"
     },
     {
@@ -14931,7 +15023,7 @@
      "title": "🔴 LIVE 4K VR180°: Stand 14 KM from Taal Volcano | Philippines 24/7",
      "channel": "afarTV",
      "official": false,
-     "viewers": 1,
+     "viewers": null,
      "started": "2026-10-22"
     }
    ],
@@ -14941,50 +15033,50 @@
      "title": "【2K LIVE】桜島 ライブカメラB【近景】鹿児島県 垂水市 / Sakurajima, an active volcano live cam (Close-up view) JAPAN'",
      "channel": "財宝公式チャンネル",
      "official": false,
-     "viewers": 44,
+     "viewers": 22,
      "started": "2024-11-15"
-    },
-    {
-     "id": "NfR1Y-mYEtg",
-     "title": "[4K Live] 桜島 ライブカメラ 鹿児島県 垂水市 Sakurajima Living Volcano Kagoshima Japan",
-     "channel": "共同通信LiveCamera",
-     "official": false,
-     "viewers": 13,
-     "started": "2025-04-29"
     },
     {
      "id": "Mfq8V8uE0SU",
      "title": "【LIVE】桜島 ライブカメラＣ【火口】鹿児島県 垂水市 / Live Streaming Sakurajima Crater Kagoshima, JAPAN'",
      "channel": "財宝公式チャンネル",
      "official": false,
-     "viewers": 12,
+     "viewers": 11,
      "started": "2022-12-07"
+    },
+    {
+     "id": "eF9PohrRP_o",
+     "title": "【LIVE】桜島 ライブカメラA【遠景】鹿児島県 垂水市 フェリー/ Sakurajima, an active volcano live cam JAPAN\"",
+     "channel": "財宝公式チャンネル",
+     "official": false,
+     "viewers": 10,
+     "started": "2022-08-06"
     }
    ],
    "341090": [
-    {
-     "id": "LtvUi_SoTJE",
-     "title": "Volcán Popocatépetl En Vivo | Vista Altzomoni, Estado de México",
-     "channel": "WebcamsDeMexico Live",
-     "official": false,
-     "viewers": 10,
-     "started": "2026-07-23"
-    },
     {
      "id": "xytHO8TgCBE",
      "title": "Volcán #Popocatépetl En Vivo | Vista Tlamacas, Estado de México",
      "channel": "webcamsdemexico",
      "official": false,
-     "viewers": 9,
+     "viewers": 16,
      "started": "2026-07-23"
     },
     {
-     "id": "hvvzDUcYGXY",
-     "title": "🌋 Popocatépetl EN VIVO | El volcán a todo vapor 🌋",
-     "channel": "webcamsdemexico",
+     "id": "LtvUi_SoTJE",
+     "title": "Volcán Popocatépetl En Vivo | Vista Altzomoni, Estado de México",
+     "channel": "WebcamsDeMexico Live",
      "official": false,
-     "viewers": 6,
-     "started": "2026-11-07"
+     "viewers": 15,
+     "started": "2026-07-23"
+    },
+    {
+     "id": "4Tl99Gj0csg",
+     "title": "Volcán Popocatépetl desde San Pedro Benito Juárez 8Km De Distancia",
+     "channel": "Live Cam Popocatepetl Y Mas Diegoxx 24H Noticias ",
+     "official": false,
+     "viewers": 9,
+     "started": "2026-02-17"
     }
    ],
    "342030": [
@@ -14993,7 +15085,7 @@
      "title": "🔴 Live Now: 24/7 Santa Maria (Santiaguito) Volcano in 4K Ultra HD (Cam C)",
      "channel": "afarTV",
      "official": false,
-     "viewers": 6,
+     "viewers": 5,
      "started": "2026-09-04"
     },
     {
@@ -15011,7 +15103,7 @@
      "title": "🔴 Live Now: 24/7 Fuego Volcano Eruption in 4K Ultra HD (Guatemala)",
      "channel": "afarTV",
      "official": false,
-     "viewers": 25,
+     "viewers": 23,
      "started": "2026-08-23"
     },
     {
@@ -15019,7 +15111,7 @@
      "title": "🔴 En directo: 24/7 Erupción del volcán de Fuego en 4K Ultra HD (Guatemala)",
      "channel": "afarTV",
      "official": false,
-     "viewers": 6,
+     "viewers": 8,
      "started": "2026-08-23"
     },
     {
@@ -15027,7 +15119,7 @@
      "title": "Transmisión en directo  Crelosa Volcán De Fuego GT",
      "channel": "Crelosa",
      "official": false,
-     "viewers": null,
+     "viewers": 1,
      "started": "2026-11-04"
     }
    ],
@@ -15037,7 +15129,7 @@
      "title": "🔴 Live Now: 24/7 Erupting El Reventador Volcano, Amazon Basin, Ecuador in 4K Ultra HD",
      "channel": "afarTV",
      "official": false,
-     "viewers": 8,
+     "viewers": 9,
      "started": "2026-11-05"
     }
    ],
@@ -15047,7 +15139,7 @@
      "title": "🔴 Live Now: 24/7 Amazon Rainforest and Sangay Volcano, Ecuador in 4K Ultra HD",
      "channel": "afarTV",
      "official": false,
-     "viewers": 3,
+     "viewers": 4,
      "started": "2026-08-19"
     },
     {
@@ -15073,7 +15165,7 @@
      "title": "​🌋 24/7 Teide Volcano Spectrograms | Tenerife 2026",
      "channel": "FiBro",
      "official": false,
-     "viewers": null,
+     "viewers": 1,
      "started": "2026-05-04"
     }
    ],
@@ -15091,6 +15183,246 @@
  },
  "ash": [
   {
+   "id": "SEFG:1794269100:352010",
+   "vnum": 352010,
+   "from": "2026-11-10T00:05:00Z",
+   "to": "2026-11-10T06:05:00Z",
+   "top_ft": 14000,
+   "dir": "W",
+   "spd_kt": 10,
+   "fir": "SEFG GUAYAQUIL"
+  },
+  {
+   "id": "WAAF:1794267900:268030",
+   "vnum": 268030,
+   "from": "2026-11-09T23:45:00Z",
+   "to": "2026-11-10T05:40:00Z",
+   "top_ft": 7000,
+   "dir": "NW",
+   "spd_kt": 10,
+   "fir": "WAAF UJUNG PANDANG"
+  },
+  {
+   "id": "WAAF:1794266400:263300",
+   "vnum": 263300,
+   "from": "2026-11-09T23:20:00Z",
+   "to": "2026-11-10T05:20:00Z",
+   "top_ft": 15000,
+   "dir": "SW",
+   "spd_kt": 15,
+   "fir": "WAAF UJUNG PANDANG"
+  },
+  {
+   "id": "SEFG:1794264840:352090",
+   "vnum": 352090,
+   "from": "2026-11-09T22:54:00Z",
+   "to": "2026-11-10T04:54:00Z",
+   "top_ft": 20000,
+   "dir": "W",
+   "spd_kt": 15,
+   "fir": "SEFG GUAYAQUIL"
+  },
+  {
+   "id": "WAAF:1794264600:268010",
+   "vnum": 268010,
+   "from": "2026-11-09T22:50:00Z",
+   "to": "2026-11-10T04:50:00Z",
+   "top_ft": 9000,
+   "dir": "NW",
+   "spd_kt": 10,
+   "fir": "WAAF UJUNG PANDANG"
+  },
+  {
+   "id": "MHTG:1794260400:342030",
+   "vnum": 342030,
+   "from": "2026-11-09T21:40:00Z",
+   "to": "2026-11-10T03:40:00Z",
+   "top_ft": 14000,
+   "dir": "W",
+   "spd_kt": 5,
+   "fir": "MHCC CENTRAL AMERICAN"
+  },
+  {
+   "id": "MHTG:1794253320:342090",
+   "vnum": 342090,
+   "from": "2026-11-09T19:42:00Z",
+   "to": "2026-11-10T01:42:00Z",
+   "top_ft": 14000,
+   "dir": "W",
+   "spd_kt": 10,
+   "fir": "MHCC CENTRAL AMERICAN"
+  },
+  {
+   "id": "WAAF:1794250800:268010",
+   "vnum": 268010,
+   "from": "2026-11-09T19:00:00Z",
+   "to": "2026-11-09T22:51:00Z",
+   "top_ft": 10000,
+   "dir": "NW",
+   "spd_kt": 10,
+   "fir": "WAAF UJUNG PANDANG"
+  },
+  {
+   "id": "WAAF:1794247800:268030",
+   "vnum": 268030,
+   "from": "2026-11-09T18:10:00Z",
+   "to": "2026-11-09T23:50:00Z",
+   "top_ft": 7000,
+   "dir": "NW",
+   "spd_kt": 10,
+   "fir": "WAAF UJUNG PANDANG"
+  },
+  {
+   "id": "SEFG:1794247800:352010",
+   "vnum": 352010,
+   "from": "2026-11-09T18:10:00Z",
+   "to": "2026-11-10T00:10:00Z",
+   "top_ft": 14000,
+   "dir": "W",
+   "spd_kt": 15,
+   "fir": "SEFG GUAYAQUIL"
+  },
+  {
+   "id": "WAAF:1794244800:263300",
+   "vnum": 263300,
+   "from": "2026-11-09T17:20:00Z",
+   "to": "2026-11-09T23:20:00Z",
+   "top_ft": 15000,
+   "dir": "SW",
+   "spd_kt": 20,
+   "fir": "WAAF UJUNG PANDANG"
+  },
+  {
+   "id": "SEFG:1794243300:352090",
+   "vnum": 352090,
+   "from": "2026-11-09T16:55:00Z",
+   "to": "2026-11-09T22:55:00Z",
+   "top_ft": 20000,
+   "dir": "W",
+   "spd_kt": 15,
+   "fir": "SEFG GUAYAQUIL"
+  },
+  {
+   "id": "SKED:1794240900:351060",
+   "vnum": 351060,
+   "from": "2026-11-09T16:15:00Z",
+   "to": "2026-11-09T21:15:00Z",
+   "top_ft": 17000,
+   "dir": "W",
+   "spd_kt": 20,
+   "fir": "SKED BOGOTA"
+  },
+  {
+   "id": "MHTG:1794238200:342030",
+   "vnum": 342030,
+   "from": "2026-11-09T15:30:00Z",
+   "to": "2026-11-09T21:30:00Z",
+   "top_ft": 14000,
+   "dir": "W",
+   "spd_kt": 5,
+   "fir": "MHCC CENTRAL AMERICAN"
+  },
+  {
+   "id": "MHTG:1794237000:342090",
+   "vnum": 342090,
+   "from": "2026-11-09T15:10:00Z",
+   "to": "2026-11-09T21:10:00Z",
+   "top_ft": 14000,
+   "dir": "SW",
+   "spd_kt": 5,
+   "fir": "MHCC CENTRAL AMERICAN"
+  },
+  {
+   "id": "WAAF:1794229200:268010",
+   "vnum": 268010,
+   "from": "2026-11-09T13:00:00Z",
+   "to": "2026-11-09T19:00:00Z",
+   "top_ft": 10000,
+   "dir": "NW",
+   "spd_kt": 5,
+   "fir": "WAAF UJUNG PANDANG"
+  },
+  {
+   "id": "WAAF:1794226440:267020",
+   "vnum": 267020,
+   "from": "2026-11-09T12:14:00Z",
+   "to": "2026-11-09T18:14:00Z",
+   "top_ft": 10000,
+   "dir": "NW",
+   "spd_kt": 5,
+   "fir": "WAAF UJUNG PANDANG"
+  },
+  {
+   "id": "WAAF:1794226200:268030",
+   "vnum": 268030,
+   "from": "2026-11-09T12:10:00Z",
+   "to": "2026-11-09T18:10:00Z",
+   "top_ft": 7000,
+   "dir": "NW",
+   "spd_kt": 5,
+   "fir": "WAAF UJUNG PANDANG"
+  },
+  {
+   "id": "SEFG:1794225480:352010",
+   "vnum": 352010,
+   "from": "2026-11-09T11:58:00Z",
+   "to": "2026-11-09T17:58:00Z",
+   "top_ft": 15000,
+   "dir": "NW",
+   "spd_kt": 15,
+   "fir": "SEFG GUAYAQUIL"
+  },
+  {
+   "id": "WAAF:1794223200:263300",
+   "vnum": 263300,
+   "from": "2026-11-09T11:20:00Z",
+   "to": "2026-11-09T17:20:00Z",
+   "top_ft": 15000,
+   "dir": "SW",
+   "spd_kt": 15,
+   "fir": "WAAF UJUNG PANDANG"
+  },
+  {
+   "id": "SEFG:1794221100:352090",
+   "vnum": 352090,
+   "from": "2026-11-09T10:45:00Z",
+   "to": "2026-11-09T16:45:00Z",
+   "top_ft": 20000,
+   "dir": "W",
+   "spd_kt": 20,
+   "fir": "SEFG GUAYAQUIL"
+  },
+  {
+   "id": "MHTG:1794220500:342030",
+   "vnum": 342030,
+   "from": "2026-11-09T10:35:00Z",
+   "to": "2026-11-09T16:35:00Z",
+   "top_ft": 14000,
+   "dir": "W",
+   "spd_kt": 5,
+   "fir": "MHCC CENTRAL AMERICAN"
+  },
+  {
+   "id": "SKED:1794220200:351060",
+   "vnum": 351060,
+   "from": "2026-11-09T10:30:00Z",
+   "to": "2026-11-09T16:15:00Z",
+   "top_ft": 170,
+   "dir": "W",
+   "spd_kt": 15,
+   "fir": "SKED BOGOTA"
+  },
+  {
+   "id": "MHTG:1794215280:342090",
+   "vnum": 342090,
+   "from": "2026-11-09T09:08:00Z",
+   "to": "2026-11-09T15:08:00Z",
+   "top_ft": 14000,
+   "dir": "W",
+   "spd_kt": 10,
+   "fir": "MHCC CENTRAL AMERICAN"
+  },
+  {
    "id": "WAAF:1794207600:268010",
    "vnum": 268010,
    "from": "2026-11-09T07:00:00Z",
@@ -15104,11 +15436,21 @@
    "id": "WAAF:1794206400:268030",
    "vnum": 268030,
    "from": "2026-11-09T06:40:00Z",
-   "to": "2026-11-09T12:40:00Z",
+   "to": "2026-11-09T12:10:00Z",
    "top_ft": 7000,
    "dir": "W",
    "spd_kt": 5,
    "fir": "WAAF UJUNG PANDANG"
+  },
+  {
+   "id": "SEFG:1794205200:352010",
+   "vnum": 352010,
+   "from": "2026-11-09T06:20:00Z",
+   "to": "2026-11-09T12:20:00Z",
+   "top_ft": 15000,
+   "dir": "NW",
+   "spd_kt": 15,
+   "fir": "SEFG GUAYAQUIL"
   },
   {
    "id": "WAAF:1794201600:263300",
@@ -17179,279 +17521,249 @@
    "dir": "W",
    "spd_kt": 10,
    "fir": "WIIF JAKARTA"
-  },
-  {
-   "id": "WAAF:1793644800:268010",
-   "vnum": 268010,
-   "from": "2026-11-02T18:40:00Z",
-   "to": "2026-11-03T00:40:00Z",
-   "top_ft": 8000,
-   "dir": "SW",
-   "spd_kt": 5,
-   "fir": "WAAF UJUNG PANDANG"
-  },
-  {
-   "id": "SEFG:1793643600:352090",
-   "vnum": 352090,
-   "from": "2026-11-02T18:20:00Z",
-   "to": "2026-11-03T00:20:00Z",
-   "top_ft": 22000,
-   "dir": "NW",
-   "spd_kt": 15,
-   "fir": "SEFG GUAYAQUIL"
-  },
-  {
-   "id": "SEFG:1793641620:352010",
-   "vnum": 352010,
-   "from": "2026-11-02T17:47:00Z",
-   "to": "2026-11-02T23:47:00Z",
-   "top_ft": 14000,
-   "dir": "W",
-   "spd_kt": 10,
-   "fir": "SEFG GUAYAQUIL"
-  },
-  {
-   "id": "MHTG:1793641500:344040",
-   "vnum": 344040,
-   "from": "2026-11-02T17:45:00Z",
-   "to": "2026-11-02T22:00:00Z",
-   "top_ft": 4000,
-   "dir": "SW",
-   "spd_kt": 5,
-   "fir": "MHCC CENTRAL AMERICAN"
-  },
-  {
-   "id": "SKED:1793641200:351060",
-   "vnum": 351060,
-   "from": "2026-11-02T17:40:00Z",
-   "to": "2026-11-02T23:15:00Z",
-   "top_ft": 18000,
-   "dir": "NW",
-   "spd_kt": 15,
-   "fir": "SKED BOGOTA"
-  },
-  {
-   "id": "MHTG:1793639100:342030",
-   "vnum": 342030,
-   "from": "2026-11-02T17:05:00Z",
-   "to": "2026-11-02T23:05:00Z",
-   "top_ft": 14000,
-   "dir": "SW",
-   "spd_kt": 10,
-   "fir": "MHCC CENTRAL AMERICAN"
-  },
-  {
-   "id": "WAAF:1793633400:268030",
-   "vnum": 268030,
-   "from": "2026-11-02T15:30:00Z",
-   "to": "2026-11-02T19:33:00Z",
-   "top_ft": 7000,
-   "dir": "W",
-   "spd_kt": 10,
-   "fir": "WAAF UJUNG PANDANG"
-  },
-  {
-   "id": "WAAF:1793632200:263300",
-   "vnum": 263300,
-   "from": "2026-11-02T15:10:00Z",
-   "to": "2026-11-02T21:10:00Z",
-   "top_ft": 15000,
-   "dir": "SW",
-   "spd_kt": 10,
-   "fir": "WAAF UJUNG PANDANG"
-  },
-  {
-   "id": "MHTG:1793629200:342090",
-   "vnum": 342090,
-   "from": "2026-11-02T14:20:00Z",
-   "to": "2026-11-02T20:20:00Z",
-   "top_ft": 14000,
-   "dir": "SW",
-   "spd_kt": 10,
-   "fir": "MHCC CENTRAL AMERICAN"
-  },
-  {
-   "id": "WAAF:1793626800:268010",
-   "vnum": 268010,
-   "from": "2026-11-02T13:40:00Z",
-   "to": "2026-11-02T18:43:00Z",
-   "top_ft": 8000,
-   "dir": "W",
-   "spd_kt": 10,
-   "fir": "WAAF UJUNG PANDANG"
-  },
-  {
-   "id": "SEFG:1793624400:352090",
-   "vnum": 352090,
-   "from": "2026-11-02T13:00:00Z",
-   "to": "2026-11-02T19:00:00Z",
-   "top_ft": 22000,
-   "dir": "NW",
-   "spd_kt": 15,
-   "fir": "SEFG GUAYAQUIL"
-  },
-  {
-   "id": "SEFG:1793621280:352010",
-   "vnum": 352010,
-   "from": "2026-11-02T12:08:00Z",
-   "to": "2026-11-02T18:08:00Z",
-   "top_ft": 14000,
-   "dir": "NW",
-   "spd_kt": 10,
-   "fir": "SEFG GUAYAQUIL"
-  },
-  {
-   "id": "SKED:1793620800:351060",
-   "vnum": 351060,
-   "from": "2026-11-02T12:00:00Z",
-   "to": "2026-11-02T17:40:00Z",
-   "top_ft": 18000,
-   "dir": "NW",
-   "spd_kt": 10,
-   "fir": "SKED BOGOTA"
-  },
-  {
-   "id": "MHTG:1793618100:342030",
-   "vnum": 342030,
-   "from": "2026-11-02T11:15:00Z",
-   "to": "2026-11-02T17:15:00Z",
-   "top_ft": 13000,
-   "dir": "SW",
-   "spd_kt": 10,
-   "fir": "MHCC CENTRAL AMERICAN"
-  },
-  {
-   "id": "WAAF:1793611800:268030",
-   "vnum": 268030,
-   "from": "2026-11-02T09:30:00Z",
-   "to": "2026-11-02T15:30:00Z",
-   "top_ft": 7000,
-   "dir": "W",
-   "spd_kt": 10,
-   "fir": "WAAF UJUNG PANDANG"
-  },
-  {
-   "id": "WAAF:1793610600:263300",
-   "vnum": 263300,
-   "from": "2026-11-02T09:10:00Z",
-   "to": "2026-11-02T15:10:00Z",
-   "top_ft": 15000,
-   "dir": "W",
-   "spd_kt": 5,
-   "fir": "WAAF UJUNG PANDANG"
-  },
-  {
-   "id": "MHTG:1793610060:342090",
-   "vnum": 342090,
-   "from": "2026-11-02T09:01:00Z",
-   "to": "2026-11-02T15:01:00Z",
-   "top_ft": 14000,
-   "dir": "SW",
-   "spd_kt": 10,
-   "fir": "MHCC CENTRAL AMERICAN"
-  },
-  {
-   "id": "SEFG:1793608440:352010",
-   "vnum": 352010,
-   "from": "2026-11-02T08:34:00Z",
-   "to": "2026-11-02T14:34:00Z",
-   "top_ft": 14000,
-   "dir": "NW",
-   "spd_kt": 10,
-   "fir": "SEFG GUAYAQUIL"
-  },
-  {
-   "id": "SEFG:1793608080:352090",
-   "vnum": 352090,
-   "from": "2026-11-02T08:28:00Z",
-   "to": "2026-11-02T14:28:00Z",
-   "top_ft": 22000,
-   "dir": "NW",
-   "spd_kt": 10,
-   "fir": "SEFG GUAYAQUIL"
-  },
-  {
-   "id": "WAAF:1793605320:268010",
-   "vnum": 268010,
-   "from": "2026-11-02T07:42:00Z",
-   "to": "2026-11-02T13:40:00Z",
-   "top_ft": 8000,
-   "dir": "W",
-   "spd_kt": 10,
-   "fir": "WAAF UJUNG PANDANG"
-  },
-  {
-   "id": "SKED:1793600100:351060",
-   "vnum": 351060,
-   "from": "2026-11-02T06:15:00Z",
-   "to": "2026-11-02T12:00:00Z",
-   "top_ft": 180,
-   "dir": "NW",
-   "spd_kt": 15,
-   "fir": "SKED BOGOTA"
-  },
-  {
-   "id": "MHTG:1793597100:342030",
-   "vnum": 342030,
-   "from": "2026-11-02T05:25:00Z",
-   "to": "2026-11-02T11:25:00Z",
-   "top_ft": 13000,
-   "dir": "W",
-   "spd_kt": 10,
-   "fir": "MHCC CENTRAL AMERICAN"
-  },
-  {
-   "id": "WAAF:1793590200:268030",
-   "vnum": 268030,
-   "from": "2026-11-02T03:30:00Z",
-   "to": "2026-11-02T09:30:00Z",
-   "top_ft": 7000,
-   "dir": "W",
-   "spd_kt": 10,
-   "fir": "WAAF UJUNG PANDANG"
-  },
-  {
-   "id": "WAAF:1793589300:268010",
-   "vnum": 268010,
-   "from": "2026-11-02T03:15:00Z",
-   "to": "2026-11-02T07:53:00Z",
-   "top_ft": 8000,
-   "dir": "W",
-   "spd_kt": 10,
-   "fir": "WAAF UJUNG PANDANG"
-  },
-  {
-   "id": "WAAF:1793589000:263300",
-   "vnum": 263300,
-   "from": "2026-11-02T03:10:00Z",
-   "to": "2026-11-02T09:10:00Z",
-   "top_ft": 15000,
-   "dir": "W",
-   "spd_kt": 15,
-   "fir": "WAAF UJUNG PANDANG"
-  },
-  {
-   "id": "MHTG:1793588700:342090",
-   "vnum": 342090,
-   "from": "2026-11-02T03:05:00Z",
-   "to": "2026-11-02T09:05:00Z",
-   "top_ft": 14000,
-   "dir": "SW",
-   "spd_kt": 15,
-   "fir": "MHCC CENTRAL AMERICAN"
-  },
-  {
-   "id": "SEFG:1793582580:352090",
-   "vnum": 352090,
-   "from": "2026-11-02T01:23:00Z",
-   "to": "2026-11-02T07:23:00Z",
-   "top_ft": 24000,
-   "dir": "NW",
-   "spd_kt": 5,
-   "fir": "SEFG GUAYAQUIL"
   }
  ],
  "ash30": [
+  {
+   "id": "SEFG:1794269100:352010",
+   "vnum": 352010,
+   "from": "2026-11-10T00:05:00Z",
+   "to": "2026-11-10T06:05:00Z",
+   "top_ft": 14000,
+   "dir": "W",
+   "spd_kt": 10,
+   "fir": "SEFG GUAYAQUIL"
+  },
+  {
+   "id": "WAAF:1794267900:268030",
+   "vnum": 268030,
+   "from": "2026-11-09T23:45:00Z",
+   "to": "2026-11-10T05:40:00Z",
+   "top_ft": 7000,
+   "dir": "NW",
+   "spd_kt": 10,
+   "fir": "WAAF UJUNG PANDANG"
+  },
+  {
+   "id": "WAAF:1794266400:263300",
+   "vnum": 263300,
+   "from": "2026-11-09T23:20:00Z",
+   "to": "2026-11-10T05:20:00Z",
+   "top_ft": 15000,
+   "dir": "SW",
+   "spd_kt": 15,
+   "fir": "WAAF UJUNG PANDANG"
+  },
+  {
+   "id": "SEFG:1794264840:352090",
+   "vnum": 352090,
+   "from": "2026-11-09T22:54:00Z",
+   "to": "2026-11-10T04:54:00Z",
+   "top_ft": 20000,
+   "dir": "W",
+   "spd_kt": 15,
+   "fir": "SEFG GUAYAQUIL"
+  },
+  {
+   "id": "WAAF:1794264600:268010",
+   "vnum": 268010,
+   "from": "2026-11-09T22:50:00Z",
+   "to": "2026-11-10T04:50:00Z",
+   "top_ft": 9000,
+   "dir": "NW",
+   "spd_kt": 10,
+   "fir": "WAAF UJUNG PANDANG"
+  },
+  {
+   "id": "MHTG:1794260400:342030",
+   "vnum": 342030,
+   "from": "2026-11-09T21:40:00Z",
+   "to": "2026-11-10T03:40:00Z",
+   "top_ft": 14000,
+   "dir": "W",
+   "spd_kt": 5,
+   "fir": "MHCC CENTRAL AMERICAN"
+  },
+  {
+   "id": "MHTG:1794253320:342090",
+   "vnum": 342090,
+   "from": "2026-11-09T19:42:00Z",
+   "to": "2026-11-10T01:42:00Z",
+   "top_ft": 14000,
+   "dir": "W",
+   "spd_kt": 10,
+   "fir": "MHCC CENTRAL AMERICAN"
+  },
+  {
+   "id": "WAAF:1794250800:268010",
+   "vnum": 268010,
+   "from": "2026-11-09T19:00:00Z",
+   "to": "2026-11-09T22:51:00Z",
+   "top_ft": 10000,
+   "dir": "NW",
+   "spd_kt": 10,
+   "fir": "WAAF UJUNG PANDANG"
+  },
+  {
+   "id": "WAAF:1794247800:268030",
+   "vnum": 268030,
+   "from": "2026-11-09T18:10:00Z",
+   "to": "2026-11-09T23:50:00Z",
+   "top_ft": 7000,
+   "dir": "NW",
+   "spd_kt": 10,
+   "fir": "WAAF UJUNG PANDANG"
+  },
+  {
+   "id": "SEFG:1794247800:352010",
+   "vnum": 352010,
+   "from": "2026-11-09T18:10:00Z",
+   "to": "2026-11-10T00:10:00Z",
+   "top_ft": 14000,
+   "dir": "W",
+   "spd_kt": 15,
+   "fir": "SEFG GUAYAQUIL"
+  },
+  {
+   "id": "WAAF:1794244800:263300",
+   "vnum": 263300,
+   "from": "2026-11-09T17:20:00Z",
+   "to": "2026-11-09T23:20:00Z",
+   "top_ft": 15000,
+   "dir": "SW",
+   "spd_kt": 20,
+   "fir": "WAAF UJUNG PANDANG"
+  },
+  {
+   "id": "SEFG:1794243300:352090",
+   "vnum": 352090,
+   "from": "2026-11-09T16:55:00Z",
+   "to": "2026-11-09T22:55:00Z",
+   "top_ft": 20000,
+   "dir": "W",
+   "spd_kt": 15,
+   "fir": "SEFG GUAYAQUIL"
+  },
+  {
+   "id": "SKED:1794240900:351060",
+   "vnum": 351060,
+   "from": "2026-11-09T16:15:00Z",
+   "to": "2026-11-09T21:15:00Z",
+   "top_ft": 17000,
+   "dir": "W",
+   "spd_kt": 20,
+   "fir": "SKED BOGOTA"
+  },
+  {
+   "id": "MHTG:1794238200:342030",
+   "vnum": 342030,
+   "from": "2026-11-09T15:30:00Z",
+   "to": "2026-11-09T21:30:00Z",
+   "top_ft": 14000,
+   "dir": "W",
+   "spd_kt": 5,
+   "fir": "MHCC CENTRAL AMERICAN"
+  },
+  {
+   "id": "MHTG:1794237000:342090",
+   "vnum": 342090,
+   "from": "2026-11-09T15:10:00Z",
+   "to": "2026-11-09T21:10:00Z",
+   "top_ft": 14000,
+   "dir": "SW",
+   "spd_kt": 5,
+   "fir": "MHCC CENTRAL AMERICAN"
+  },
+  {
+   "id": "WAAF:1794229200:268010",
+   "vnum": 268010,
+   "from": "2026-11-09T13:00:00Z",
+   "to": "2026-11-09T19:00:00Z",
+   "top_ft": 10000,
+   "dir": "NW",
+   "spd_kt": 5,
+   "fir": "WAAF UJUNG PANDANG"
+  },
+  {
+   "id": "WAAF:1794226440:267020",
+   "vnum": 267020,
+   "from": "2026-11-09T12:14:00Z",
+   "to": "2026-11-09T18:14:00Z",
+   "top_ft": 10000,
+   "dir": "NW",
+   "spd_kt": 5,
+   "fir": "WAAF UJUNG PANDANG"
+  },
+  {
+   "id": "WAAF:1794226200:268030",
+   "vnum": 268030,
+   "from": "2026-11-09T12:10:00Z",
+   "to": "2026-11-09T18:10:00Z",
+   "top_ft": 7000,
+   "dir": "NW",
+   "spd_kt": 5,
+   "fir": "WAAF UJUNG PANDANG"
+  },
+  {
+   "id": "SEFG:1794225480:352010",
+   "vnum": 352010,
+   "from": "2026-11-09T11:58:00Z",
+   "to": "2026-11-09T17:58:00Z",
+   "top_ft": 15000,
+   "dir": "NW",
+   "spd_kt": 15,
+   "fir": "SEFG GUAYAQUIL"
+  },
+  {
+   "id": "WAAF:1794223200:263300",
+   "vnum": 263300,
+   "from": "2026-11-09T11:20:00Z",
+   "to": "2026-11-09T17:20:00Z",
+   "top_ft": 15000,
+   "dir": "SW",
+   "spd_kt": 15,
+   "fir": "WAAF UJUNG PANDANG"
+  },
+  {
+   "id": "SEFG:1794221100:352090",
+   "vnum": 352090,
+   "from": "2026-11-09T10:45:00Z",
+   "to": "2026-11-09T16:45:00Z",
+   "top_ft": 20000,
+   "dir": "W",
+   "spd_kt": 20,
+   "fir": "SEFG GUAYAQUIL"
+  },
+  {
+   "id": "MHTG:1794220500:342030",
+   "vnum": 342030,
+   "from": "2026-11-09T10:35:00Z",
+   "to": "2026-11-09T16:35:00Z",
+   "top_ft": 14000,
+   "dir": "W",
+   "spd_kt": 5,
+   "fir": "MHCC CENTRAL AMERICAN"
+  },
+  {
+   "id": "SKED:1794220200:351060",
+   "vnum": 351060,
+   "from": "2026-11-09T10:30:00Z",
+   "to": "2026-11-09T16:15:00Z",
+   "top_ft": 170,
+   "dir": "W",
+   "spd_kt": 15,
+   "fir": "SKED BOGOTA"
+  },
+  {
+   "id": "MHTG:1794215280:342090",
+   "vnum": 342090,
+   "from": "2026-11-09T09:08:00Z",
+   "to": "2026-11-09T15:08:00Z",
+   "top_ft": 14000,
+   "dir": "W",
+   "spd_kt": 10,
+   "fir": "MHCC CENTRAL AMERICAN"
+  },
   {
    "id": "WAAF:1794207600:268010",
    "vnum": 268010,
@@ -17466,11 +17778,21 @@
    "id": "WAAF:1794206400:268030",
    "vnum": 268030,
    "from": "2026-11-09T06:40:00Z",
-   "to": "2026-11-09T12:40:00Z",
+   "to": "2026-11-09T12:10:00Z",
    "top_ft": 7000,
    "dir": "W",
    "spd_kt": 5,
    "fir": "WAAF UJUNG PANDANG"
+  },
+  {
+   "id": "SEFG:1794205200:352010",
+   "vnum": 352010,
+   "from": "2026-11-09T06:20:00Z",
+   "to": "2026-11-09T12:20:00Z",
+   "top_ft": 15000,
+   "dir": "NW",
+   "spd_kt": 15,
+   "fir": "SEFG GUAYAQUIL"
   },
   {
    "id": "WAAF:1794201600:263300",
@@ -28921,216 +29243,6 @@
    "dir": "N",
    "spd_kt": 10,
    "fir": "WAAF UJUNG PANDANG"
-  },
-  {
-   "id": "MHTG:1791658800:342090",
-   "vnum": 342090,
-   "from": "2026-10-10T19:00:00Z",
-   "to": "2026-10-11T01:00:00Z",
-   "top_ft": 15000,
-   "dir": "SW",
-   "spd_kt": 10,
-   "fir": "MHCC CENTRAL AMERICAN"
-  },
-  {
-   "id": "WAAF:1791656400:263300",
-   "vnum": 263300,
-   "from": "2026-10-10T18:20:00Z",
-   "to": "2026-10-11T00:20:00Z",
-   "top_ft": 15000,
-   "dir": "SE",
-   "spd_kt": 10,
-   "fir": "WAAF UJUNG PANDANG"
-  },
-  {
-   "id": "RPHI:1791654780:272020",
-   "vnum": 272020,
-   "from": "2026-10-10T17:53:00Z",
-   "to": "2026-10-10T23:53:00Z",
-   "top_ft": 9000,
-   "dir": "NW",
-   "spd_kt": 0,
-   "fir": "RPHI MANILA"
-  },
-  {
-   "id": "SEFG:1791651000:352090",
-   "vnum": 352090,
-   "from": "2026-10-10T16:50:00Z",
-   "to": "2026-10-10T22:50:00Z",
-   "top_ft": 20000,
-   "dir": "W",
-   "spd_kt": 5,
-   "fir": "SEFG GUAYAQUIL"
-  },
-  {
-   "id": "SEFG:1791649560:352010",
-   "vnum": 352010,
-   "from": "2026-10-10T16:26:00Z",
-   "to": "2026-10-10T22:26:00Z",
-   "top_ft": 15000,
-   "dir": "NW",
-   "spd_kt": 10,
-   "fir": "SEFG GUAYAQUIL"
-  },
-  {
-   "id": "SKED:1791648000:351060",
-   "vnum": 351060,
-   "from": "2026-10-10T16:00:00Z",
-   "to": "2026-10-10T21:30:00Z",
-   "top_ft": 18000,
-   "dir": "W",
-   "spd_kt": 10,
-   "fir": "SKED BOGOTA"
-  },
-  {
-   "id": "WAAF:1791647400:268010",
-   "vnum": 268010,
-   "from": "2026-10-10T15:50:00Z",
-   "to": "2026-10-10T21:50:00Z",
-   "top_ft": 7000,
-   "dir": "N",
-   "spd_kt": 5,
-   "fir": "WAAF UJUNG PANDANG"
-  },
-  {
-   "id": "WAAF:1791639000:268030",
-   "vnum": 268030,
-   "from": "2026-10-10T13:30:00Z",
-   "to": "2026-10-10T19:30:00Z",
-   "top_ft": 7000,
-   "dir": "NE",
-   "spd_kt": 5,
-   "fir": "WAAF UJUNG PANDANG"
-  },
-  {
-   "id": "MHTG:1791637200:342090",
-   "vnum": 342090,
-   "from": "2026-10-10T13:00:00Z",
-   "to": "2026-10-10T19:00:00Z",
-   "top_ft": 15000,
-   "dir": "SW",
-   "spd_kt": 10,
-   "fir": "MHCC CENTRAL AMERICAN"
-  },
-  {
-   "id": "WAAF:1791634800:263300",
-   "vnum": 263300,
-   "from": "2026-10-10T12:20:00Z",
-   "to": "2026-10-10T18:20:00Z",
-   "top_ft": 15000,
-   "dir": "SE",
-   "spd_kt": 10,
-   "fir": "WAAF UJUNG PANDANG"
-  },
-  {
-   "id": "SEFG:1791630180:352090",
-   "vnum": 352090,
-   "from": "2026-10-10T11:03:00Z",
-   "to": "2026-10-10T17:03:00Z",
-   "top_ft": 20000,
-   "dir": "W",
-   "spd_kt": 10,
-   "fir": "SEFG GUAYAQUIL"
-  },
-  {
-   "id": "SEFG:1791628560:352010",
-   "vnum": 352010,
-   "from": "2026-10-10T10:36:00Z",
-   "to": "2026-10-10T16:36:00Z",
-   "top_ft": 15000,
-   "dir": "W",
-   "spd_kt": 15,
-   "fir": "SEFG GUAYAQUIL"
-  },
-  {
-   "id": "SKED:1791626700:351060",
-   "vnum": 351060,
-   "from": "2026-10-10T10:05:00Z",
-   "to": "2026-10-10T16:00:00Z",
-   "top_ft": 21000,
-   "dir": "W",
-   "spd_kt": 5,
-   "fir": "SKED BOGOTA"
-  },
-  {
-   "id": "WAAF:1791625800:268010",
-   "vnum": 268010,
-   "from": "2026-10-10T09:50:00Z",
-   "to": "2026-10-10T15:50:00Z",
-   "top_ft": 7000,
-   "dir": "NE",
-   "spd_kt": 5,
-   "fir": "WAAF UJUNG PANDANG"
-  },
-  {
-   "id": "WAAF:1791617400:268030",
-   "vnum": 268030,
-   "from": "2026-10-10T07:30:00Z",
-   "to": "2026-10-10T13:30:00Z",
-   "top_ft": 7000,
-   "dir": "NE",
-   "spd_kt": 5,
-   "fir": "WAAF UJUNG PANDANG"
-  },
-  {
-   "id": "MHTG:1791616500:342090",
-   "vnum": 342090,
-   "from": "2026-10-10T07:15:00Z",
-   "to": "2026-10-10T13:15:00Z",
-   "top_ft": 15000,
-   "dir": "SW",
-   "spd_kt": 5,
-   "fir": "MHCC CENTRAL AMERICAN"
-  },
-  {
-   "id": "WAAF:1791613200:263300",
-   "vnum": 263300,
-   "from": "2026-10-10T06:20:00Z",
-   "to": "2026-10-10T12:20:00Z",
-   "top_ft": 15000,
-   "dir": "E",
-   "spd_kt": 10,
-   "fir": "WAAF UJUNG PANDANG"
-  },
-  {
-   "id": "RPHI:1791612540:272020",
-   "vnum": 272020,
-   "from": "2026-10-10T06:09:00Z",
-   "to": "2026-10-10T12:09:00Z",
-   "top_ft": 25000,
-   "dir": "NNE",
-   "spd_kt": 0,
-   "fir": "RPHI MANILA"
-  },
-  {
-   "id": "SEFG:1791608760:352090",
-   "vnum": 352090,
-   "from": "2026-10-10T05:06:00Z",
-   "to": "2026-10-10T11:06:00Z",
-   "top_ft": 19500,
-   "dir": "W",
-   "spd_kt": 10,
-   "fir": "SEFG GUAYAQUIL"
-  },
-  {
-   "id": "RPHI:1791608220:272020",
-   "vnum": 272020,
-   "from": "2026-10-10T04:57:00Z",
-   "to": "2026-10-10T10:57:00Z",
-   "top_ft": null,
-   "dir": "",
-   "spd_kt": null,
-   "fir": "RPHI MANILA"
-  },
-  {
-   "id": "SEFG:1791607380:352010",
-   "vnum": 352010,
-   "from": "2026-10-10T04:43:00Z",
-   "to": "2026-10-10T10:43:00Z",
-   "top_ft": 14000,
-   "dir": "NW",
-   "spd_kt": 15,
-   "fir": "SEFG GUAYAQUIL"
   }
  ],
  "levels": [
@@ -29373,7 +29485,7 @@
    "label": "等級 2：不穩定增加",
    "orig": "Alert Level 2",
    "elevated": true,
-   "time": "2026-11-09T00:00:00Z",
+   "time": "2026-11-10T00:00:00Z",
    "url": "https://wovodat.phivolcs.dost.gov.ph/bulletin/list-of-bulletin"
   },
   {
@@ -29384,7 +29496,7 @@
    "label": "等級 1：輕微不穩定",
    "orig": "Alert Level 1",
    "elevated": true,
-   "time": "2026-11-09T00:00:00Z",
+   "time": "2026-11-10T00:00:00Z",
    "url": "https://wovodat.phivolcs.dost.gov.ph/bulletin/list-of-bulletin"
   },
   {
@@ -29395,7 +29507,7 @@
    "label": "等級 3：不穩定加劇（岩漿活動）",
    "orig": "Alert Level 3",
    "elevated": true,
-   "time": "2026-11-09T00:00:00Z",
+   "time": "2026-11-10T00:00:00Z",
    "url": "https://wovodat.phivolcs.dost.gov.ph/bulletin/list-of-bulletin"
   },
   {
@@ -29406,7 +29518,7 @@
    "label": "等級 1：輕微不穩定",
    "orig": "Alert Level 1",
    "elevated": true,
-   "time": "2026-11-09T00:00:00Z",
+   "time": "2026-11-10T00:00:00Z",
    "url": "https://wovodat.phivolcs.dost.gov.ph/bulletin/list-of-bulletin"
   },
   {
@@ -29417,11 +29529,29 @@
    "label": "等級 0：正常",
    "orig": "Alert Level 0",
    "elevated": false,
-   "time": "2026-11-09T00:00:00Z",
+   "time": "2026-11-10T00:00:00Z",
    "url": "https://wovodat.phivolcs.dost.gov.ph/bulletin/list-of-bulletin"
   }
  ],
  "obs": [
+  {
+   "id": "352010:2026-11-09:https://www.volcanodiscovery.com/reventador/news/404789/vaac-advisory-2026-1187.html",
+   "vnum": 352010,
+   "date": "2026-11-09",
+   "pub": "2026-11-09",
+   "section": "other",
+   "event": "其他",
+   "activity": [
+    "火山灰噴發"
+   ],
+   "scale": "不明",
+   "hazards": [],
+   "hazard_note": "",
+   "alert_change": "",
+   "summary": "VAAC 發布火山灰諮詢，Reventador 持續噴發，火山灰柱達 15,000 ft (4,600 m)。",
+   "url": "https://www.volcanodiscovery.com/reventador/news/404789/vaac-advisory-2026-1187.html",
+   "agency": "volcanodiscovery.com"
+  },
   {
    "id": "351060:2026-11-09:https://www.volcanodiscovery.com/purace/news/404573/vaac-advisory-2026-708.html",
    "vnum": 351060,
@@ -29436,6 +29566,114 @@
    "alert_change": "",
    "summary": "VAAC 針對 Puracé 發布火山灰諮詢，標示有新的火山灰排放，具航空影響。來源未提供柱高等細節。",
    "url": "https://www.volcanodiscovery.com/purace/news/404573/vaac-advisory-2026-708.html",
+   "agency": "volcanodiscovery.com"
+  },
+  {
+   "id": "342090:2026-11-09:https://www.volcanodiscovery.com/fuego/news/405000/vaac-advisory-2026-1301.html",
+   "vnum": 342090,
+   "date": "2026-11-09",
+   "pub": "2026-11-09",
+   "section": "other",
+   "event": "其他",
+   "activity": [
+    "火山灰噴發"
+   ],
+   "scale": "不明",
+   "hazards": [],
+   "hazard_note": "",
+   "alert_change": "",
+   "summary": "VAAC 發布火山灰諮詢，Fuego 持續噴發，火山灰柱達 14,000 ft (4,300 m)。",
+   "url": "https://www.volcanodiscovery.com/fuego/news/405000/vaac-advisory-2026-1301.html",
+   "agency": "volcanodiscovery.com"
+  },
+  {
+   "id": "341090:2026-11-09:https://infobae.com/mexico/2026/11/09/actividad-del-popocatepetl-hoy-el-volcan-registro-35-emisiones-este-lunes-9-de-noviembre",
+   "vnum": 341090,
+   "date": "2026-11-09",
+   "pub": "2026-11-09",
+   "section": "media",
+   "event": "活動增強",
+   "activity": [
+    "小規模噴煙"
+   ],
+   "scale": "小",
+   "hazards": [],
+   "hazard_note": "",
+   "alert_change": "",
+   "summary": "Infobae 引述 Cenapred 與 UNAM 的每日監測，Popocatépetl 過去 24 小時記錄到 35 次 exhalaciones，警戒維持黃色第 2 階段，呼籲民眾勿靠近火口以防彈道碎屑。",
+   "url": "https://infobae.com/mexico/2026/11/09/actividad-del-popocatepetl-hoy-el-volcan-registro-35-emisiones-este-lunes-9-de-noviembre",
+   "agency": "Infobae"
+  },
+  {
+   "id": "332010:2026-11-09:https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-11-09T18:22:07+00:00",
+   "vnum": 332010,
+   "date": "2026-11-09",
+   "pub": "2026-11-09",
+   "section": "other",
+   "event": "其他",
+   "activity": [
+    "暫停或平靜"
+   ],
+   "scale": "不明",
+   "hazards": [],
+   "hazard_note": "",
+   "alert_change": "",
+   "summary": "HVO 日報指出 Halema'uma'u 噴發在第 56 次熔岩噴泉結束後暫停，山頂正重新膨脹，下一次噴泉預計超過一週後。",
+   "url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-11-09T18:22:07+00:00",
+   "agency": "volcanoes.usgs.gov"
+  },
+  {
+   "id": "268030:2026-11-09:https://www.volcanodiscovery.com/ibu/news/405076/vaac-advisory-2026-1276.html",
+   "vnum": 268030,
+   "date": "2026-11-09",
+   "pub": "2026-11-10",
+   "section": "other",
+   "event": "其他",
+   "activity": [
+    "火山灰噴發"
+   ],
+   "scale": "不明",
+   "hazards": [],
+   "hazard_note": "",
+   "alert_change": "",
+   "summary": "VAAC 發布火山灰諮詢，Ibu 持續噴發，火山灰柱達 7,000 ft (2,100 m)。",
+   "url": "https://www.volcanodiscovery.com/ibu/news/405076/vaac-advisory-2026-1276.html",
+   "agency": "volcanodiscovery.com"
+  },
+  {
+   "id": "268010:2026-11-09:https://www.volcanodiscovery.com/dukono/news/405095/vaac-advisory-2026-984.html",
+   "vnum": 268010,
+   "date": "2026-11-09",
+   "pub": "2026-11-10",
+   "section": "other",
+   "event": "其他",
+   "activity": [
+    "火山灰噴發"
+   ],
+   "scale": "不明",
+   "hazards": [],
+   "hazard_note": "",
+   "alert_change": "",
+   "summary": "VAAC 發布火山灰諮詢，Dukono 持續噴發，火山灰柱達 10,000 ft (3,000 m)。",
+   "url": "https://www.volcanodiscovery.com/dukono/news/405095/vaac-advisory-2026-984.html",
+   "agency": "volcanodiscovery.com"
+  },
+  {
+   "id": "267020:2026-11-09:https://www.volcanodiscovery.com/karangetang/news/404943/vaac-advisory-2026-36.html",
+   "vnum": 267020,
+   "date": "2026-11-09",
+   "pub": "2026-11-09",
+   "section": "other",
+   "event": "其他",
+   "activity": [
+    "火山灰噴發"
+   ],
+   "scale": "不明",
+   "hazards": [],
+   "hazard_note": "",
+   "alert_change": "",
+   "summary": "VAAC 發布火山灰諮詢，Karangetang 火山灰柱達 10,000 ft (3,000 m)。",
+   "url": "https://www.volcanodiscovery.com/karangetang/news/404943/vaac-advisory-2026-36.html",
    "agency": "volcanodiscovery.com"
   },
   {
@@ -29517,6 +29755,24 @@
    "summary": "VAAC 諮詢指出 Popocatépetl 火山灰柱升至 19,000 ft (5,800 m)。",
    "url": "https://www.volcanodiscovery.com/popocatepetl/news/404345/vaac-advisory-2026-389.html",
    "agency": "volcanodiscovery.com"
+  },
+  {
+   "id": "341090:2026-11-08:https://www.infobae.com/mexico/2026/11/08/popocatepetl-tuvo-35-emisiones-este-8-de-noviembre/",
+   "vnum": 341090,
+   "date": "2026-11-08",
+   "pub": "2026-11-08",
+   "section": "media",
+   "event": "活動增強",
+   "activity": [
+    "小規模噴煙"
+   ],
+   "scale": "小",
+   "hazards": [],
+   "hazard_note": "",
+   "alert_change": "",
+   "summary": "Infobae 引述 Cenapred 與 UNAM 的每日監測，Popocatépetl 在過去 24 小時記錄 35 次排放，火山警戒燈號維持黃色第 2 階段。近期活動屬中等且持續，伴隨頻繁噴氣、火山灰與小型爆炸。",
+   "url": "https://www.infobae.com/mexico/2026/11/08/popocatepetl-tuvo-35-emisiones-este-8-de-noviembre/",
+   "agency": "Infobae"
   },
   {
    "id": "332010:2026-11-08:https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-11-08T19:01:15+00:00",
@@ -29852,7 +30108,7 @@
    "alert_change": "",
    "summary": "Marapi 於 11 月 7 日再度噴發，火山灰落在 Sungai Pua 一帶，覆蓋農地並影響能見度。",
    "url": "https://en.tempo.co/read/2123172/indonesias-mount-marapi-erupts-blanketing-farms-in-volcanic-ash",
-   "agency": "en.tempo.co"
+   "agency": "Tempo"
   },
   {
    "id": "341090:2026-11-06:https://www.volcanodiscovery.com/",
@@ -30111,6 +30367,22 @@
    "agency": "tech.everyeye.it"
   },
   {
+   "id": "332010:2026-11-03:https://www.usgs.gov/volcanoes/kilauea/volcano-updates",
+   "vnum": 332010,
+   "date": "2026-11-03",
+   "pub": "2026-11-03",
+   "section": "global",
+   "event": "警戒變動",
+   "activity": [],
+   "scale": "",
+   "hazards": [],
+   "hazard_note": "",
+   "alert_change": "ADVISORY → WATCH，Aviation Color Code YELLOW → ORANGE（HVO/USGS）",
+   "summary": "HVO 於夏威夷時間 11 月 2 日將 Kīlauea 警戒由 ADVISORY 升至 WATCH，航空色碼由 YELLOW 升至 ORANGE，預期新一次熔岩噴泉事件即將開始。",
+   "url": "https://www.usgs.gov/volcanoes/kilauea/volcano-updates",
+   "agency": "usgs.gov"
+  },
+  {
    "id": "282080:2026-11-03:https://tenki.jp/bousai/volcano/506/live/2026-11-03-11-21-00.html",
    "vnum": 282080,
    "date": "2026-11-03",
@@ -30141,6 +30413,4106 @@
    "summary": "Mayon 於 11 月 3 日上午出現火山灰噴發，灰柱高達火口上方 1.6 km，PHIVOLCS 維持警戒等級 3，並持續禁止進入 6 km 永久危險區。此事件接續 10 月 30 日的中度爆炸式噴發。",
    "url": "https://bnc.bilyonaryo.com/phivolcs-warns-of-volcanic-hazards-as-mayon-emits-ash-plume/news/",
    "agency": "bnc.bilyonaryo.com"
+  },
+  {
+   "id": "282080:2026-11-02:https://tenki.jp/bousai/volcano/506/information/2026-11-02-16-00-00.html",
+   "vnum": 282080,
+   "date": "2026-11-02",
+   "pub": "2026-11-02",
+   "section": "near",
+   "event": "活動增強",
+   "activity": [],
+   "scale": "",
+   "hazards": [],
+   "hazard_note": "",
+   "alert_change": "",
+   "summary": "JMA 公告櫻島活躍噴發活動持續，噴火警戒等級 3（入山規制）維持不變。南岳山頂火口期間噴發 4 次，並提醒火口周邊可能有大型噴石與小規模火砕流。",
+   "url": "https://tenki.jp/bousai/volcano/506/information/2026-11-02-16-00-00.html",
+   "agency": "tenki.jp"
+  },
+  {
+   "id": "273030:2026-11-02:https://www.manilatimes.net/2026/11/02/news/mayon-continues-to-show-heightened-volcanic-activity-phivolcs/2459224",
+   "vnum": 273030,
+   "date": "2026-11-02",
+   "pub": "2026-11-02",
+   "section": "near",
+   "event": "活動增強",
+   "activity": [],
+   "scale": "",
+   "hazards": [],
+   "hazard_note": "",
+   "alert_change": "",
+   "summary": "PHIVOLCS 局長表示 Mayon 於上週噴發後持續顯示活動增強，目前仍維持警戒等級 3，但正監測指標以判斷是否需升至等級 4。",
+   "url": "https://www.manilatimes.net/2026/11/02/news/mayon-continues-to-show-heightened-volcanic-activity-phivolcs/2459224",
+   "agency": "manilatimes.net"
+  },
+  {
+   "id": "273030:2026-10-31:https://www.gmanetwork.com/news/topstories/regions/1007792/mayon-volcano-spews-ash-alert-level-3-prevails/story/",
+   "vnum": 273030,
+   "date": "2026-10-31",
+   "pub": "2026-10-31",
+   "section": "near",
+   "event": "活動增強",
+   "activity": [],
+   "scale": "",
+   "hazards": [],
+   "hazard_note": "",
+   "alert_change": "",
+   "summary": "Mayon 在 10 月 30 日中度爆炸性噴發並升至警戒 3 級後，10 月 31 日上午山頂火口再出現噴灰。PHIVOLCS 表示 3 級警戒持續，並禁止進入 6 公里永久危險區。",
+   "url": "https://www.gmanetwork.com/news/topstories/regions/1007792/mayon-volcano-spews-ash-alert-level-3-prevails/story/",
+   "agency": "GMA"
+  },
+  {
+   "id": "282080:2026-10-30:https://www.nishinippon.co.jp/item/1555265/",
+   "vnum": 282080,
+   "date": "2026-10-30",
+   "pub": "2026-10-30",
+   "section": "near",
+   "event": "活動增強",
+   "activity": [],
+   "scale": "",
+   "hazards": [],
+   "hazard_note": "",
+   "alert_change": "",
+   "summary": "JMA 發布解說情報，維持噴火警戒等級 3（入山規制）。南岳山頂火口持續噴發，SO2 排放量維持偏高。",
+   "url": "https://www.nishinippon.co.jp/item/1555265/",
+   "agency": "nishinippon.co.jp"
+  },
+  {
+   "id": "273030:2026-10-30:https://bworldonline.com/the-nation/2026/10/30/790468/phivolcs-raises-mayon-volcano-to-alert-level-3-following-explosive-eruption/",
+   "vnum": 273030,
+   "date": "2026-10-30",
+   "pub": "2026-10-30",
+   "section": "near",
+   "event": "警戒變動",
+   "activity": [],
+   "scale": "",
+   "hazards": [],
+   "hazard_note": "",
+   "alert_change": "2 → 3（PHIVOLCS 警戒等級）",
+   "summary": "PHIVOLCS 在 Mayon 發生中等爆炸性噴發後，將警戒等級由 2 調升至 3，表示進入新一階段岩漿噴發，並建議撤離 6 公里永久危險區。",
+   "url": "https://bworldonline.com/the-nation/2026/10/30/790468/phivolcs-raises-mayon-volcano-to-alert-level-3-following-explosive-eruption/",
+   "agency": "bworldonline.com"
+  },
+  {
+   "id": "282080:2026-10-29:https://tenki.jp/bousai/volcano/506/live/2026-10-29-12-03-00.html",
+   "vnum": 282080,
+   "date": "2026-10-29",
+   "pub": "2026-10-29",
+   "section": "near",
+   "event": "噴發",
+   "activity": [],
+   "scale": "",
+   "hazards": [],
+   "hazard_note": "",
+   "alert_change": "",
+   "summary": "櫻島南岳山頂火口於 10 月 29 日持續噴發，JMA 發布多筆噴火火山觀測報，噴煙流向東北。噴火警戒等級維持 3（入山規制），無變動。",
+   "url": "https://tenki.jp/bousai/volcano/506/live/2026-10-29-12-03-00.html",
+   "agency": "tenki.jp"
+  },
+  {
+   "id": "211060:2026-10-29:https://en.lasicilia.it/news/news/3085733/etna-red-alert-for-aviation-ash-at-altitude-towards-southeast-but-catania-airport-remains-operational.html",
+   "vnum": 211060,
+   "date": "2026-10-29",
+   "pub": "2026-10-29",
+   "section": "global",
+   "event": "警戒變動",
+   "activity": [],
+   "scale": "",
+   "hazards": [],
+   "hazard_note": "",
+   "alert_change": "橙色 → 紅色（INGV VONA 航空色碼）",
+   "summary": "INGV 埃特納觀測站因持續性微弱火山灰排放，於 10 月 29 日將航空色碼由橙色升至紅色。Catania 機場仍運作，但有報導指部分降落受限。",
+   "url": "https://en.lasicilia.it/news/news/3085733/etna-red-alert-for-aviation-ash-at-altitude-towards-southeast-but-catania-airport-remains-operational.html",
+   "agency": "en.lasicilia.it"
+  },
+  {
+   "id": "282080:2026-10-26:https://tenki.jp/bousai/volcano/506/information/2026-10-26-16-00-00.html",
+   "vnum": 282080,
+   "date": "2026-10-26",
+   "pub": "2026-10-26",
+   "section": "near",
+   "event": "警戒變動",
+   "activity": [],
+   "scale": "",
+   "hazards": [],
+   "hazard_note": "",
+   "alert_change": "",
+   "summary": "JMA 於 10 月 26 日 16 時發布解說資料，桜島維持火口周辺警報 (噴火警戒レベル3，入山規制)。南岳山頂火口活動持續，期間共 12 次噴火，其中 4 次為爆發。",
+   "url": "https://tenki.jp/bousai/volcano/506/information/2026-10-26-16-00-00.html",
+   "agency": "tenki.jp"
+  },
+  {
+   "id": "273070:2026-10-26:https://abovethenormnews.com/2026/10/26/taal-volcano-tremor",
+   "vnum": 273070,
+   "date": "2026-10-26",
+   "pub": "2026-10-26",
+   "section": "near",
+   "event": "活動增強",
+   "activity": [],
+   "scale": "",
+   "hazards": [],
+   "hazard_note": "",
+   "alert_change": "",
+   "summary": "PHIVOLCS 10 月 26 日的 24 小時活動報告記錄到 8 次火山地震與長達 31 小時 44 分的火山顫動，並有持續的地表膨脹。10 月稍早已發生多次噴發，目前仍禁止進入 Taal 火山島。",
+   "url": "https://abovethenormnews.com/2026/10/26/taal-volcano-tremor",
+   "agency": "abovethenormnews.com"
+  }
+ ],
+ "daily": [
+  {
+   "id": "2026-10-12:251020",
+   "date": "2026-10-12",
+   "vnum": 251020,
+   "ash_n": 2,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-12:263300",
+   "date": "2026-10-12",
+   "vnum": 263300,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-12:264230",
+   "date": "2026-10-12",
+   "vnum": 264230,
+   "ash_n": 1,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-12:268010",
+   "date": "2026-10-12",
+   "vnum": 268010,
+   "ash_n": 4,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-12:268030",
+   "date": "2026-10-12",
+   "vnum": 268030,
+   "ash_n": 4,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-12:342030",
+   "date": "2026-10-12",
+   "vnum": 342030,
+   "ash_n": 1,
+   "ash_top_ft": 13000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-12:342090",
+   "date": "2026-10-12",
+   "vnum": 342090,
+   "ash_n": 4,
+   "ash_top_ft": 14000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-12:351060",
+   "date": "2026-10-12",
+   "vnum": 351060,
+   "ash_n": 4,
+   "ash_top_ft": 18000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-12:352010",
+   "date": "2026-10-12",
+   "vnum": 352010,
+   "ash_n": 4,
+   "ash_top_ft": 14000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-12:352090",
+   "date": "2026-10-12",
+   "vnum": 352090,
+   "ash_n": 1,
+   "ash_top_ft": 20000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-12:357070",
+   "date": "2026-10-12",
+   "vnum": 357070,
+   "ash_n": 1,
+   "ash_top_ft": 12000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-13:263300",
+   "date": "2026-10-13",
+   "vnum": 263300,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-13:268010",
+   "date": "2026-10-13",
+   "vnum": 268010,
+   "ash_n": 4,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-13:268030",
+   "date": "2026-10-13",
+   "vnum": 268030,
+   "ash_n": 4,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-13:342030",
+   "date": "2026-10-13",
+   "vnum": 342030,
+   "ash_n": 3,
+   "ash_top_ft": 14000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-13:342090",
+   "date": "2026-10-13",
+   "vnum": 342090,
+   "ash_n": 4,
+   "ash_top_ft": 14000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-13:351060",
+   "date": "2026-10-13",
+   "vnum": 351060,
+   "ash_n": 4,
+   "ash_top_ft": 18000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-13:352010",
+   "date": "2026-10-13",
+   "vnum": 352010,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-13:352090",
+   "date": "2026-10-13",
+   "vnum": 352090,
+   "ash_n": 2,
+   "ash_top_ft": 21000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-14:263300",
+   "date": "2026-10-14",
+   "vnum": 263300,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-14:268010",
+   "date": "2026-10-14",
+   "vnum": 268010,
+   "ash_n": 4,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-14:268030",
+   "date": "2026-10-14",
+   "vnum": 268030,
+   "ash_n": 4,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-14:300270",
+   "date": "2026-10-14",
+   "vnum": 300270,
+   "ash_n": 1,
+   "ash_top_ft": 13000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-14:342090",
+   "date": "2026-10-14",
+   "vnum": 342090,
+   "ash_n": 3,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-14:351060",
+   "date": "2026-10-14",
+   "vnum": 351060,
+   "ash_n": 4,
+   "ash_top_ft": 20000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-14:352010",
+   "date": "2026-10-14",
+   "vnum": 352010,
+   "ash_n": 4,
+   "ash_top_ft": 16000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-14:352090",
+   "date": "2026-10-14",
+   "vnum": 352090,
+   "ash_n": 2,
+   "ash_top_ft": 24000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-14:357070",
+   "date": "2026-10-14",
+   "vnum": 357070,
+   "ash_n": 1,
+   "ash_top_ft": 12000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-15:241040",
+   "date": "2026-10-15",
+   "vnum": 241040,
+   "ash_n": 1,
+   "ash_top_ft": 6000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-15:263300",
+   "date": "2026-10-15",
+   "vnum": 263300,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-15:268010",
+   "date": "2026-10-15",
+   "vnum": 268010,
+   "ash_n": 5,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-15:268030",
+   "date": "2026-10-15",
+   "vnum": 268030,
+   "ash_n": 4,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-15:282080",
+   "date": "2026-10-15",
+   "vnum": 282080,
+   "ash_n": 1,
+   "ash_top_ft": 11000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-15:300270",
+   "date": "2026-10-15",
+   "vnum": 300270,
+   "ash_n": 3,
+   "ash_top_ft": 30000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-15:342030",
+   "date": "2026-10-15",
+   "vnum": 342030,
+   "ash_n": 1,
+   "ash_top_ft": 13000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-15:342090",
+   "date": "2026-10-15",
+   "vnum": 342090,
+   "ash_n": 3,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-15:351060",
+   "date": "2026-10-15",
+   "vnum": 351060,
+   "ash_n": 4,
+   "ash_top_ft": 17500,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-15:352010",
+   "date": "2026-10-15",
+   "vnum": 352010,
+   "ash_n": 4,
+   "ash_top_ft": 14000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-15:352090",
+   "date": "2026-10-15",
+   "vnum": 352090,
+   "ash_n": 2,
+   "ash_top_ft": 26000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-15:354006",
+   "date": "2026-10-15",
+   "vnum": 354006,
+   "ash_n": 1,
+   "ash_top_ft": 20000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-15:357070",
+   "date": "2026-10-15",
+   "vnum": 357070,
+   "ash_n": 2,
+   "ash_top_ft": 12000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-16:241040",
+   "date": "2026-10-16",
+   "vnum": 241040,
+   "ash_n": 2,
+   "ash_top_ft": 3000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-16:261140",
+   "date": "2026-10-16",
+   "vnum": 261140,
+   "ash_n": 1,
+   "ash_top_ft": 11000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-16:262000",
+   "date": "2026-10-16",
+   "vnum": 262000,
+   "ash_n": 1,
+   "ash_top_ft": 4000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-16:263300",
+   "date": "2026-10-16",
+   "vnum": 263300,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-16:264230",
+   "date": "2026-10-16",
+   "vnum": 264230,
+   "ash_n": 1,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-16:268010",
+   "date": "2026-10-16",
+   "vnum": 268010,
+   "ash_n": 4,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-16:268030",
+   "date": "2026-10-16",
+   "vnum": 268030,
+   "ash_n": 4,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-16:300270",
+   "date": "2026-10-16",
+   "vnum": 300270,
+   "ash_n": 6,
+   "ash_top_ft": 29000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-16:342030",
+   "date": "2026-10-16",
+   "vnum": 342030,
+   "ash_n": 3,
+   "ash_top_ft": 14000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-16:342090",
+   "date": "2026-10-16",
+   "vnum": 342090,
+   "ash_n": 4,
+   "ash_top_ft": 14000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-16:351060",
+   "date": "2026-10-16",
+   "vnum": 351060,
+   "ash_n": 4,
+   "ash_top_ft": 18000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-16:352010",
+   "date": "2026-10-16",
+   "vnum": 352010,
+   "ash_n": 5,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-16:357070",
+   "date": "2026-10-16",
+   "vnum": 357070,
+   "ash_n": 3,
+   "ash_top_ft": 12000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-17:241040",
+   "date": "2026-10-17",
+   "vnum": 241040,
+   "ash_n": 5,
+   "ash_top_ft": 5000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-17:263300",
+   "date": "2026-10-17",
+   "vnum": 263300,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-17:268010",
+   "date": "2026-10-17",
+   "vnum": 268010,
+   "ash_n": 4,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-17:268030",
+   "date": "2026-10-17",
+   "vnum": 268030,
+   "ash_n": 4,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-17:272020",
+   "date": "2026-10-17",
+   "vnum": 272020,
+   "ash_n": 1,
+   "ash_top_ft": 9000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-17:273030",
+   "date": "2026-10-17",
+   "vnum": 273030,
+   "ash_n": 1,
+   "ash_top_ft": 10000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-17:282080",
+   "date": "2026-10-17",
+   "vnum": 282080,
+   "ash_n": 3,
+   "ash_top_ft": 9000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-17:332010",
+   "date": "2026-10-17",
+   "vnum": 332010,
+   "ash_n": 4,
+   "ash_top_ft": 25000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-17:342030",
+   "date": "2026-10-17",
+   "vnum": 342030,
+   "ash_n": 2,
+   "ash_top_ft": 14000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-17:342090",
+   "date": "2026-10-17",
+   "vnum": 342090,
+   "ash_n": 4,
+   "ash_top_ft": 14000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-17:351060",
+   "date": "2026-10-17",
+   "vnum": 351060,
+   "ash_n": 4,
+   "ash_top_ft": 17000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-17:352010",
+   "date": "2026-10-17",
+   "vnum": 352010,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-17:352090",
+   "date": "2026-10-17",
+   "vnum": 352090,
+   "ash_n": 4,
+   "ash_top_ft": 26000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-17:357070",
+   "date": "2026-10-17",
+   "vnum": 357070,
+   "ash_n": 4,
+   "ash_top_ft": 12000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-18:241040",
+   "date": "2026-10-18",
+   "vnum": 241040,
+   "ash_n": 6,
+   "ash_top_ft": 8000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-18:262000",
+   "date": "2026-10-18",
+   "vnum": 262000,
+   "ash_n": 4,
+   "ash_top_ft": 5000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-18:263300",
+   "date": "2026-10-18",
+   "vnum": 263300,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-18:268010",
+   "date": "2026-10-18",
+   "vnum": 268010,
+   "ash_n": 4,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-18:268030",
+   "date": "2026-10-18",
+   "vnum": 268030,
+   "ash_n": 5,
+   "ash_top_ft": 6000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-18:273070",
+   "date": "2026-10-18",
+   "vnum": 273070,
+   "ash_n": 2,
+   "ash_top_ft": 3000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-18:282080",
+   "date": "2026-10-18",
+   "vnum": 282080,
+   "ash_n": 1,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-18:342030",
+   "date": "2026-10-18",
+   "vnum": 342030,
+   "ash_n": 1,
+   "ash_top_ft": 14000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-18:342090",
+   "date": "2026-10-18",
+   "vnum": 342090,
+   "ash_n": 2,
+   "ash_top_ft": 14000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-18:344040",
+   "date": "2026-10-18",
+   "vnum": 344040,
+   "ash_n": 1,
+   "ash_top_ft": 4000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-18:351060",
+   "date": "2026-10-18",
+   "vnum": 351060,
+   "ash_n": 2,
+   "ash_top_ft": 18000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-18:352010",
+   "date": "2026-10-18",
+   "vnum": 352010,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-18:352090",
+   "date": "2026-10-18",
+   "vnum": 352090,
+   "ash_n": 5,
+   "ash_top_ft": 24000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-18:357070",
+   "date": "2026-10-18",
+   "vnum": 357070,
+   "ash_n": 3,
+   "ash_top_ft": 12000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-19:241040",
+   "date": "2026-10-19",
+   "vnum": 241040,
+   "ash_n": 4,
+   "ash_top_ft": 8000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-19:262000",
+   "date": "2026-10-19",
+   "vnum": 262000,
+   "ash_n": 2,
+   "ash_top_ft": 17000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-19:263300",
+   "date": "2026-10-19",
+   "vnum": 263300,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-19:268010",
+   "date": "2026-10-19",
+   "vnum": 268010,
+   "ash_n": 4,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-19:268030",
+   "date": "2026-10-19",
+   "vnum": 268030,
+   "ash_n": 4,
+   "ash_top_ft": 6000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-19:273070",
+   "date": "2026-10-19",
+   "vnum": 273070,
+   "ash_n": 1,
+   "ash_top_ft": 3000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-19:282080",
+   "date": "2026-10-19",
+   "vnum": 282080,
+   "ash_n": 8,
+   "ash_top_ft": 10000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-19:351060",
+   "date": "2026-10-19",
+   "vnum": 351060,
+   "ash_n": 4,
+   "ash_top_ft": 19000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-19:352010",
+   "date": "2026-10-19",
+   "vnum": 352010,
+   "ash_n": 5,
+   "ash_top_ft": 16000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-19:352090",
+   "date": "2026-10-19",
+   "vnum": 352090,
+   "ash_n": 4,
+   "ash_top_ft": 24000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-20:241040",
+   "date": "2026-10-20",
+   "vnum": 241040,
+   "ash_n": 5,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-20:262000",
+   "date": "2026-10-20",
+   "vnum": 262000,
+   "ash_n": 4,
+   "ash_top_ft": 9000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-20:263300",
+   "date": "2026-10-20",
+   "vnum": 263300,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-20:268010",
+   "date": "2026-10-20",
+   "vnum": 268010,
+   "ash_n": 4,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-20:268030",
+   "date": "2026-10-20",
+   "vnum": 268030,
+   "ash_n": 4,
+   "ash_top_ft": 6000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-20:282080",
+   "date": "2026-10-20",
+   "vnum": 282080,
+   "ash_n": 2,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-20:342090",
+   "date": "2026-10-20",
+   "vnum": 342090,
+   "ash_n": 2,
+   "ash_top_ft": 14000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-20:351060",
+   "date": "2026-10-20",
+   "vnum": 351060,
+   "ash_n": 2,
+   "ash_top_ft": 19000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-20:352010",
+   "date": "2026-10-20",
+   "vnum": 352010,
+   "ash_n": 5,
+   "ash_top_ft": 16500,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-20:352090",
+   "date": "2026-10-20",
+   "vnum": 352090,
+   "ash_n": 5,
+   "ash_top_ft": 23000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-21:241040",
+   "date": "2026-10-21",
+   "vnum": 241040,
+   "ash_n": 5,
+   "ash_top_ft": 6000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-21:262000",
+   "date": "2026-10-21",
+   "vnum": 262000,
+   "ash_n": 4,
+   "ash_top_ft": 8000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-21:263300",
+   "date": "2026-10-21",
+   "vnum": 263300,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-21:268010",
+   "date": "2026-10-21",
+   "vnum": 268010,
+   "ash_n": 4,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-21:268030",
+   "date": "2026-10-21",
+   "vnum": 268030,
+   "ash_n": 4,
+   "ash_top_ft": 6000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-21:273070",
+   "date": "2026-10-21",
+   "vnum": 273070,
+   "ash_n": 2,
+   "ash_top_ft": 11000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-21:282080",
+   "date": "2026-10-21",
+   "vnum": 282080,
+   "ash_n": 3,
+   "ash_top_ft": 8000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-21:342090",
+   "date": "2026-10-21",
+   "vnum": 342090,
+   "ash_n": 4,
+   "ash_top_ft": 14000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-21:351060",
+   "date": "2026-10-21",
+   "vnum": 351060,
+   "ash_n": 1,
+   "ash_top_ft": 17000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-21:352010",
+   "date": "2026-10-21",
+   "vnum": 352010,
+   "ash_n": 5,
+   "ash_top_ft": 16000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-21:352090",
+   "date": "2026-10-21",
+   "vnum": 352090,
+   "ash_n": 4,
+   "ash_top_ft": 23000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-22:241040",
+   "date": "2026-10-22",
+   "vnum": 241040,
+   "ash_n": 4,
+   "ash_top_ft": 4000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-22:263300",
+   "date": "2026-10-22",
+   "vnum": 263300,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-22:268010",
+   "date": "2026-10-22",
+   "vnum": 268010,
+   "ash_n": 4,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-22:268030",
+   "date": "2026-10-22",
+   "vnum": 268030,
+   "ash_n": 4,
+   "ash_top_ft": 6000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-22:282080",
+   "date": "2026-10-22",
+   "vnum": 282080,
+   "ash_n": 1,
+   "ash_top_ft": 8000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-22:342090",
+   "date": "2026-10-22",
+   "vnum": 342090,
+   "ash_n": 4,
+   "ash_top_ft": 14000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-22:351060",
+   "date": "2026-10-22",
+   "vnum": 351060,
+   "ash_n": 4,
+   "ash_top_ft": 18000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-22:352010",
+   "date": "2026-10-22",
+   "vnum": 352010,
+   "ash_n": 4,
+   "ash_top_ft": 17000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-22:352090",
+   "date": "2026-10-22",
+   "vnum": 352090,
+   "ash_n": 4,
+   "ash_top_ft": 21000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-23:241040",
+   "date": "2026-10-23",
+   "vnum": 241040,
+   "ash_n": 8,
+   "ash_top_ft": 10000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-23:262000",
+   "date": "2026-10-23",
+   "vnum": 262000,
+   "ash_n": 3,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-23:263300",
+   "date": "2026-10-23",
+   "vnum": 263300,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-23:268010",
+   "date": "2026-10-23",
+   "vnum": 268010,
+   "ash_n": 4,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-23:268030",
+   "date": "2026-10-23",
+   "vnum": 268030,
+   "ash_n": 4,
+   "ash_top_ft": 6000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-23:282080",
+   "date": "2026-10-23",
+   "vnum": 282080,
+   "ash_n": 1,
+   "ash_top_ft": 8000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-23:342030",
+   "date": "2026-10-23",
+   "vnum": 342030,
+   "ash_n": 2,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-23:342090",
+   "date": "2026-10-23",
+   "vnum": 342090,
+   "ash_n": 4,
+   "ash_top_ft": 14000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-23:351060",
+   "date": "2026-10-23",
+   "vnum": 351060,
+   "ash_n": 4,
+   "ash_top_ft": 18000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-23:352010",
+   "date": "2026-10-23",
+   "vnum": 352010,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-23:352090",
+   "date": "2026-10-23",
+   "vnum": 352090,
+   "ash_n": 2,
+   "ash_top_ft": 20000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-24:241040",
+   "date": "2026-10-24",
+   "vnum": 241040,
+   "ash_n": 6,
+   "ash_top_ft": 4000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-24:262000",
+   "date": "2026-10-24",
+   "vnum": 262000,
+   "ash_n": 4,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-24:263300",
+   "date": "2026-10-24",
+   "vnum": 263300,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-24:267020",
+   "date": "2026-10-24",
+   "vnum": 267020,
+   "ash_n": 1,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-24:268010",
+   "date": "2026-10-24",
+   "vnum": 268010,
+   "ash_n": 4,
+   "ash_top_ft": 9000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-24:268030",
+   "date": "2026-10-24",
+   "vnum": 268030,
+   "ash_n": 4,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-24:273030",
+   "date": "2026-10-24",
+   "vnum": 273030,
+   "ash_n": 2,
+   "ash_top_ft": 11000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-24:282080",
+   "date": "2026-10-24",
+   "vnum": 282080,
+   "ash_n": 5,
+   "ash_top_ft": 8000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-24:342030",
+   "date": "2026-10-24",
+   "vnum": 342030,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-24:342090",
+   "date": "2026-10-24",
+   "vnum": 342090,
+   "ash_n": 5,
+   "ash_top_ft": 14000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-24:351060",
+   "date": "2026-10-24",
+   "vnum": 351060,
+   "ash_n": 4,
+   "ash_top_ft": 19000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-24:352010",
+   "date": "2026-10-24",
+   "vnum": 352010,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-24:352090",
+   "date": "2026-10-24",
+   "vnum": 352090,
+   "ash_n": 3,
+   "ash_top_ft": 20000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-25:241040",
+   "date": "2026-10-25",
+   "vnum": 241040,
+   "ash_n": 7,
+   "ash_top_ft": 4000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-25:262000",
+   "date": "2026-10-25",
+   "vnum": 262000,
+   "ash_n": 2,
+   "ash_top_ft": 4000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-25:263300",
+   "date": "2026-10-25",
+   "vnum": 263300,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-25:267020",
+   "date": "2026-10-25",
+   "vnum": 267020,
+   "ash_n": 2,
+   "ash_top_ft": 8000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-25:268010",
+   "date": "2026-10-25",
+   "vnum": 268010,
+   "ash_n": 4,
+   "ash_top_ft": 9000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-25:268030",
+   "date": "2026-10-25",
+   "vnum": 268030,
+   "ash_n": 5,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-25:273030",
+   "date": "2026-10-25",
+   "vnum": 273030,
+   "ash_n": 1,
+   "ash_top_ft": 9000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-25:282080",
+   "date": "2026-10-25",
+   "vnum": 282080,
+   "ash_n": 5,
+   "ash_top_ft": 9000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-25:342030",
+   "date": "2026-10-25",
+   "vnum": 342030,
+   "ash_n": 3,
+   "ash_top_ft": 14000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-25:342090",
+   "date": "2026-10-25",
+   "vnum": 342090,
+   "ash_n": 4,
+   "ash_top_ft": 14000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-25:351060",
+   "date": "2026-10-25",
+   "vnum": 351060,
+   "ash_n": 4,
+   "ash_top_ft": 18000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-25:352010",
+   "date": "2026-10-25",
+   "vnum": 352010,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-25:352090",
+   "date": "2026-10-25",
+   "vnum": 352090,
+   "ash_n": 3,
+   "ash_top_ft": 22500,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-25:357070",
+   "date": "2026-10-25",
+   "vnum": 357070,
+   "ash_n": 2,
+   "ash_top_ft": 14000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-26:241040",
+   "date": "2026-10-26",
+   "vnum": 241040,
+   "ash_n": 5,
+   "ash_top_ft": 4000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-26:257100",
+   "date": "2026-10-26",
+   "vnum": 257100,
+   "ash_n": 1,
+   "ash_top_ft": 4000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-26:261140",
+   "date": "2026-10-26",
+   "vnum": 261140,
+   "ash_n": 1,
+   "ash_top_ft": 11000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-26:263300",
+   "date": "2026-10-26",
+   "vnum": 263300,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-26:267020",
+   "date": "2026-10-26",
+   "vnum": 267020,
+   "ash_n": 4,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-26:268010",
+   "date": "2026-10-26",
+   "vnum": 268010,
+   "ash_n": 5,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-26:268030",
+   "date": "2026-10-26",
+   "vnum": 268030,
+   "ash_n": 4,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-26:273070",
+   "date": "2026-10-26",
+   "vnum": 273070,
+   "ash_n": 0,
+   "ash_top_ft": 0,
+   "kind": "other",
+   "activity": [],
+   "eruption": false,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-26:282080",
+   "date": "2026-10-26",
+   "vnum": 282080,
+   "ash_n": 1,
+   "ash_top_ft": 0,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-26:290331",
+   "date": "2026-10-26",
+   "vnum": 290331,
+   "ash_n": 1,
+   "ash_top_ft": 0,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-26:290360",
+   "date": "2026-10-26",
+   "vnum": 290360,
+   "ash_n": 2,
+   "ash_top_ft": 9000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-26:342030",
+   "date": "2026-10-26",
+   "vnum": 342030,
+   "ash_n": 5,
+   "ash_top_ft": 14000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-26:342090",
+   "date": "2026-10-26",
+   "vnum": 342090,
+   "ash_n": 4,
+   "ash_top_ft": 16000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-26:351060",
+   "date": "2026-10-26",
+   "vnum": 351060,
+   "ash_n": 4,
+   "ash_top_ft": 18000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-26:352010",
+   "date": "2026-10-26",
+   "vnum": 352010,
+   "ash_n": 4,
+   "ash_top_ft": 17000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-26:352090",
+   "date": "2026-10-26",
+   "vnum": 352090,
+   "ash_n": 4,
+   "ash_top_ft": 21000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-26:357070",
+   "date": "2026-10-26",
+   "vnum": 357070,
+   "ash_n": 5,
+   "ash_top_ft": 14000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-27:241040",
+   "date": "2026-10-27",
+   "vnum": 241040,
+   "ash_n": 4,
+   "ash_top_ft": 5000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-27:262000",
+   "date": "2026-10-27",
+   "vnum": 262000,
+   "ash_n": 4,
+   "ash_top_ft": 8000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-27:263300",
+   "date": "2026-10-27",
+   "vnum": 263300,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-27:267020",
+   "date": "2026-10-27",
+   "vnum": 267020,
+   "ash_n": 4,
+   "ash_top_ft": 9000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-27:268010",
+   "date": "2026-10-27",
+   "vnum": 268010,
+   "ash_n": 4,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-27:268030",
+   "date": "2026-10-27",
+   "vnum": 268030,
+   "ash_n": 4,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-27:282080",
+   "date": "2026-10-27",
+   "vnum": 282080,
+   "ash_n": 2,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-27:342030",
+   "date": "2026-10-27",
+   "vnum": 342030,
+   "ash_n": 1,
+   "ash_top_ft": 14000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-27:342090",
+   "date": "2026-10-27",
+   "vnum": 342090,
+   "ash_n": 5,
+   "ash_top_ft": 16000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-27:351060",
+   "date": "2026-10-27",
+   "vnum": 351060,
+   "ash_n": 4,
+   "ash_top_ft": 17000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-27:352010",
+   "date": "2026-10-27",
+   "vnum": 352010,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-27:352090",
+   "date": "2026-10-27",
+   "vnum": 352090,
+   "ash_n": 4,
+   "ash_top_ft": 21000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-27:357070",
+   "date": "2026-10-27",
+   "vnum": 357070,
+   "ash_n": 3,
+   "ash_top_ft": 15000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-28:211060",
+   "date": "2026-10-28",
+   "vnum": 211060,
+   "ash_n": 2,
+   "ash_top_ft": 11000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-28:241040",
+   "date": "2026-10-28",
+   "vnum": 241040,
+   "ash_n": 5,
+   "ash_top_ft": 5000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-28:262000",
+   "date": "2026-10-28",
+   "vnum": 262000,
+   "ash_n": 2,
+   "ash_top_ft": 8000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-28:263300",
+   "date": "2026-10-28",
+   "vnum": 263300,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-28:268010",
+   "date": "2026-10-28",
+   "vnum": 268010,
+   "ash_n": 4,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-28:268030",
+   "date": "2026-10-28",
+   "vnum": 268030,
+   "ash_n": 4,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-28:282060",
+   "date": "2026-10-28",
+   "vnum": 282060,
+   "ash_n": 0,
+   "ash_top_ft": 0,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-28:282080",
+   "date": "2026-10-28",
+   "vnum": 282080,
+   "ash_n": 7,
+   "ash_top_ft": 11000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-28:342030",
+   "date": "2026-10-28",
+   "vnum": 342030,
+   "ash_n": 3,
+   "ash_top_ft": 14000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-28:342090",
+   "date": "2026-10-28",
+   "vnum": 342090,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-28:351060",
+   "date": "2026-10-28",
+   "vnum": 351060,
+   "ash_n": 5,
+   "ash_top_ft": 21000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-28:352010",
+   "date": "2026-10-28",
+   "vnum": 352010,
+   "ash_n": 5,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-28:352090",
+   "date": "2026-10-28",
+   "vnum": 352090,
+   "ash_n": 4,
+   "ash_top_ft": 20000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-28:357070",
+   "date": "2026-10-28",
+   "vnum": 357070,
+   "ash_n": 4,
+   "ash_top_ft": 14000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-29:211060",
+   "date": "2026-10-29",
+   "vnum": 211060,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-29:241040",
+   "date": "2026-10-29",
+   "vnum": 241040,
+   "ash_n": 0,
+   "ash_top_ft": 0,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-29:262000",
+   "date": "2026-10-29",
+   "vnum": 262000,
+   "ash_n": 2,
+   "ash_top_ft": 8000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-29:263300",
+   "date": "2026-10-29",
+   "vnum": 263300,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-29:268010",
+   "date": "2026-10-29",
+   "vnum": 268010,
+   "ash_n": 4,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-29:268030",
+   "date": "2026-10-29",
+   "vnum": 268030,
+   "ash_n": 4,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-29:282080",
+   "date": "2026-10-29",
+   "vnum": 282080,
+   "ash_n": 4,
+   "ash_top_ft": 11000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-29:341090",
+   "date": "2026-10-29",
+   "vnum": 341090,
+   "ash_n": 0,
+   "ash_top_ft": 0,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-29:342030",
+   "date": "2026-10-29",
+   "vnum": 342030,
+   "ash_n": 4,
+   "ash_top_ft": 14000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-29:342090",
+   "date": "2026-10-29",
+   "vnum": 342090,
+   "ash_n": 4,
+   "ash_top_ft": 16000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-29:351060",
+   "date": "2026-10-29",
+   "vnum": 351060,
+   "ash_n": 3,
+   "ash_top_ft": 19000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-29:352010",
+   "date": "2026-10-29",
+   "vnum": 352010,
+   "ash_n": 5,
+   "ash_top_ft": 19000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-29:352090",
+   "date": "2026-10-29",
+   "vnum": 352090,
+   "ash_n": 5,
+   "ash_top_ft": 22000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-29:357070",
+   "date": "2026-10-29",
+   "vnum": 357070,
+   "ash_n": 4,
+   "ash_top_ft": 14000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-30:211060",
+   "date": "2026-10-30",
+   "vnum": 211060,
+   "ash_n": 3,
+   "ash_top_ft": 13000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-30:262000",
+   "date": "2026-10-30",
+   "vnum": 262000,
+   "ash_n": 3,
+   "ash_top_ft": 8000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-30:263300",
+   "date": "2026-10-30",
+   "vnum": 263300,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-30:268010",
+   "date": "2026-10-30",
+   "vnum": 268010,
+   "ash_n": 4,
+   "ash_top_ft": 8000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-30:268030",
+   "date": "2026-10-30",
+   "vnum": 268030,
+   "ash_n": 4,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-30:273030",
+   "date": "2026-10-30",
+   "vnum": 273030,
+   "ash_n": 6,
+   "ash_top_ft": 18000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-30:282080",
+   "date": "2026-10-30",
+   "vnum": 282080,
+   "ash_n": 6,
+   "ash_top_ft": 14000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-30:300270",
+   "date": "2026-10-30",
+   "vnum": 300270,
+   "ash_n": 1,
+   "ash_top_ft": 17000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-30:342030",
+   "date": "2026-10-30",
+   "vnum": 342030,
+   "ash_n": 4,
+   "ash_top_ft": 14000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-30:342090",
+   "date": "2026-10-30",
+   "vnum": 342090,
+   "ash_n": 3,
+   "ash_top_ft": 16000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-30:344100",
+   "date": "2026-10-30",
+   "vnum": 344100,
+   "ash_n": 1,
+   "ash_top_ft": 6000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-30:351021",
+   "date": "2026-10-30",
+   "vnum": 351021,
+   "ash_n": 1,
+   "ash_top_ft": 18000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-30:351060",
+   "date": "2026-10-30",
+   "vnum": 351060,
+   "ash_n": 3,
+   "ash_top_ft": 17000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-30:352010",
+   "date": "2026-10-30",
+   "vnum": 352010,
+   "ash_n": 4,
+   "ash_top_ft": 16000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-30:352090",
+   "date": "2026-10-30",
+   "vnum": 352090,
+   "ash_n": 4,
+   "ash_top_ft": 23000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-31:262000",
+   "date": "2026-10-31",
+   "vnum": 262000,
+   "ash_n": 1,
+   "ash_top_ft": 6000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-31:263300",
+   "date": "2026-10-31",
+   "vnum": 263300,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-31:268010",
+   "date": "2026-10-31",
+   "vnum": 268010,
+   "ash_n": 4,
+   "ash_top_ft": 8000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-31:268030",
+   "date": "2026-10-31",
+   "vnum": 268030,
+   "ash_n": 4,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-31:273030",
+   "date": "2026-10-31",
+   "vnum": 273030,
+   "ash_n": 0,
+   "ash_top_ft": 0,
+   "kind": "other",
+   "activity": [],
+   "eruption": false,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-31:282080",
+   "date": "2026-10-31",
+   "vnum": 282080,
+   "ash_n": 2,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-31:300270",
+   "date": "2026-10-31",
+   "vnum": 300270,
+   "ash_n": 1,
+   "ash_top_ft": 22000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-31:342030",
+   "date": "2026-10-31",
+   "vnum": 342030,
+   "ash_n": 4,
+   "ash_top_ft": 14000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-31:342090",
+   "date": "2026-10-31",
+   "vnum": 342090,
+   "ash_n": 5,
+   "ash_top_ft": 16000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-31:351060",
+   "date": "2026-10-31",
+   "vnum": 351060,
+   "ash_n": 3,
+   "ash_top_ft": 18000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-31:352010",
+   "date": "2026-10-31",
+   "vnum": 352010,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-10-31:352090",
+   "date": "2026-10-31",
+   "vnum": 352090,
+   "ash_n": 4,
+   "ash_top_ft": 20000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-01:263300",
+   "date": "2026-11-01",
+   "vnum": 263300,
+   "ash_n": 5,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-01:267020",
+   "date": "2026-11-01",
+   "vnum": 267020,
+   "ash_n": 1,
+   "ash_top_ft": 8000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-01:268010",
+   "date": "2026-11-01",
+   "vnum": 268010,
+   "ash_n": 2,
+   "ash_top_ft": 8000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-01:268030",
+   "date": "2026-11-01",
+   "vnum": 268030,
+   "ash_n": 4,
+   "ash_top_ft": 7000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-01:273030",
+   "date": "2026-11-01",
+   "vnum": 273030,
+   "ash_n": 2,
+   "ash_top_ft": 9000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-01:342030",
+   "date": "2026-11-01",
+   "vnum": 342030,
+   "ash_n": 2,
+   "ash_top_ft": 14000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-01:342090",
+   "date": "2026-11-01",
+   "vnum": 342090,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-01:351060",
+   "date": "2026-11-01",
+   "vnum": 351060,
+   "ash_n": 1,
+   "ash_top_ft": 19000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-01:352010",
+   "date": "2026-11-01",
+   "vnum": 352010,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-01:352090",
+   "date": "2026-11-01",
+   "vnum": 352090,
+   "ash_n": 4,
+   "ash_top_ft": 20000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-02:262000",
+   "date": "2026-11-02",
+   "vnum": 262000,
+   "ash_n": 1,
+   "ash_top_ft": 6000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-02:263300",
+   "date": "2026-11-02",
+   "vnum": 263300,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-02:268010",
+   "date": "2026-11-02",
+   "vnum": 268010,
+   "ash_n": 4,
+   "ash_top_ft": 8000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-02:268030",
+   "date": "2026-11-02",
+   "vnum": 268030,
+   "ash_n": 4,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-02:273030",
+   "date": "2026-11-02",
+   "vnum": 273030,
+   "ash_n": 0,
+   "ash_top_ft": 0,
+   "kind": "other",
+   "activity": [],
+   "eruption": false,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-02:282080",
+   "date": "2026-11-02",
+   "vnum": 282080,
+   "ash_n": 0,
+   "ash_top_ft": 0,
+   "kind": "other",
+   "activity": [],
+   "eruption": false,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-02:342030",
+   "date": "2026-11-02",
+   "vnum": 342030,
+   "ash_n": 5,
+   "ash_top_ft": 14000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-02:342090",
+   "date": "2026-11-02",
+   "vnum": 342090,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-02:344040",
+   "date": "2026-11-02",
+   "vnum": 344040,
+   "ash_n": 1,
+   "ash_top_ft": 4000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-02:351060",
+   "date": "2026-11-02",
+   "vnum": 351060,
+   "ash_n": 4,
+   "ash_top_ft": 18000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-02:352010",
+   "date": "2026-11-02",
+   "vnum": 352010,
+   "ash_n": 5,
+   "ash_top_ft": 14000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-02:352090",
+   "date": "2026-11-02",
+   "vnum": 352090,
+   "ash_n": 5,
+   "ash_top_ft": 24000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-03:263300",
+   "date": "2026-11-03",
+   "vnum": 263300,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-03:264230",
+   "date": "2026-11-03",
+   "vnum": 264230,
+   "ash_n": 1,
+   "ash_top_ft": 6000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-03:268010",
+   "date": "2026-11-03",
+   "vnum": 268010,
+   "ash_n": 6,
+   "ash_top_ft": 8000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-03:268030",
+   "date": "2026-11-03",
+   "vnum": 268030,
+   "ash_n": 4,
+   "ash_top_ft": 7000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-03:273030",
+   "date": "2026-11-03",
+   "vnum": 273030,
+   "ash_n": 3,
+   "ash_top_ft": 14000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-03:282080",
+   "date": "2026-11-03",
+   "vnum": 282080,
+   "ash_n": 2,
+   "ash_top_ft": 7000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-03:300270",
+   "date": "2026-11-03",
+   "vnum": 300270,
+   "ash_n": 0,
+   "ash_top_ft": 0,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-03:332010",
+   "date": "2026-11-03",
+   "vnum": 332010,
+   "ash_n": 0,
+   "ash_top_ft": 0,
+   "kind": null,
+   "activity": [],
+   "eruption": false,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-03:342030",
+   "date": "2026-11-03",
+   "vnum": 342030,
+   "ash_n": 4,
+   "ash_top_ft": 14000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-03:342090",
+   "date": "2026-11-03",
+   "vnum": 342090,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-03:351060",
+   "date": "2026-11-03",
+   "vnum": 351060,
+   "ash_n": 5,
+   "ash_top_ft": 18000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-03:352010",
+   "date": "2026-11-03",
+   "vnum": 352010,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-03:352090",
+   "date": "2026-11-03",
+   "vnum": 352090,
+   "ash_n": 5,
+   "ash_top_ft": 22000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-04:211040",
+   "date": "2026-11-04",
+   "vnum": 211040,
+   "ash_n": 0,
+   "ash_top_ft": 0,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-04:261140",
+   "date": "2026-11-04",
+   "vnum": 261140,
+   "ash_n": 1,
+   "ash_top_ft": 11000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-04:263300",
+   "date": "2026-11-04",
+   "vnum": 263300,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-04:264230",
+   "date": "2026-11-04",
+   "vnum": 264230,
+   "ash_n": 1,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-04:268010",
+   "date": "2026-11-04",
+   "vnum": 268010,
+   "ash_n": 4,
+   "ash_top_ft": 8000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-04:268030",
+   "date": "2026-11-04",
+   "vnum": 268030,
+   "ash_n": 4,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-04:273030",
+   "date": "2026-11-04",
+   "vnum": 273030,
+   "ash_n": 0,
+   "ash_top_ft": 0,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-04:300270",
+   "date": "2026-11-04",
+   "vnum": 300270,
+   "ash_n": 3,
+   "ash_top_ft": 30000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-04:332010",
+   "date": "2026-11-04",
+   "vnum": 332010,
+   "ash_n": 0,
+   "ash_top_ft": 0,
+   "kind": null,
+   "activity": [],
+   "eruption": false,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-04:342030",
+   "date": "2026-11-04",
+   "vnum": 342030,
+   "ash_n": 4,
+   "ash_top_ft": 14000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-04:342090",
+   "date": "2026-11-04",
+   "vnum": 342090,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-04:351060",
+   "date": "2026-11-04",
+   "vnum": 351060,
+   "ash_n": 1,
+   "ash_top_ft": 17000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-04:352010",
+   "date": "2026-11-04",
+   "vnum": 352010,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-04:352090",
+   "date": "2026-11-04",
+   "vnum": 352090,
+   "ash_n": 4,
+   "ash_top_ft": 22000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-05:263300",
+   "date": "2026-11-05",
+   "vnum": 263300,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-05:263310",
+   "date": "2026-11-05",
+   "vnum": 263310,
+   "ash_n": 1,
+   "ash_top_ft": 9000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-05:267020",
+   "date": "2026-11-05",
+   "vnum": 267020,
+   "ash_n": 1,
+   "ash_top_ft": 9000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-05:268010",
+   "date": "2026-11-05",
+   "vnum": 268010,
+   "ash_n": 4,
+   "ash_top_ft": 8000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-05:268030",
+   "date": "2026-11-05",
+   "vnum": 268030,
+   "ash_n": 4,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-05:273030",
+   "date": "2026-11-05",
+   "vnum": 273030,
+   "ash_n": 0,
+   "ash_top_ft": 0,
+   "kind": "other",
+   "activity": [],
+   "eruption": false,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-05:282080",
+   "date": "2026-11-05",
+   "vnum": 282080,
+   "ash_n": 2,
+   "ash_top_ft": 9000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-05:300270",
+   "date": "2026-11-05",
+   "vnum": 300270,
+   "ash_n": 4,
+   "ash_top_ft": 12000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-05:311120",
+   "date": "2026-11-05",
+   "vnum": 311120,
+   "ash_n": 0,
+   "ash_top_ft": 0,
+   "kind": null,
+   "activity": [],
+   "eruption": false,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-05:332010",
+   "date": "2026-11-05",
+   "vnum": 332010,
+   "ash_n": 0,
+   "ash_top_ft": 0,
+   "kind": "other",
+   "activity": [],
+   "eruption": false,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-05:342030",
+   "date": "2026-11-05",
+   "vnum": 342030,
+   "ash_n": 1,
+   "ash_top_ft": 14000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-05:342090",
+   "date": "2026-11-05",
+   "vnum": 342090,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-05:352010",
+   "date": "2026-11-05",
+   "vnum": 352010,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-05:352090",
+   "date": "2026-11-05",
+   "vnum": 352090,
+   "ash_n": 5,
+   "ash_top_ft": 22000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-06:263300",
+   "date": "2026-11-06",
+   "vnum": 263300,
+   "ash_n": 5,
+   "ash_top_ft": 15000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-06:268010",
+   "date": "2026-11-06",
+   "vnum": 268010,
+   "ash_n": 4,
+   "ash_top_ft": 8000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-06:268030",
+   "date": "2026-11-06",
+   "vnum": 268030,
+   "ash_n": 4,
+   "ash_top_ft": 7000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-06:282080",
+   "date": "2026-11-06",
+   "vnum": 282080,
+   "ash_n": 0,
+   "ash_top_ft": 0,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-06:332010",
+   "date": "2026-11-06",
+   "vnum": 332010,
+   "ash_n": 1,
+   "ash_top_ft": 18000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-06:341090",
+   "date": "2026-11-06",
+   "vnum": 341090,
+   "ash_n": 0,
+   "ash_top_ft": 0,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-06:342030",
+   "date": "2026-11-06",
+   "vnum": 342030,
+   "ash_n": 1,
+   "ash_top_ft": 13000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-06:342090",
+   "date": "2026-11-06",
+   "vnum": 342090,
+   "ash_n": 5,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-06:351060",
+   "date": "2026-11-06",
+   "vnum": 351060,
+   "ash_n": 1,
+   "ash_top_ft": 180,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-06:352010",
+   "date": "2026-11-06",
+   "vnum": 352010,
+   "ash_n": 5,
+   "ash_top_ft": 14000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-06:352090",
+   "date": "2026-11-06",
+   "vnum": 352090,
+   "ash_n": 4,
+   "ash_top_ft": 22000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-07:261140",
+   "date": "2026-11-07",
+   "vnum": 261140,
+   "ash_n": 1,
+   "ash_top_ft": 11000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-07:263300",
+   "date": "2026-11-07",
+   "vnum": 263300,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-07:267020",
+   "date": "2026-11-07",
+   "vnum": 267020,
+   "ash_n": 3,
+   "ash_top_ft": 9000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-07:268010",
+   "date": "2026-11-07",
+   "vnum": 268010,
+   "ash_n": 4,
+   "ash_top_ft": 10000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-07:268030",
+   "date": "2026-11-07",
+   "vnum": 268030,
+   "ash_n": 4,
+   "ash_top_ft": 7000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-07:311120",
+   "date": "2026-11-07",
+   "vnum": 311120,
+   "ash_n": 0,
+   "ash_top_ft": 0,
+   "kind": null,
+   "activity": [],
+   "eruption": false,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-07:332010",
+   "date": "2026-11-07",
+   "vnum": 332010,
+   "ash_n": 0,
+   "ash_top_ft": 0,
+   "kind": null,
+   "activity": [],
+   "eruption": false,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-07:341090",
+   "date": "2026-11-07",
+   "vnum": 341090,
+   "ash_n": 0,
+   "ash_top_ft": 0,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-07:342030",
+   "date": "2026-11-07",
+   "vnum": 342030,
+   "ash_n": 1,
+   "ash_top_ft": 14000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-07:342090",
+   "date": "2026-11-07",
+   "vnum": 342090,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-07:352010",
+   "date": "2026-11-07",
+   "vnum": 352010,
+   "ash_n": 4,
+   "ash_top_ft": 16000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-07:352090",
+   "date": "2026-11-07",
+   "vnum": 352090,
+   "ash_n": 3,
+   "ash_top_ft": 20000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-08:261140",
+   "date": "2026-11-08",
+   "vnum": 261140,
+   "ash_n": 0,
+   "ash_top_ft": 0,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-08:263300",
+   "date": "2026-11-08",
+   "vnum": 263300,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-08:267020",
+   "date": "2026-11-08",
+   "vnum": 267020,
+   "ash_n": 0,
+   "ash_top_ft": 0,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-08:268010",
+   "date": "2026-11-08",
+   "vnum": 268010,
+   "ash_n": 3,
+   "ash_top_ft": 10000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-08:268030",
+   "date": "2026-11-08",
+   "vnum": 268030,
+   "ash_n": 4,
+   "ash_top_ft": 7000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-08:300270",
+   "date": "2026-11-08",
+   "vnum": 300270,
+   "ash_n": 0,
+   "ash_top_ft": 0,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-08:332010",
+   "date": "2026-11-08",
+   "vnum": 332010,
+   "ash_n": 0,
+   "ash_top_ft": 0,
+   "kind": null,
+   "activity": [],
+   "eruption": false,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-08:341090",
+   "date": "2026-11-08",
+   "vnum": 341090,
+   "ash_n": 0,
+   "ash_top_ft": 0,
+   "kind": "minor",
+   "activity": [
+    "小規模噴煙"
+   ],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-08:342090",
+   "date": "2026-11-08",
+   "vnum": 342090,
+   "ash_n": 4,
+   "ash_top_ft": 14000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-08:351060",
+   "date": "2026-11-08",
+   "vnum": 351060,
+   "ash_n": 1,
+   "ash_top_ft": 18000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-08:352010",
+   "date": "2026-11-08",
+   "vnum": 352010,
+   "ash_n": 4,
+   "ash_top_ft": 14000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-08:352090",
+   "date": "2026-11-08",
+   "vnum": 352090,
+   "ash_n": 1,
+   "ash_top_ft": 20000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-08:357070",
+   "date": "2026-11-08",
+   "vnum": 357070,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-09:263300",
+   "date": "2026-11-09",
+   "vnum": 263300,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-09:267020",
+   "date": "2026-11-09",
+   "vnum": 267020,
+   "ash_n": 1,
+   "ash_top_ft": 10000,
+   "kind": "ash",
+   "activity": [
+    "火山灰噴發"
+   ],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-09:268010",
+   "date": "2026-11-09",
+   "vnum": 268010,
+   "ash_n": 5,
+   "ash_top_ft": 10000,
+   "kind": "ash",
+   "activity": [
+    "火山灰噴發"
+   ],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-09:268030",
+   "date": "2026-11-09",
+   "vnum": 268030,
+   "ash_n": 5,
+   "ash_top_ft": 7000,
+   "kind": "ash",
+   "activity": [
+    "火山灰噴發"
+   ],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-09:332010",
+   "date": "2026-11-09",
+   "vnum": 332010,
+   "ash_n": 0,
+   "ash_top_ft": 0,
+   "kind": null,
+   "activity": [
+    "暫停或平靜"
+   ],
+   "eruption": false,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-09:341090",
+   "date": "2026-11-09",
+   "vnum": 341090,
+   "ash_n": 0,
+   "ash_top_ft": 0,
+   "kind": "minor",
+   "activity": [
+    "小規模噴煙"
+   ],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-09:342030",
+   "date": "2026-11-09",
+   "vnum": 342030,
+   "ash_n": 3,
+   "ash_top_ft": 14000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-09:342090",
+   "date": "2026-11-09",
+   "vnum": 342090,
+   "ash_n": 4,
+   "ash_top_ft": 14000,
+   "kind": "ash",
+   "activity": [
+    "火山灰噴發"
+   ],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-09:351060",
+   "date": "2026-11-09",
+   "vnum": 351060,
+   "ash_n": 3,
+   "ash_top_ft": 18000,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-09:352010",
+   "date": "2026-11-09",
+   "vnum": 352010,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": "ash",
+   "activity": [
+    "火山灰噴發"
+   ],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-09:352090",
+   "date": "2026-11-09",
+   "vnum": 352090,
+   "ash_n": 4,
+   "ash_top_ft": 20000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-10:268010",
+   "date": "2026-11-10",
+   "vnum": 268010,
+   "ash_n": 0,
+   "ash_top_ft": 0,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-10:268030",
+   "date": "2026-11-10",
+   "vnum": 268030,
+   "ash_n": 0,
+   "ash_top_ft": 0,
+   "kind": "other",
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-10:352010",
+   "date": "2026-11-10",
+   "vnum": 352010,
+   "ash_n": 1,
+   "ash_top_ft": 14000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
   }
  ]
 }
