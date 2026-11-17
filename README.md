@@ -69,5 +69,11 @@ IAVCEI 沒有每年更新的官方名單，所以資料站每年比對一次維�
 - Global Volcanism Program, 2026. [Database] Volcanoes of the World (v. 5.4.0; 7 Aug 2026). Distributed by Smithsonian Institution, compiled by Venzke, E. <https://doi.org/10.5479/si.GVP.VOTW5-2026.5.4>（最新版本見 `meta.gvp`）
 - Smithsonian / USGS Weekly Volcanic Activity Report：<https://volcano.si.edu/news/WeeklyVolcanoRSS.xml>
 - USGS Volcano Hazards Program HANS：<https://volcanoes.usgs.gov/hans-public/>
+- 航空火山灰警報（`ash`、`ash30`）：NOAA Aviation Weather Center Data API，International SIGMETs，<https://aviationweather.gov/data/api/>（各國航空氣象單位發布的火山灰 SIGMET；美國政府資料）
+- 日本噴火警戒等級（`levels`，agency 為 JMA）：出典：気象庁ホームページ（<https://www.jma.go.jp/bosai/map.html#contents=volcano>），本站翻譯整理（有加工：等級名稱譯成中文、只保留各火山最高等級）。依「公共データ利用規約（第1.0版）」使用
+- 菲律賓警戒等級（`levels`，agency 為 PHIVOLCS）：PHIVOLCS Volcano Monitoring and Eruption Prediction Division，<https://wovodat.phivolcs.dost.gov.ph/bulletin/list-of-bulletin>（使用條件尚未確認）
+- 紐西蘭警戒等級（`levels`，agency 為 GeoNet）：GeoNet Volcanic Alert Level API，<https://api.geonet.org.nz/volcano/val>，CC BY 3.0 NZ
+- 每日動態與未經官方確認的活動（`obs`、`activity` 裡 source 為 claude 的紀錄）：由 Claude 網路搜尋整理，每則附原始來源連結（`url`）與來源名稱（`agency`），其中多數經 VolcanoDiscovery 火山消息 RSS（<https://www.volcanodiscovery.com/volcanonews.rss>）收錄。內容為摘要改寫，權利屬於各原始來源
+- YouTube 直播清單（`media`）：影片編號與標題取自 YouTube Data API，影片權利屬於各頻道
 
 各來源資料的權利屬於原提供單位。
