@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_utc": "2026-11-20T01:01:29Z",
+ "generated_utc": "2026-11-21T01:00:57Z",
  "meta": {
   "gvp": {
    "fetched_utc": "2026-11-09T06:17:17Z",
@@ -14,33 +14,33 @@
    "citation_checked_utc": "2026-11-09T06:17:26Z"
   },
   "hans": {
-   "fetched_utc": "2026-11-20T01:00:05Z",
+   "fetched_utc": "2026-11-21T01:00:05Z",
    "count": 3,
    "error": null,
-   "latest_sent_utc": "2026-11-19T22:47:09Z"
+   "latest_sent_utc": "2026-11-20T20:33:25Z"
   },
   "rss": {
-   "fetched_utc": "2026-11-20T01:00:06Z",
+   "fetched_utc": "2026-11-21T01:00:06Z",
    "report_start": "2026-11-12",
    "report_end": "2026-11-18",
    "count": 24,
    "error": null
   },
-  "updated_utc": "2026-11-20T01:01:29Z",
+  "updated_utc": "2026-11-21T01:00:57Z",
   "claude": {
-   "run_utc": "2026-11-20T01:01:29Z",
-   "feed_utc": "2026-11-19T23:01:01Z",
+   "run_utc": "2026-11-21T01:00:57Z",
+   "feed_utc": "2026-11-20T23:00:57Z",
    "status": "ok",
-   "returned": 67,
+   "returned": 66,
    "kept": 20,
-   "dropped": 47,
-   "added": 0,
+   "dropped": 46,
+   "added": 1,
    "error": null
   },
   "media": {
-   "generated_utc": "2026-11-19T23:01:05Z",
-   "volcanoes": 14,
-   "videos": 31,
+   "generated_utc": "2026-11-20T23:01:02Z",
+   "volcanoes": 16,
+   "videos": 35,
    "error": null
   },
   "decade_check": {
@@ -71,9 +71,9 @@
    "error": null
   },
   "ash": {
-   "fetched_utc": "2026-11-20T01:00:06Z",
+   "fetched_utc": "2026-11-21T01:00:06Z",
    "days": 30,
-   "count": 1113,
+   "count": 1109,
    "volcanoes": 27,
    "queries": 12,
    "fails": 0,
@@ -83,7 +83,7 @@
   },
   "levels": {
    "JMA": {
-    "fetched_utc": "2026-11-20T01:01:05Z",
+    "fetched_utc": "2026-11-21T01:00:34Z",
     "count": 12,
     "elevated": 11,
     "error": null
@@ -93,10 +93,10 @@
     "count": 5,
     "elevated": 4,
     "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1147)>",
-    "error_utc": "2026-11-20T01:01:27Z"
+    "error_utc": "2026-11-21T01:00:56Z"
    },
    "GeoNet": {
-    "fetched_utc": "2026-11-20T01:01:29Z",
+    "fetched_utc": "2026-11-21T01:00:57Z",
     "count": 9,
     "elevated": 2,
     "error": null
@@ -104,23 +104,23 @@
   },
   "obs": {
    "since": "2026-10-26",
-   "count": 169
+   "count": 176
   },
   "archive": {
-   "run_utc": "2026-11-20T01:01:29Z",
+   "run_utc": "2026-11-21T01:00:57Z",
    "added": {
-    "v1": 6,
-    "ash": 34,
+    "v1": 7,
+    "ash": 33,
     "ash_rejected": 0,
     "runs": 1,
-    "official": 24,
+    "official": 0,
     "levels": 26,
-    "daily": 9
+    "daily": 10
    }
   },
   "daily": {
    "days": 30,
-   "count": 359
+   "count": 360
   }
  },
  "volcanoes": [
@@ -13486,9 +13486,9 @@
    "color_code": "ORANGE",
    "alert_level": "WATCH",
    "observatory": "Alaska Volcano Observatory",
-   "notice_id": "DOI-USGS-AVO-2026-11-13T19:12:01+00:00",
-   "sent_utc": "2026-11-13T21:04:48Z",
-   "url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-11-13T19:12:01+00:00"
+   "notice_id": "DOI-USGS-AVO-2026-11-20T18:41:17+00:00",
+   "sent_utc": "2026-11-20T20:33:25Z",
+   "url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-11-20T18:41:17+00:00"
   },
   {
    "vnum": 332010,
@@ -13496,9 +13496,9 @@
    "color_code": "YELLOW",
    "alert_level": "ADVISORY",
    "observatory": "Hawaiian Volcano Observatory",
-   "notice_id": "DOI-USGS-HVO-2026-11-19T17:51:12+00:00",
-   "sent_utc": "2026-11-19T18:37:16Z",
-   "url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-11-19T17:51:12+00:00"
+   "notice_id": "DOI-USGS-HVO-2026-11-20T18:09:53+00:00",
+   "sent_utc": "2026-11-20T19:00:03Z",
+   "url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-HVO-2026-11-20T18:09:53+00:00"
   },
   {
    "vnum": 284141,
@@ -16477,10 +16477,23 @@
    "summary": "The Alaska Volcano Observatory (AVO) reported that on 14 and 16 November strong winds in the vicinity of Katmai and the Valley of Ten Thousand Smokes dispersed unconsolidated ash up to 1.8 km (6,000 ft) a.s.l. to the SE. The ash was originally deposited during the Novarupta-Katmai eruption in 1912. The Volcano Alert Level remained at Normal (the lowest level on a four-level scale) and the Aviation Color Code remained at Green (the lowest level on a four-color scale).",
    "agency": "US Geological Survey Alaska Volcano Observatory (AVO)",
    "url": "https://volcano.si.edu/reports_weekly.cfm#vn_312170"
+  },
+  {
+   "id": "claude:352090:2026-11-20",
+   "vnum": 352090,
+   "source": "claude",
+   "verified": false,
+   "date": "2026-11-20",
+   "title": "未經官方確認",
+   "summary": "Sangay 持續火山灰噴發，VAAC 發布火山灰諮詢，灰柱高度約 24,000 ft (7,300 m)。",
+   "agency": "volcanodiscovery.com",
+   "url": "https://www.volcanodiscovery.com/sangay/news/424944/vaac-advisory-2026-820.html",
+   "reported_name": "Sangay",
+   "eruption": true
   }
  ],
  "media": {
-  "generated_utc": "2026-11-19T23:01:05Z",
+  "generated_utc": "2026-11-20T23:01:02Z",
   "live": {
    "211020": [
     {
@@ -16488,33 +16501,33 @@
      "title": "Campi Flegrei/Vesuvius Volcano  monitoring 24/7",
      "channel": "FiBro",
      "official": false,
-     "viewers": 3,
+     "viewers": 4,
      "started": "2026-06-17"
     }
    ],
    "211060": [
     {
-     "id": "eGWaJYQgYIE",
-     "title": "🔴 LIVE 24/7 | Global Volcano Monitoring 🌋 Multi-Camera | Etna • Kīlauea • Stromboli & More",
-     "channel": "Volcoholics - Wild Horizons",
-     "official": false,
-     "viewers": 14,
-     "started": "2026-05-08"
-    },
-    {
      "id": "EGk3Mr0OshE",
      "title": "🔴 Live Now: 24/7 Mount Etna Volcano, Sicily, Italy (Multi-cams)",
      "channel": "afarTV",
      "official": false,
-     "viewers": 5,
+     "viewers": 8,
      "started": "2025-12-24"
+    },
+    {
+     "id": "l7dshNvAvpw",
+     "title": "🔴 Live Now: 24/7 Etna Volcano, Sicily Italy in 4K",
+     "channel": "afarTV",
+     "official": false,
+     "viewers": 3,
+     "started": "2026-11-04"
     },
     {
      "id": "pO2zFFeqiMo",
      "title": "🔴 ERUZIONE ETNA - Nunziata di Mascali live webcam - Panoramica Etna est",
      "channel": "Weather Italy - WS Cam",
      "official": false,
-     "viewers": 3,
+     "viewers": 2,
      "started": "2022-09-19"
     }
    ],
@@ -16524,23 +16537,15 @@
      "title": "🔴 Live Now: 24/7 Merapi Volcano Erupting in 4K Ultra HD (Indonesia)",
      "channel": "afarTV",
      "official": false,
-     "viewers": 5,
+     "viewers": 1,
      "started": "2026-10-31"
-    },
-    {
-     "id": "q63lbqCzliQ",
-     "title": "Live Merapi - Indonesia's Mount Merapi - Volcano Eruption",
-     "channel": "Janur Merapi",
-     "official": false,
-     "viewers": 2,
-     "started": "2026-10-24"
     },
     {
      "id": "mSsEn7X_hgQ",
      "title": "🔴 LIVE 4K VR180° Stand Before an Erupting Volcano - Merapi Volcano, Indonesia",
      "channel": "afarTV",
      "official": false,
-     "viewers": 1,
+     "viewers": null,
      "started": "2026-09-09"
     }
    ],
@@ -16550,24 +16555,24 @@
      "title": "🔴 Live Now: 24/7 Erupting Semeru Volcano in Java, Indonesia in 4K Ultra HD (CAM A)",
      "channel": "afarTV",
      "official": false,
-     "viewers": 12,
+     "viewers": 4,
      "started": "2026-09-12"
-    },
-    {
-     "id": "4BYVcI2Ow8Y",
-     "title": "Live Now: 24/7 Semeru Volcano Watch (Multi-cams)",
-     "channel": "afarTV",
-     "official": false,
-     "viewers": 8,
-     "started": "2026-10-26"
     },
     {
      "id": "XfJhlj2kx8o",
      "title": "🔴 Live Now: 24/7 Erupting Semeru Volcano in Java, Indonesia in 4K Ultra HD (Cam B)",
      "channel": "afarTV",
      "official": false,
-     "viewers": 7,
+     "viewers": 4,
      "started": "2026-11-04"
+    },
+    {
+     "id": "4BYVcI2Ow8Y",
+     "title": "Live Now: 24/7 Semeru Volcano Watch (Multi-cams)",
+     "channel": "afarTV",
+     "official": false,
+     "viewers": 1,
+     "started": "2026-10-26"
     }
    ],
    "272020": [
@@ -16576,7 +16581,7 @@
      "title": "🔴 Live Now: 24/7 Kanlaon Volcano in the Philippines",
      "channel": "afarTV",
      "official": false,
-     "viewers": 8,
+     "viewers": 9,
      "started": "2026-09-07"
     },
     {
@@ -16584,8 +16589,34 @@
      "title": "🔴 LIVE 4K VR180° Stand 8 KM from Kanlaon Volcano | Philippines 24/7",
      "channel": "afarTV",
      "official": false,
-     "viewers": 3,
+     "viewers": 4,
      "started": "2026-09-10"
+    }
+   ],
+   "273030": [
+    {
+     "id": "UDAZWxehMAI",
+     "title": "🔴 Live Now: 24/7 Mayon Volcano is Erupting in the Philippines in 4K Ultra-HD",
+     "channel": "afarTV",
+     "official": false,
+     "viewers": 58,
+     "started": "2026-01-06"
+    },
+    {
+     "id": "wLf3IMoxEWA",
+     "title": "🔴 LIVE: Mayon Volcano 24/7 Monitoring (Alert Level 3) — South-Southwest Cam, Albay Philippines",
+     "channel": "MayonStream Lab",
+     "official": false,
+     "viewers": 5,
+     "started": "2026-02-22"
+    },
+    {
+     "id": "ETSUtGmqGlg",
+     "title": "🔴 LIVE: Mayon Volcano Crater Zoom 24/7 (Alert Level 3) — Summit & Lava Watch, Albay Philippines",
+     "channel": "MayonStream Lab",
+     "official": false,
+     "viewers": 5,
+     "started": "2026-09-28"
     }
    ],
    "273070": [
@@ -16594,7 +16625,7 @@
      "title": "🔴 Live Now: 24/7 Taal Volcano, Philippines in 4K Ultra HD (CAM A)",
      "channel": "afarTV",
      "official": false,
-     "viewers": 1,
+     "viewers": null,
      "started": "2026-10-20"
     },
     {
@@ -16612,24 +16643,50 @@
      "title": "【2K LIVE】桜島 ライブカメラB【近景】鹿児島県 垂水市 / Sakurajima, an active volcano live cam (Close-up view) JAPAN'",
      "channel": "財宝公式チャンネル",
      "official": false,
-     "viewers": 11,
+     "viewers": 15,
      "started": "2024-11-15"
     },
     {
-     "id": "uCbr0YLxsac",
-     "title": "【LIVE】 桜島 ライブカメラ D 【鹿児島市】/ Sakurajima, an active volcano live cam (Kagoshima City) JAPAN",
+     "id": "eF9PohrRP_o",
+     "title": "【LIVE】桜島 ライブカメラA【遠景】鹿児島県 垂水市 フェリー/ Sakurajima, an active volcano live cam JAPAN\"",
      "channel": "財宝公式チャンネル",
      "official": false,
-     "viewers": 5,
-     "started": "2024-12-24"
+     "viewers": 7,
+     "started": "2022-08-06"
     },
     {
      "id": "Mfq8V8uE0SU",
      "title": "【LIVE】桜島 ライブカメラＣ【火口】鹿児島県 垂水市 / Live Streaming Sakurajima Crater Kagoshima, JAPAN'",
      "channel": "財宝公式チャンネル",
      "official": false,
-     "viewers": 5,
+     "viewers": 6,
      "started": "2022-12-07"
+    }
+   ],
+   "332010": [
+    {
+     "id": "HggWKlZv9yk",
+     "title": "[V1cam] Kīlauea volcano, Hawaii (west Halemaʻumaʻu crater)",
+     "channel": "USGS",
+     "official": true,
+     "viewers": 733,
+     "started": "2026-04-24"
+    },
+    {
+     "id": "gXKuUyKt8mc",
+     "title": "[V3cam] Kīlauea volcano, Hawaii (south Halemaʻumaʻu crater)",
+     "channel": "USGS",
+     "official": true,
+     "viewers": 263,
+     "started": "2025-12-19"
+    },
+    {
+     "id": "f9-oSpYpubg",
+     "title": "[V2cam] Kīlauea volcano, Hawaii (east Halemaʻumaʻu crater)",
+     "channel": "USGS",
+     "official": true,
+     "viewers": 47,
+     "started": "2026-08-25"
     }
    ],
    "341090": [
@@ -16638,7 +16695,7 @@
      "title": "Volcán #Popocatépetl En Vivo | Vista Tlamacas, Estado de México",
      "channel": "webcamsdemexico",
      "official": false,
-     "viewers": 20,
+     "viewers": 15,
      "started": "2026-07-23"
     },
     {
@@ -16646,7 +16703,7 @@
      "title": "Volcán Popocatépetl En Vivo | Vista Altzomoni, Estado de México",
      "channel": "WebcamsDeMexico Live",
      "official": false,
-     "viewers": 7,
+     "viewers": 9,
      "started": "2026-07-23"
     },
     {
@@ -16654,7 +16711,7 @@
      "title": "🔴 Live Now: 24/7 Erupting Popocatépetl Volcano from San Matias Tlalancaleca Mexico in 4K Ultra HD",
      "channel": "afarTV",
      "official": false,
-     "viewers": 5,
+     "viewers": 7,
      "started": "2026-09-06"
     }
    ],
@@ -16664,7 +16721,7 @@
      "title": "🔴 Live Now: 24/7 Santa Maria (Santiaguito) Volcano in 4K Ultra HD (Cam C)",
      "channel": "afarTV",
      "official": false,
-     "viewers": 5,
+     "viewers": 4,
      "started": "2026-09-04"
     },
     {
@@ -16672,7 +16729,7 @@
      "title": "🔴 LIVE 4K VR180° Stand Before an Erupting Volcano - Santa Maria Guatemala",
      "channel": "afarTV",
      "official": false,
-     "viewers": null,
+     "viewers": 1,
      "started": "2026-09-06"
     }
    ],
@@ -16682,7 +16739,7 @@
      "title": "🔴 Live Now: 24/7 Fuego Volcano Eruption in 4K Ultra HD (Guatemala)",
      "channel": "afarTV",
      "official": false,
-     "viewers": 41,
+     "viewers": 52,
      "started": "2026-08-23"
     },
     {
@@ -16690,16 +16747,8 @@
      "title": "🔴 En directo: 24/7 Erupción del volcán de Fuego en 4K Ultra HD (Guatemala)",
      "channel": "afarTV",
      "official": false,
-     "viewers": 15,
+     "viewers": 16,
      "started": "2026-08-23"
-    },
-    {
-     "id": "hSOYBoPMltU",
-     "title": "Transmisión en directo  Crelosa Volcán De Fuego GT",
-     "channel": "Crelosa",
-     "official": false,
-     "viewers": 2,
-     "started": "2026-11-04"
     }
    ],
    "352010": [
@@ -16708,7 +16757,7 @@
      "title": "🔴 Live Now: 24/7 Erupting El Reventador Volcano, Amazon Basin, Ecuador in 4K Ultra HD",
      "channel": "afarTV",
      "official": false,
-     "viewers": 7,
+     "viewers": 6,
      "started": "2026-11-19"
     }
    ],
@@ -16732,20 +16781,20 @@
    ],
    "383030": [
     {
+     "id": "eZdhYsINWeM",
+     "title": "​🌋 24/7 Teide Volcano Spectrograms | Tenerife 2026",
+     "channel": "FiBro",
+     "official": false,
+     "viewers": 3,
+     "started": "2026-05-04"
+    },
+    {
      "id": "bZah1iB1xeI",
      "title": "​🌋 24/7 Teide Volcano Live Monitoring | Tenerife 2026",
      "channel": "FiBro",
      "official": false,
      "viewers": null,
      "started": "2026-04-11"
-    },
-    {
-     "id": "eZdhYsINWeM",
-     "title": "​🌋 24/7 Teide Volcano Spectrograms | Tenerife 2026",
-     "channel": "FiBro",
-     "official": false,
-     "viewers": null,
-     "started": "2026-05-04"
     }
    ],
    "281032": [
@@ -16761,6 +16810,336 @@
   }
  },
  "ash": [
+  {
+   "id": "MHTG:1795220400:342090",
+   "vnum": 342090,
+   "from": "2026-11-21T00:20:00Z",
+   "to": "2026-11-21T06:20:00Z",
+   "fir": "MHCC CENTRAL AMERICAN",
+   "top_ft": 15000,
+   "dir": "N",
+   "spd_kt": 5
+  },
+  {
+   "id": "SEFG:1795218480:352010",
+   "vnum": 352010,
+   "from": "2026-11-20T23:48:00Z",
+   "to": "2026-11-21T05:48:00Z",
+   "fir": "SEFG GUAYAQUIL",
+   "top_ft": 15000,
+   "dir": "NW",
+   "spd_kt": 5
+  },
+  {
+   "id": "WAAF:1795217400:268030",
+   "vnum": 268030,
+   "from": "2026-11-20T23:30:00Z",
+   "to": "2026-11-21T05:30:00Z",
+   "fir": "WAAF UJUNG PANDANG",
+   "top_ft": 7000,
+   "dir": "E",
+   "spd_kt": 5
+  },
+  {
+   "id": "MHTG:1795215600:342030",
+   "vnum": 342030,
+   "from": "2026-11-20T23:00:00Z",
+   "to": "2026-11-21T05:00:00Z",
+   "fir": "MHCC CENTRAL AMERICAN",
+   "top_ft": 13000,
+   "dir": "W",
+   "spd_kt": 5
+  },
+  {
+   "id": "SEFG:1795214940:352090",
+   "vnum": 352090,
+   "from": "2026-11-20T22:49:00Z",
+   "to": "2026-11-21T04:49:00Z",
+   "fir": "SEFG GUAYAQUIL",
+   "top_ft": 22000,
+   "dir": "SW",
+   "spd_kt": 5
+  },
+  {
+   "id": "WAAF:1795213800:263300",
+   "vnum": 263300,
+   "from": "2026-11-20T22:30:00Z",
+   "to": "2026-11-21T04:30:00Z",
+   "fir": "WAAF UJUNG PANDANG",
+   "top_ft": 15000,
+   "dir": "W",
+   "spd_kt": 5
+  },
+  {
+   "id": "WAAF:1795210200:268010",
+   "vnum": 268010,
+   "from": "2026-11-20T21:30:00Z",
+   "to": "2026-11-21T03:30:00Z",
+   "fir": "WAAF UJUNG PANDANG",
+   "top_ft": 8000,
+   "dir": "SE",
+   "spd_kt": 5
+  },
+  {
+   "id": "SKED:1795209300:351060",
+   "vnum": 351060,
+   "from": "2026-11-20T21:15:00Z",
+   "to": "2026-11-21T03:15:00Z",
+   "fir": "SKED BOGOTA",
+   "top_ft": 18000,
+   "dir": "NE",
+   "spd_kt": 5
+  },
+  {
+   "id": "SEFG:1795204260:352090",
+   "vnum": 352090,
+   "from": "2026-11-20T19:51:00Z",
+   "to": "2026-11-21T01:51:00Z",
+   "fir": "SEFG GUAYAQUIL",
+   "top_ft": 22000,
+   "dir": "SW",
+   "spd_kt": 5
+  },
+  {
+   "id": "MHTG:1795198800:342090",
+   "vnum": 342090,
+   "from": "2026-11-20T18:20:00Z",
+   "to": "2026-11-21T00:20:00Z",
+   "fir": "MHCC CENTRAL AMERICAN",
+   "top_ft": 15000,
+   "dir": "W",
+   "spd_kt": 5
+  },
+  {
+   "id": "SEFG:1795197240:352010",
+   "vnum": 352010,
+   "from": "2026-11-20T17:54:00Z",
+   "to": "2026-11-20T23:54:00Z",
+   "fir": "SEFG GUAYAQUIL",
+   "top_ft": 15000,
+   "dir": "NW",
+   "spd_kt": 5
+  },
+  {
+   "id": "MHTG:1795194000:342030",
+   "vnum": 342030,
+   "from": "2026-11-20T17:00:00Z",
+   "to": "2026-11-20T23:00:00Z",
+   "fir": "MHCC CENTRAL AMERICAN",
+   "top_ft": 13000,
+   "dir": "W",
+   "spd_kt": 5
+  },
+  {
+   "id": "SKED:1795193700:351060",
+   "vnum": 351060,
+   "from": "2026-11-20T16:55:00Z",
+   "to": "2026-11-20T21:15:00Z",
+   "fir": "SKED BOGOTA",
+   "top_ft": 20000,
+   "dir": "N",
+   "spd_kt": 5
+  },
+  {
+   "id": "WAAF:1795192200:263300",
+   "vnum": 263300,
+   "from": "2026-11-20T16:30:00Z",
+   "to": "2026-11-20T22:30:00Z",
+   "fir": "WAAF UJUNG PANDANG",
+   "top_ft": 15000,
+   "dir": "W",
+   "spd_kt": 5
+  },
+  {
+   "id": "WAAF:1795188600:268010",
+   "vnum": 268010,
+   "from": "2026-11-20T15:30:00Z",
+   "to": "2026-11-20T21:30:00Z",
+   "fir": "WAAF UJUNG PANDANG",
+   "top_ft": 8000,
+   "dir": "E",
+   "spd_kt": 5
+  },
+  {
+   "id": "SEFG:1795182840:352090",
+   "vnum": 352090,
+   "from": "2026-11-20T13:54:00Z",
+   "to": "2026-11-20T19:54:00Z",
+   "fir": "SEFG GUAYAQUIL",
+   "top_ft": 24000,
+   "dir": "W",
+   "spd_kt": 5
+  },
+  {
+   "id": "MHTG:1795177200:342090",
+   "vnum": 342090,
+   "from": "2026-11-20T12:20:00Z",
+   "to": "2026-11-20T18:20:00Z",
+   "fir": "MHCC CENTRAL AMERICAN",
+   "top_ft": 15000,
+   "dir": "",
+   "spd_kt": null
+  },
+  {
+   "id": "SEFG:1795175880:352010",
+   "vnum": 352010,
+   "from": "2026-11-20T11:58:00Z",
+   "to": "2026-11-20T17:58:00Z",
+   "fir": "SEFG GUAYAQUIL",
+   "top_ft": 15000,
+   "dir": "W",
+   "spd_kt": 5
+  },
+  {
+   "id": "WAAF:1795174200:268030",
+   "vnum": 268030,
+   "from": "2026-11-20T11:30:00Z",
+   "to": "2026-11-20T17:30:00Z",
+   "fir": "WAAF UJUNG PANDANG",
+   "top_ft": 7000,
+   "dir": "NE",
+   "spd_kt": 5
+  },
+  {
+   "id": "MHTG:1795172700:342030",
+   "vnum": 342030,
+   "from": "2026-11-20T11:05:00Z",
+   "to": "2026-11-20T17:05:00Z",
+   "fir": "MHCC CENTRAL AMERICAN",
+   "top_ft": 13000,
+   "dir": "",
+   "spd_kt": null
+  },
+  {
+   "id": "SEFG:1795171800:352090",
+   "vnum": 352090,
+   "from": "2026-11-20T10:50:00Z",
+   "to": "2026-11-20T16:50:00Z",
+   "fir": "SEFG GUAYAQUIL",
+   "top_ft": 26000,
+   "dir": "NE",
+   "spd_kt": 5
+  },
+  {
+   "id": "WAAF:1795170600:263300",
+   "vnum": 263300,
+   "from": "2026-11-20T10:30:00Z",
+   "to": "2026-11-20T16:30:00Z",
+   "fir": "WAAF UJUNG PANDANG",
+   "top_ft": 15000,
+   "dir": "W",
+   "spd_kt": 5
+  },
+  {
+   "id": "SKED:1795170600:351060",
+   "vnum": 351060,
+   "from": "2026-11-20T10:30:00Z",
+   "to": "2026-11-20T15:10:00Z",
+   "fir": "SKED BOGOTA",
+   "top_ft": 20000,
+   "dir": "NE",
+   "spd_kt": 5
+  },
+  {
+   "id": "WAAF:1795167000:268010",
+   "vnum": 268010,
+   "from": "2026-11-20T09:30:00Z",
+   "to": "2026-11-20T15:30:00Z",
+   "fir": "WAAF UJUNG PANDANG",
+   "top_ft": 8000,
+   "dir": "NE",
+   "spd_kt": 5
+  },
+  {
+   "id": "RPHI:1795159680:272020",
+   "vnum": 272020,
+   "from": "2026-11-20T07:28:00Z",
+   "to": "2026-11-20T13:28:00Z",
+   "fir": "RPHI MANILA",
+   "top_ft": 9000,
+   "dir": "WSW",
+   "spd_kt": 0
+  },
+  {
+   "id": "MHTG:1795156080:342090",
+   "vnum": 342090,
+   "from": "2026-11-20T06:28:00Z",
+   "to": "2026-11-20T12:28:00Z",
+   "fir": "MHCC CENTRAL AMERICAN",
+   "top_ft": 15000,
+   "dir": "",
+   "spd_kt": null
+  },
+  {
+   "id": "MHTG:1795155900:342030",
+   "vnum": 342030,
+   "from": "2026-11-20T06:25:00Z",
+   "to": "2026-11-20T12:25:00Z",
+   "fir": "MHCC CENTRAL AMERICAN",
+   "top_ft": 13000,
+   "dir": "",
+   "spd_kt": null
+  },
+  {
+   "id": "SEFG:1795155000:352010",
+   "vnum": 352010,
+   "from": "2026-11-20T06:10:00Z",
+   "to": "2026-11-20T12:10:00Z",
+   "fir": "SEFG GUAYAQUIL",
+   "top_ft": 15000,
+   "dir": "NW",
+   "spd_kt": 5
+  },
+  {
+   "id": "WAAF:1795152600:268030",
+   "vnum": 268030,
+   "from": "2026-11-20T05:30:00Z",
+   "to": "2026-11-20T11:30:00Z",
+   "fir": "WAAF UJUNG PANDANG",
+   "top_ft": 7000,
+   "dir": "NE",
+   "spd_kt": 5
+  },
+  {
+   "id": "SEFG:1795151700:352090",
+   "vnum": 352090,
+   "from": "2026-11-20T05:15:00Z",
+   "to": "2026-11-20T11:15:00Z",
+   "fir": "SEFG GUAYAQUIL",
+   "top_ft": 26000,
+   "dir": "SW",
+   "spd_kt": 5
+  },
+  {
+   "id": "WAAF:1795149000:263300",
+   "vnum": 263300,
+   "from": "2026-11-20T04:30:00Z",
+   "to": "2026-11-20T10:30:00Z",
+   "fir": "WAAF UJUNG PANDANG",
+   "top_ft": 15000,
+   "dir": "W",
+   "spd_kt": 5
+  },
+  {
+   "id": "WAAF:1795145400:268010",
+   "vnum": 268010,
+   "from": "2026-11-20T03:30:00Z",
+   "to": "2026-11-20T09:30:00Z",
+   "fir": "WAAF UJUNG PANDANG",
+   "top_ft": 7000,
+   "dir": "NE",
+   "spd_kt": 5
+  },
+  {
+   "id": "SKED:1795140000:351060",
+   "vnum": 351060,
+   "from": "2026-11-20T02:00:00Z",
+   "to": "2026-11-20T08:00:00Z",
+   "fir": "SKED BOGOTA",
+   "top_ft": 20000,
+   "dir": "NNW",
+   "spd_kt": 5
+  },
   {
    "id": "MHTG:1795134480:342090",
    "vnum": 342090,
@@ -18670,299 +19049,339 @@
    "top_ft": 23000,
    "dir": "W",
    "spd_kt": 10
-  },
+  }
+ ],
+ "ash30": [
   {
-   "id": "WAAF:1794589800:268030",
-   "vnum": 268030,
-   "from": "2026-11-13T17:10:00Z",
-   "to": "2026-11-13T23:10:00Z",
-   "fir": "WAAF UJUNG PANDANG",
-   "top_ft": 6000,
-   "dir": "W",
-   "spd_kt": 10
-  },
-  {
-   "id": "MHTG:1794589800:342090",
+   "id": "MHTG:1795220400:342090",
    "vnum": 342090,
-   "from": "2026-11-13T17:10:00Z",
-   "to": "2026-11-13T23:10:00Z",
+   "from": "2026-11-21T00:20:00Z",
+   "to": "2026-11-21T06:20:00Z",
    "fir": "MHCC CENTRAL AMERICAN",
-   "top_ft": 14000,
+   "top_ft": 15000,
+   "dir": "N",
+   "spd_kt": 5
+  },
+  {
+   "id": "SEFG:1795218480:352010",
+   "vnum": 352010,
+   "from": "2026-11-20T23:48:00Z",
+   "to": "2026-11-21T05:48:00Z",
+   "fir": "SEFG GUAYAQUIL",
+   "top_ft": 15000,
+   "dir": "NW",
+   "spd_kt": 5
+  },
+  {
+   "id": "WAAF:1795217400:268030",
+   "vnum": 268030,
+   "from": "2026-11-20T23:30:00Z",
+   "to": "2026-11-21T05:30:00Z",
+   "fir": "WAAF UJUNG PANDANG",
+   "top_ft": 7000,
+   "dir": "E",
+   "spd_kt": 5
+  },
+  {
+   "id": "MHTG:1795215600:342030",
+   "vnum": 342030,
+   "from": "2026-11-20T23:00:00Z",
+   "to": "2026-11-21T05:00:00Z",
+   "fir": "MHCC CENTRAL AMERICAN",
+   "top_ft": 13000,
+   "dir": "W",
+   "spd_kt": 5
+  },
+  {
+   "id": "SEFG:1795214940:352090",
+   "vnum": 352090,
+   "from": "2026-11-20T22:49:00Z",
+   "to": "2026-11-21T04:49:00Z",
+   "fir": "SEFG GUAYAQUIL",
+   "top_ft": 22000,
+   "dir": "SW",
+   "spd_kt": 5
+  },
+  {
+   "id": "WAAF:1795213800:263300",
+   "vnum": 263300,
+   "from": "2026-11-20T22:30:00Z",
+   "to": "2026-11-21T04:30:00Z",
+   "fir": "WAAF UJUNG PANDANG",
+   "top_ft": 15000,
+   "dir": "W",
+   "spd_kt": 5
+  },
+  {
+   "id": "WAAF:1795210200:268010",
+   "vnum": 268010,
+   "from": "2026-11-20T21:30:00Z",
+   "to": "2026-11-21T03:30:00Z",
+   "fir": "WAAF UJUNG PANDANG",
+   "top_ft": 8000,
+   "dir": "SE",
+   "spd_kt": 5
+  },
+  {
+   "id": "SKED:1795209300:351060",
+   "vnum": 351060,
+   "from": "2026-11-20T21:15:00Z",
+   "to": "2026-11-21T03:15:00Z",
+   "fir": "SKED BOGOTA",
+   "top_ft": 18000,
+   "dir": "NE",
+   "spd_kt": 5
+  },
+  {
+   "id": "SEFG:1795204260:352090",
+   "vnum": 352090,
+   "from": "2026-11-20T19:51:00Z",
+   "to": "2026-11-21T01:51:00Z",
+   "fir": "SEFG GUAYAQUIL",
+   "top_ft": 22000,
+   "dir": "SW",
+   "spd_kt": 5
+  },
+  {
+   "id": "MHTG:1795198800:342090",
+   "vnum": 342090,
+   "from": "2026-11-20T18:20:00Z",
+   "to": "2026-11-21T00:20:00Z",
+   "fir": "MHCC CENTRAL AMERICAN",
+   "top_ft": 15000,
+   "dir": "W",
+   "spd_kt": 5
+  },
+  {
+   "id": "SEFG:1795197240:352010",
+   "vnum": 352010,
+   "from": "2026-11-20T17:54:00Z",
+   "to": "2026-11-20T23:54:00Z",
+   "fir": "SEFG GUAYAQUIL",
+   "top_ft": 15000,
+   "dir": "NW",
+   "spd_kt": 5
+  },
+  {
+   "id": "MHTG:1795194000:342030",
+   "vnum": 342030,
+   "from": "2026-11-20T17:00:00Z",
+   "to": "2026-11-20T23:00:00Z",
+   "fir": "MHCC CENTRAL AMERICAN",
+   "top_ft": 13000,
+   "dir": "W",
+   "spd_kt": 5
+  },
+  {
+   "id": "SKED:1795193700:351060",
+   "vnum": 351060,
+   "from": "2026-11-20T16:55:00Z",
+   "to": "2026-11-20T21:15:00Z",
+   "fir": "SKED BOGOTA",
+   "top_ft": 20000,
+   "dir": "N",
+   "spd_kt": 5
+  },
+  {
+   "id": "WAAF:1795192200:263300",
+   "vnum": 263300,
+   "from": "2026-11-20T16:30:00Z",
+   "to": "2026-11-20T22:30:00Z",
+   "fir": "WAAF UJUNG PANDANG",
+   "top_ft": 15000,
+   "dir": "W",
+   "spd_kt": 5
+  },
+  {
+   "id": "WAAF:1795188600:268010",
+   "vnum": 268010,
+   "from": "2026-11-20T15:30:00Z",
+   "to": "2026-11-20T21:30:00Z",
+   "fir": "WAAF UJUNG PANDANG",
+   "top_ft": 8000,
+   "dir": "E",
+   "spd_kt": 5
+  },
+  {
+   "id": "SEFG:1795182840:352090",
+   "vnum": 352090,
+   "from": "2026-11-20T13:54:00Z",
+   "to": "2026-11-20T19:54:00Z",
+   "fir": "SEFG GUAYAQUIL",
+   "top_ft": 24000,
+   "dir": "W",
+   "spd_kt": 5
+  },
+  {
+   "id": "MHTG:1795177200:342090",
+   "vnum": 342090,
+   "from": "2026-11-20T12:20:00Z",
+   "to": "2026-11-20T18:20:00Z",
+   "fir": "MHCC CENTRAL AMERICAN",
+   "top_ft": 15000,
    "dir": "",
    "spd_kt": null
   },
   {
-   "id": "WAAF:1794588000:263300",
-   "vnum": 263300,
-   "from": "2026-11-13T16:40:00Z",
-   "to": "2026-11-13T22:40:00Z",
-   "fir": "WAAF UJUNG PANDANG",
+   "id": "SEFG:1795175880:352010",
+   "vnum": 352010,
+   "from": "2026-11-20T11:58:00Z",
+   "to": "2026-11-20T17:58:00Z",
+   "fir": "SEFG GUAYAQUIL",
    "top_ft": 15000,
    "dir": "W",
-   "spd_kt": 15
+   "spd_kt": 5
   },
   {
-   "id": "WAAF:1794586200:268010",
-   "vnum": 268010,
-   "from": "2026-11-13T16:10:00Z",
-   "to": "2026-11-13T21:32:00Z",
-   "fir": "WAAF UJUNG PANDANG",
-   "top_ft": 8000,
-   "dir": "W",
-   "spd_kt": 10
-  },
-  {
-   "id": "SEFG:1794585720:352010",
-   "vnum": 352010,
-   "from": "2026-11-13T16:02:00Z",
-   "to": "2026-11-13T22:02:00Z",
-   "fir": "SEFG GUAYAQUIL",
-   "top_ft": 14000,
-   "dir": "NW",
-   "spd_kt": 10
-  },
-  {
-   "id": "SEFG:1794584220:352090",
-   "vnum": 352090,
-   "from": "2026-11-13T15:37:00Z",
-   "to": "2026-11-13T21:37:00Z",
-   "fir": "SEFG GUAYAQUIL",
-   "top_ft": 20000,
-   "dir": "W",
-   "spd_kt": 15
-  },
-  {
-   "id": "SKED:1794576600:351060",
-   "vnum": 351060,
-   "from": "2026-11-13T13:30:00Z",
-   "to": "2026-11-13T19:30:00Z",
-   "fir": "SKED BOGOTA",
-   "top_ft": 18000,
-   "dir": "NW",
-   "spd_kt": 15
-  },
-  {
-   "id": "SEFG:1794568980:352010",
-   "vnum": 352010,
-   "from": "2026-11-13T11:23:00Z",
-   "to": "2026-11-13T17:23:00Z",
-   "fir": "SEFG GUAYAQUIL",
-   "top_ft": 14000,
-   "dir": "NW",
-   "spd_kt": 10
-  },
-  {
-   "id": "WAAF:1794568800:267020",
-   "vnum": 267020,
-   "from": "2026-11-13T11:20:00Z",
-   "to": "2026-11-13T17:20:00Z",
-   "fir": "WAAF UJUNG PANDANG",
-   "top_ft": 6000,
-   "dir": "NW",
-   "spd_kt": 10
-  },
-  {
-   "id": "MHTG:1794568620:342090",
-   "vnum": 342090,
-   "from": "2026-11-13T11:17:00Z",
-   "to": "2026-11-13T17:17:00Z",
-   "fir": "MHCC CENTRAL AMERICAN",
-   "top_ft": 14000,
-   "dir": "NE",
-   "spd_kt": 15
-  },
-  {
-   "id": "WAAF:1794568200:268030",
+   "id": "WAAF:1795174200:268030",
    "vnum": 268030,
-   "from": "2026-11-13T11:10:00Z",
-   "to": "2026-11-13T17:10:00Z",
+   "from": "2026-11-20T11:30:00Z",
+   "to": "2026-11-20T17:30:00Z",
    "fir": "WAAF UJUNG PANDANG",
-   "top_ft": 6000,
-   "dir": "W",
-   "spd_kt": 10
+   "top_ft": 7000,
+   "dir": "NE",
+   "spd_kt": 5
   },
   {
-   "id": "MHTG:1794567300:342030",
+   "id": "MHTG:1795172700:342030",
    "vnum": 342030,
-   "from": "2026-11-13T10:55:00Z",
-   "to": "2026-11-13T16:40:00Z",
+   "from": "2026-11-20T11:05:00Z",
+   "to": "2026-11-20T17:05:00Z",
    "fir": "MHCC CENTRAL AMERICAN",
-   "top_ft": 14000,
-   "dir": "NE",
-   "spd_kt": 15
+   "top_ft": 13000,
+   "dir": "",
+   "spd_kt": null
   },
   {
-   "id": "WAAF:1794566400:263300",
+   "id": "SEFG:1795171800:352090",
+   "vnum": 352090,
+   "from": "2026-11-20T10:50:00Z",
+   "to": "2026-11-20T16:50:00Z",
+   "fir": "SEFG GUAYAQUIL",
+   "top_ft": 26000,
+   "dir": "NE",
+   "spd_kt": 5
+  },
+  {
+   "id": "WAAF:1795170600:263300",
    "vnum": 263300,
-   "from": "2026-11-13T10:40:00Z",
-   "to": "2026-11-13T16:40:00Z",
+   "from": "2026-11-20T10:30:00Z",
+   "to": "2026-11-20T16:30:00Z",
    "fir": "WAAF UJUNG PANDANG",
    "top_ft": 15000,
    "dir": "W",
-   "spd_kt": 15
+   "spd_kt": 5
   },
   {
-   "id": "WAAF:1794564600:268010",
-   "vnum": 268010,
-   "from": "2026-11-13T10:10:00Z",
-   "to": "2026-11-13T16:10:00Z",
-   "fir": "WAAF UJUNG PANDANG",
-   "top_ft": 8000,
-   "dir": "W",
-   "spd_kt": 10
-  },
-  {
-   "id": "SEFG:1794563160:352090",
-   "vnum": 352090,
-   "from": "2026-11-13T09:46:00Z",
-   "to": "2026-11-13T15:46:00Z",
-   "fir": "SEFG GUAYAQUIL",
-   "top_ft": 20000,
-   "dir": "W",
-   "spd_kt": 15
-  },
-  {
-   "id": "SKED:1794555000:351060",
+   "id": "SKED:1795170600:351060",
    "vnum": 351060,
-   "from": "2026-11-13T07:30:00Z",
-   "to": "2026-11-13T13:30:00Z",
+   "from": "2026-11-20T10:30:00Z",
+   "to": "2026-11-20T15:10:00Z",
    "fir": "SKED BOGOTA",
-   "top_ft": 18000,
-   "dir": "NW",
-   "spd_kt": 10
-  },
-  {
-   "id": "MHTG:1794549600:342090",
-   "vnum": 342090,
-   "from": "2026-11-13T06:00:00Z",
-   "to": "2026-11-13T12:00:00Z",
-   "fir": "MHCC CENTRAL AMERICAN",
-   "top_ft": 14000,
-   "dir": "NE",
-   "spd_kt": 10
-  },
-  {
-   "id": "MHTG:1794546720:342030",
-   "vnum": 342030,
-   "from": "2026-11-13T05:12:00Z",
-   "to": "2026-11-13T11:12:00Z",
-   "fir": "MHCC CENTRAL AMERICAN",
-   "top_ft": 14000,
-   "dir": "NE",
-   "spd_kt": 10
-  },
-  {
-   "id": "WAAF:1794546600:268030",
-   "vnum": 268030,
-   "from": "2026-11-13T05:10:00Z",
-   "to": "2026-11-13T11:10:00Z",
-   "fir": "WAAF UJUNG PANDANG",
-   "top_ft": 6000,
-   "dir": "NW",
-   "spd_kt": 15
-  },
-  {
-   "id": "WAAF:1794544800:263300",
-   "vnum": 263300,
-   "from": "2026-11-13T04:40:00Z",
-   "to": "2026-11-13T10:40:00Z",
-   "fir": "WAAF UJUNG PANDANG",
-   "top_ft": 15000,
-   "dir": "W",
-   "spd_kt": 15
-  },
-  {
-   "id": "SEFG:1794544320:352010",
-   "vnum": 352010,
-   "from": "2026-11-13T04:32:00Z",
-   "to": "2026-11-13T10:32:00Z",
-   "fir": "SEFG GUAYAQUIL",
-   "top_ft": 14000,
-   "dir": "NW",
-   "spd_kt": 10
-  },
-  {
-   "id": "WAAF:1794543000:268010",
-   "vnum": 268010,
-   "from": "2026-11-13T04:10:00Z",
-   "to": "2026-11-13T10:10:00Z",
-   "fir": "WAAF UJUNG PANDANG",
-   "top_ft": 8000,
-   "dir": "NW",
-   "spd_kt": 10
-  },
-  {
-   "id": "SEFG:1794541680:352090",
-   "vnum": 352090,
-   "from": "2026-11-13T03:48:00Z",
-   "to": "2026-11-13T09:48:00Z",
-   "fir": "SEFG GUAYAQUIL",
    "top_ft": 20000,
-   "dir": "W",
-   "spd_kt": 10
+   "dir": "NE",
+   "spd_kt": 5
   },
   {
-   "id": "MHTG:1794531600:342090",
-   "vnum": 342090,
-   "from": "2026-11-13T01:00:00Z",
-   "to": "2026-11-13T06:00:00Z",
-   "fir": "MHCC CENTRAL AMERICAN",
-   "top_ft": 14000,
-   "dir": "E",
-   "spd_kt": 10
-  },
-  {
-   "id": "WAAF:1794525000:268030",
-   "vnum": 268030,
-   "from": "2026-11-12T23:10:00Z",
-   "to": "2026-11-13T05:10:00Z",
-   "fir": "WAAF UJUNG PANDANG",
-   "top_ft": 6000,
-   "dir": "NW",
-   "spd_kt": 10
-  },
-  {
-   "id": "WAAF:1794523200:263300",
-   "vnum": 263300,
-   "from": "2026-11-12T22:40:00Z",
-   "to": "2026-11-13T04:40:00Z",
-   "fir": "WAAF UJUNG PANDANG",
-   "top_ft": 15000,
-   "dir": "W",
-   "spd_kt": 15
-  },
-  {
-   "id": "SEFG:1794522900:352010",
-   "vnum": 352010,
-   "from": "2026-11-12T22:35:00Z",
-   "to": "2026-11-13T04:35:00Z",
-   "fir": "SEFG GUAYAQUIL",
-   "top_ft": 14000,
-   "dir": "W",
-   "spd_kt": 10
-  },
-  {
-   "id": "WAAF:1794521400:268010",
+   "id": "WAAF:1795167000:268010",
    "vnum": 268010,
-   "from": "2026-11-12T22:10:00Z",
-   "to": "2026-11-13T04:10:00Z",
+   "from": "2026-11-20T09:30:00Z",
+   "to": "2026-11-20T15:30:00Z",
    "fir": "WAAF UJUNG PANDANG",
    "top_ft": 8000,
-   "dir": "NW",
-   "spd_kt": 10
+   "dir": "NE",
+   "spd_kt": 5
   },
   {
-   "id": "SEFG:1794521040:352090",
-   "vnum": 352090,
-   "from": "2026-11-12T22:04:00Z",
-   "to": "2026-11-13T04:04:00Z",
+   "id": "RPHI:1795159680:272020",
+   "vnum": 272020,
+   "from": "2026-11-20T07:28:00Z",
+   "to": "2026-11-20T13:28:00Z",
+   "fir": "RPHI MANILA",
+   "top_ft": 9000,
+   "dir": "WSW",
+   "spd_kt": 0
+  },
+  {
+   "id": "MHTG:1795156080:342090",
+   "vnum": 342090,
+   "from": "2026-11-20T06:28:00Z",
+   "to": "2026-11-20T12:28:00Z",
+   "fir": "MHCC CENTRAL AMERICAN",
+   "top_ft": 15000,
+   "dir": "",
+   "spd_kt": null
+  },
+  {
+   "id": "MHTG:1795155900:342030",
+   "vnum": 342030,
+   "from": "2026-11-20T06:25:00Z",
+   "to": "2026-11-20T12:25:00Z",
+   "fir": "MHCC CENTRAL AMERICAN",
+   "top_ft": 13000,
+   "dir": "",
+   "spd_kt": null
+  },
+  {
+   "id": "SEFG:1795155000:352010",
+   "vnum": 352010,
+   "from": "2026-11-20T06:10:00Z",
+   "to": "2026-11-20T12:10:00Z",
    "fir": "SEFG GUAYAQUIL",
-   "top_ft": 25000,
+   "top_ft": 15000,
+   "dir": "NW",
+   "spd_kt": 5
+  },
+  {
+   "id": "WAAF:1795152600:268030",
+   "vnum": 268030,
+   "from": "2026-11-20T05:30:00Z",
+   "to": "2026-11-20T11:30:00Z",
+   "fir": "WAAF UJUNG PANDANG",
+   "top_ft": 7000,
+   "dir": "NE",
+   "spd_kt": 5
+  },
+  {
+   "id": "SEFG:1795151700:352090",
+   "vnum": 352090,
+   "from": "2026-11-20T05:15:00Z",
+   "to": "2026-11-20T11:15:00Z",
+   "fir": "SEFG GUAYAQUIL",
+   "top_ft": 26000,
    "dir": "SW",
    "spd_kt": 5
-  }
- ],
- "ash30": [
+  },
+  {
+   "id": "WAAF:1795149000:263300",
+   "vnum": 263300,
+   "from": "2026-11-20T04:30:00Z",
+   "to": "2026-11-20T10:30:00Z",
+   "fir": "WAAF UJUNG PANDANG",
+   "top_ft": 15000,
+   "dir": "W",
+   "spd_kt": 5
+  },
+  {
+   "id": "WAAF:1795145400:268010",
+   "vnum": 268010,
+   "from": "2026-11-20T03:30:00Z",
+   "to": "2026-11-20T09:30:00Z",
+   "fir": "WAAF UJUNG PANDANG",
+   "top_ft": 7000,
+   "dir": "NE",
+   "spd_kt": 5
+  },
+  {
+   "id": "SKED:1795140000:351060",
+   "vnum": 351060,
+   "from": "2026-11-20T02:00:00Z",
+   "to": "2026-11-20T08:00:00Z",
+   "fir": "SKED BOGOTA",
+   "top_ft": 20000,
+   "dir": "NNW",
+   "spd_kt": 5
+  },
   {
    "id": "MHTG:1795134480:342090",
    "vnum": 342090,
@@ -29722,376 +30141,6 @@
    "top_ft": 14000,
    "dir": "NW",
    "spd_kt": 10
-  },
-  {
-   "id": "WIIF:1792603560:262000",
-   "vnum": 262000,
-   "from": "2026-10-21T17:26:00Z",
-   "to": "2026-10-21T23:26:00Z",
-   "fir": "WIIF JAKARTA",
-   "top_ft": 8000,
-   "dir": "W",
-   "spd_kt": 25
-  },
-  {
-   "id": "SEFG:1792602060:352090",
-   "vnum": 352090,
-   "from": "2026-10-21T17:01:00Z",
-   "to": "2026-10-21T23:01:00Z",
-   "fir": "SEFG GUAYAQUIL",
-   "top_ft": 23000,
-   "dir": "W",
-   "spd_kt": 10
-  },
-  {
-   "id": "WAAF:1792600260:268010",
-   "vnum": 268010,
-   "from": "2026-10-21T16:31:00Z",
-   "to": "2026-10-21T22:31:00Z",
-   "fir": "WAAF UJUNG PANDANG",
-   "top_ft": 7000,
-   "dir": "NW",
-   "spd_kt": 5
-  },
-  {
-   "id": "RPHI:1792599240:273070",
-   "vnum": 273070,
-   "from": "2026-10-21T16:14:00Z",
-   "to": "2026-10-21T22:14:00Z",
-   "fir": "RPHI MANILA",
-   "top_ft": 11000,
-   "dir": "ENE",
-   "spd_kt": 0
-  },
-  {
-   "id": "NZZC:1792598940:241040",
-   "vnum": 241040,
-   "from": "2026-10-21T16:09:00Z",
-   "to": "2026-10-21T21:52:00Z",
-   "fir": "NZZC NEW ZEALAND",
-   "top_ft": 5000,
-   "dir": "",
-   "spd_kt": null
-  },
-  {
-   "id": "RJJJ:1792598760:282080",
-   "vnum": 282080,
-   "from": "2026-10-21T16:06:00Z",
-   "to": "2026-10-21T22:06:00Z",
-   "fir": "RJJJ FUKUOKA",
-   "top_ft": 8000,
-   "dir": "E",
-   "spd_kt": 0
-  },
-  {
-   "id": "WAAF:1792595400:263300",
-   "vnum": 263300,
-   "from": "2026-10-21T15:10:00Z",
-   "to": "2026-10-21T21:10:00Z",
-   "fir": "WAAF UJUNG PANDANG",
-   "top_ft": 15000,
-   "dir": "NW",
-   "spd_kt": 10
-  },
-  {
-   "id": "WAAF:1792593600:268030",
-   "vnum": 268030,
-   "from": "2026-10-21T14:40:00Z",
-   "to": "2026-10-21T20:40:00Z",
-   "fir": "WAAF UJUNG PANDANG",
-   "top_ft": 6000,
-   "dir": "NE",
-   "spd_kt": 5
-  },
-  {
-   "id": "MHTG:1792590000:342090",
-   "vnum": 342090,
-   "from": "2026-10-21T13:40:00Z",
-   "to": "2026-10-21T19:40:00Z",
-   "fir": "MHCC CENTRAL AMERICAN",
-   "top_ft": 14000,
-   "dir": "W",
-   "spd_kt": 15
-  },
-  {
-   "id": "RJJJ:1792585980:282080",
-   "vnum": 282080,
-   "from": "2026-10-21T12:33:00Z",
-   "to": "2026-10-21T18:33:00Z",
-   "fir": "RJJJ FUKUOKA",
-   "top_ft": null,
-   "dir": "",
-   "spd_kt": null
-  },
-  {
-   "id": "SEFG:1792584780:352010",
-   "vnum": 352010,
-   "from": "2026-10-21T12:13:00Z",
-   "to": "2026-10-21T18:13:00Z",
-   "fir": "SEFG GUAYAQUIL",
-   "top_ft": 16000,
-   "dir": "W",
-   "spd_kt": 10
-  },
-  {
-   "id": "SEFG:1792582140:352090",
-   "vnum": 352090,
-   "from": "2026-10-21T11:29:00Z",
-   "to": "2026-10-21T17:29:00Z",
-   "fir": "SEFG GUAYAQUIL",
-   "top_ft": 23000,
-   "dir": "W",
-   "spd_kt": 10
-  },
-  {
-   "id": "WIIF:1792582020:262000",
-   "vnum": 262000,
-   "from": "2026-10-21T11:27:00Z",
-   "to": "2026-10-21T17:27:00Z",
-   "fir": "WIIF JAKARTA",
-   "top_ft": 8000,
-   "dir": "SW",
-   "spd_kt": 20
-  },
-  {
-   "id": "NZZC:1792578780:241040",
-   "vnum": 241040,
-   "from": "2026-10-21T10:33:00Z",
-   "to": "2026-10-21T16:09:00Z",
-   "fir": "NZZC NEW ZEALAND",
-   "top_ft": 5000,
-   "dir": "",
-   "spd_kt": null
-  },
-  {
-   "id": "WAAF:1792578660:268010",
-   "vnum": 268010,
-   "from": "2026-10-21T10:31:00Z",
-   "to": "2026-10-21T16:31:00Z",
-   "fir": "WAAF UJUNG PANDANG",
-   "top_ft": 7000,
-   "dir": "N",
-   "spd_kt": 5
-  },
-  {
-   "id": "SEFG:1792576200:352010",
-   "vnum": 352010,
-   "from": "2026-10-21T09:50:00Z",
-   "to": "2026-10-21T12:50:00Z",
-   "fir": "SEFG GUAYAQUIL",
-   "top_ft": 16000,
-   "dir": "W",
-   "spd_kt": 10
-  },
-  {
-   "id": "SEFG:1792576020:352090",
-   "vnum": 352090,
-   "from": "2026-10-21T09:47:00Z",
-   "to": "2026-10-21T11:47:00Z",
-   "top_ft": 23000,
-   "dir": "W",
-   "spd_kt": 10,
-   "fir": "SEFG GUAYAQUIL"
-  },
-  {
-   "id": "WAAF:1792573800:263300",
-   "vnum": 263300,
-   "from": "2026-10-21T09:10:00Z",
-   "to": "2026-10-21T15:10:00Z",
-   "fir": "WAAF UJUNG PANDANG",
-   "top_ft": 15000,
-   "dir": "NW",
-   "spd_kt": 5
-  },
-  {
-   "id": "WAAF:1792572000:268030",
-   "vnum": 268030,
-   "from": "2026-10-21T08:40:00Z",
-   "to": "2026-10-21T14:40:00Z",
-   "fir": "WAAF UJUNG PANDANG",
-   "top_ft": 6000,
-   "dir": "NE",
-   "spd_kt": 5
-  },
-  {
-   "id": "MHTG:1792569300:342090",
-   "vnum": 342090,
-   "from": "2026-10-21T07:55:00Z",
-   "to": "2026-10-21T13:55:00Z",
-   "fir": "MHCC CENTRAL AMERICAN",
-   "top_ft": 14000,
-   "dir": "W",
-   "spd_kt": 15
-  },
-  {
-   "id": "WIIF:1792560420:262000",
-   "vnum": 262000,
-   "from": "2026-10-21T05:27:00Z",
-   "to": "2026-10-21T11:27:00Z",
-   "fir": "WIIF JAKARTA",
-   "top_ft": 8000,
-   "dir": "W",
-   "spd_kt": 20
-  },
-  {
-   "id": "NZZC:1792560360:241040",
-   "vnum": 241040,
-   "from": "2026-10-21T05:26:00Z",
-   "to": "2026-10-21T11:26:00Z",
-   "fir": "NZZC NEW ZEALAND",
-   "top_ft": 5000,
-   "dir": "",
-   "spd_kt": null
-  },
-  {
-   "id": "RJJJ:1792558740:282080",
-   "vnum": 282080,
-   "from": "2026-10-21T04:59:00Z",
-   "to": "2026-10-21T10:59:00Z",
-   "fir": "RJJJ FUKUOKA",
-   "top_ft": null,
-   "dir": "",
-   "spd_kt": null
-  },
-  {
-   "id": "WAAF:1792557060:268010",
-   "vnum": 268010,
-   "from": "2026-10-21T04:31:00Z",
-   "to": "2026-10-21T10:31:00Z",
-   "fir": "WAAF UJUNG PANDANG",
-   "top_ft": 7000,
-   "dir": "N",
-   "spd_kt": 5
-  },
-  {
-   "id": "NZZC:1792553160:241040",
-   "vnum": 241040,
-   "from": "2026-10-21T03:26:00Z",
-   "to": "2026-10-21T09:26:00Z",
-   "fir": "NZZC NEW ZEALAND",
-   "top_ft": 5000,
-   "dir": "",
-   "spd_kt": null
-  },
-  {
-   "id": "WAAF:1792552200:263300",
-   "vnum": 263300,
-   "from": "2026-10-21T03:10:00Z",
-   "to": "2026-10-21T09:10:00Z",
-   "fir": "WAAF UJUNG PANDANG",
-   "top_ft": 15000,
-   "dir": "NW",
-   "spd_kt": 10
-  },
-  {
-   "id": "WAAF:1792550400:268030",
-   "vnum": 268030,
-   "from": "2026-10-21T02:40:00Z",
-   "to": "2026-10-21T08:40:00Z",
-   "fir": "WAAF UJUNG PANDANG",
-   "top_ft": 6000,
-   "dir": "NE",
-   "spd_kt": 5
-  },
-  {
-   "id": "MHTG:1792549080:342090",
-   "vnum": 342090,
-   "from": "2026-10-21T02:18:00Z",
-   "to": "2026-10-21T08:18:00Z",
-   "fir": "MHCC CENTRAL AMERICAN",
-   "top_ft": 14000,
-   "dir": "W",
-   "spd_kt": 15
-  },
-  {
-   "id": "SEFG:1792543320:352010",
-   "vnum": 352010,
-   "from": "2026-10-21T00:42:00Z",
-   "to": "2026-10-21T06:42:00Z",
-   "fir": "SEFG GUAYAQUIL",
-   "top_ft": 16000,
-   "dir": "W",
-   "spd_kt": 10
-  },
-  {
-   "id": "SEFG:1792540500:352090",
-   "vnum": 352090,
-   "from": "2026-10-20T23:55:00Z",
-   "to": "2026-10-21T05:55:00Z",
-   "fir": "SEFG GUAYAQUIL",
-   "top_ft": 23000,
-   "dir": "SW",
-   "spd_kt": 15
-  },
-  {
-   "id": "WAAF:1792535460:268010",
-   "vnum": 268010,
-   "from": "2026-10-20T22:31:00Z",
-   "to": "2026-10-21T04:31:00Z",
-   "fir": "WAAF UJUNG PANDANG",
-   "top_ft": 7000,
-   "dir": "NE",
-   "spd_kt": 5
-  },
-  {
-   "id": "NZZC:1792533960:241040",
-   "vnum": 241040,
-   "from": "2026-10-20T22:06:00Z",
-   "to": "2026-10-21T04:06:00Z",
-   "fir": "NZZC NEW ZEALAND",
-   "top_ft": 7000,
-   "dir": "",
-   "spd_kt": null
-  },
-  {
-   "id": "WAAF:1792530600:263300",
-   "vnum": 263300,
-   "from": "2026-10-20T21:10:00Z",
-   "to": "2026-10-21T03:10:00Z",
-   "fir": "WAAF UJUNG PANDANG",
-   "top_ft": 15000,
-   "dir": "NW",
-   "spd_kt": 10
-  },
-  {
-   "id": "RJJJ:1792529820:282080",
-   "vnum": 282080,
-   "from": "2026-10-20T20:57:00Z",
-   "to": "2026-10-21T02:57:00Z",
-   "fir": "RJJJ FUKUOKA",
-   "top_ft": null,
-   "dir": "",
-   "spd_kt": null
-  },
-  {
-   "id": "WAAF:1792528800:268030",
-   "vnum": 268030,
-   "from": "2026-10-20T20:40:00Z",
-   "to": "2026-10-21T02:40:00Z",
-   "fir": "WAAF UJUNG PANDANG",
-   "top_ft": 6000,
-   "dir": "NE",
-   "spd_kt": 5
-  },
-  {
-   "id": "MHTG:1792528200:342090",
-   "vnum": 342090,
-   "from": "2026-10-20T20:30:00Z",
-   "to": "2026-10-21T02:30:00Z",
-   "fir": "MHCC CENTRAL AMERICAN",
-   "top_ft": 14000,
-   "dir": "W",
-   "spd_kt": 15
-  },
-  {
-   "id": "SEFG:1792522980:352010",
-   "vnum": 352010,
-   "from": "2026-10-20T19:03:00Z",
-   "to": "2026-10-21T01:03:00Z",
-   "fir": "SEFG GUAYAQUIL",
-   "top_ft": 16000,
-   "dir": "SW",
-   "spd_kt": 10
   }
  ],
  "levels": [
@@ -30383,6 +30432,132 @@
   }
  ],
  "obs": [
+  {
+   "id": "268010:2026-11-21:https://www.volcanodiscovery.com/dukono/news/425471/vaac-advisory-2026-1029.html",
+   "vnum": 268010,
+   "date": "2026-11-21",
+   "pub": "2026-11-21",
+   "section": "other",
+   "event": "其他",
+   "activity": [
+    "火山灰噴發"
+   ],
+   "scale": "中",
+   "hazards": [],
+   "hazard_note": "",
+   "alert_change": "",
+   "summary": "Dukono 持續爆發性活動，Darwin VAAC 發布火山灰諮詢，灰柱高度約 8,000 ft (2,400 m)。",
+   "url": "https://www.volcanodiscovery.com/dukono/news/425471/vaac-advisory-2026-1029.html",
+   "agency": "volcanodiscovery.com"
+  },
+  {
+   "id": "352090:2026-11-20:https://www.volcanodiscovery.com/sangay/news/424944/vaac-advisory-2026-820.html",
+   "vnum": 352090,
+   "date": "2026-11-20",
+   "pub": "2026-11-20",
+   "section": "other",
+   "event": "其他",
+   "activity": [
+    "火山灰噴發"
+   ],
+   "scale": "中",
+   "hazards": [],
+   "hazard_note": "",
+   "alert_change": "",
+   "summary": "Sangay 持續火山灰噴發，VAAC 發布火山灰諮詢，灰柱高度約 24,000 ft (7,300 m)。",
+   "url": "https://www.volcanodiscovery.com/sangay/news/424944/vaac-advisory-2026-820.html",
+   "agency": "volcanodiscovery.com"
+  },
+  {
+   "id": "342090:2026-11-20:https://www.volcanodiscovery.com/fuego/news/425395/vaac-advisory-2026-1348.html",
+   "vnum": 342090,
+   "date": "2026-11-20",
+   "pub": "2026-11-21",
+   "section": "other",
+   "event": "其他",
+   "activity": [
+    "火山灰噴發"
+   ],
+   "scale": "中",
+   "hazards": [],
+   "hazard_note": "",
+   "alert_change": "",
+   "summary": "Fuego 持續火山灰噴發，VAAC 發布火山灰諮詢，灰柱高度約 15,000 ft (4,600 m)。",
+   "url": "https://www.volcanodiscovery.com/fuego/news/425395/vaac-advisory-2026-1348.html",
+   "agency": "volcanodiscovery.com"
+  },
+  {
+   "id": "282080:2026-11-20:https://miyazaki-pref.site.ktaiwork.jp/2026/11/20/%E3%80%90%E7%81%AB%E5%B1%B1%E6%83%85%E5%A0%B1%E3%80%91-1623/",
+   "vnum": 282080,
+   "date": "2026-11-20",
+   "pub": "2026-11-20",
+   "section": "near",
+   "event": "其他",
+   "activity": [
+    "噴氣或氣體增加"
+   ],
+   "scale": "不明",
+   "hazards": [],
+   "hazard_note": "",
+   "alert_change": "",
+   "summary": "JMA 解說情報指出櫻島噴火活動持續，火口周邊警報（噴火警戒等級 3、入山規制）維持，SO2 排放量仍多，預期噴火活動將持續。",
+   "url": "https://miyazaki-pref.site.ktaiwork.jp/2026/11/20/%E3%80%90%E7%81%AB%E5%B1%B1%E6%83%85%E5%A0%B1%E3%80%91-1623/",
+   "agency": "miyazaki-pref.site.ktaiwork.jp"
+  },
+  {
+   "id": "272020:2026-11-20:https://www.gmanetwork.com/news/topstories/regions/1010168/kanlaon-volcano-emits-ash/story/",
+   "vnum": 272020,
+   "date": "2026-11-20",
+   "pub": "2026-11-20",
+   "section": "media",
+   "event": "活動增強",
+   "activity": [
+    "小規模噴煙"
+   ],
+   "scale": "小",
+   "hazards": [],
+   "hazard_note": "",
+   "alert_change": "",
+   "summary": "PHIVOLCS 指出 Kanlaon 火山於 11 月 20 日清晨出現火山灰噴發，灰柱高出山頂火口 200 公尺。警戒等級維持 Alert Level 2。",
+   "url": "https://www.gmanetwork.com/news/topstories/regions/1010168/kanlaon-volcano-emits-ash/story/",
+   "agency": "GMA"
+  },
+  {
+   "id": "272020:2026-11-20:https://sundaypunch.ph/kanlaon-volcano-emits-200-meter-ash-plume-as-phivolcs-maintains-alert-level-2/",
+   "vnum": 272020,
+   "date": "2026-11-20",
+   "pub": "2026-11-20",
+   "section": "near",
+   "event": "噴發",
+   "activity": [
+    "小規模噴煙"
+   ],
+   "scale": "小",
+   "hazards": [],
+   "hazard_note": "",
+   "alert_change": "",
+   "summary": "Kanlaon 於 11 月 20 日 5:46 由 KVO 觀測到火山灰噴發，噴煙高出火口 200 m，警戒等級維持 Alert Level 2。",
+   "url": "https://sundaypunch.ph/kanlaon-volcano-emits-200-meter-ash-plume-as-phivolcs-maintains-alert-level-2/",
+   "agency": "sundaypunch.ph"
+  },
+  {
+   "id": "263300:2026-11-20:https://www.volcanodiscovery.com/semeru/news/425293/vaac-advisory-2026-1327.html",
+   "vnum": 263300,
+   "date": "2026-11-20",
+   "pub": "2026-11-21",
+   "section": "other",
+   "event": "其他",
+   "activity": [
+    "火山灰噴發"
+   ],
+   "scale": "中",
+   "hazards": [],
+   "hazard_note": "",
+   "alert_change": "",
+   "summary": "Darwin VAAC 發布 Semeru 火山灰諮詢，噴發最後回報高度為 FL150。",
+   "url": "https://www.volcanodiscovery.com/semeru/news/425293/vaac-advisory-2026-1327.html",
+   "agency": "volcanodiscovery.com"
+  },
   {
    "id": "342090:2026-11-19:https://www.volcanodiscovery.com/fuego/news/420738/vaac-advisory-2026-1344.html",
    "vnum": 342090,
@@ -33335,105 +33510,6 @@
   }
  ],
  "daily": [
-  {
-   "id": "2026-10-22:241040",
-   "date": "2026-10-22",
-   "vnum": 241040,
-   "ash_n": 5,
-   "ash_top_ft": 5000,
-   "kind": null,
-   "activity": [],
-   "eruption": true,
-   "hazards": []
-  },
-  {
-   "id": "2026-10-22:263300",
-   "date": "2026-10-22",
-   "vnum": 263300,
-   "ash_n": 4,
-   "ash_top_ft": 15000,
-   "kind": null,
-   "activity": [],
-   "eruption": true,
-   "hazards": []
-  },
-  {
-   "id": "2026-10-22:268010",
-   "date": "2026-10-22",
-   "vnum": 268010,
-   "ash_n": 4,
-   "ash_top_ft": 7000,
-   "kind": null,
-   "activity": [],
-   "eruption": true,
-   "hazards": []
-  },
-  {
-   "id": "2026-10-22:268030",
-   "date": "2026-10-22",
-   "vnum": 268030,
-   "ash_n": 5,
-   "ash_top_ft": 6000,
-   "kind": null,
-   "activity": [],
-   "eruption": true,
-   "hazards": []
-  },
-  {
-   "id": "2026-10-22:282080",
-   "date": "2026-10-22",
-   "vnum": 282080,
-   "ash_n": 1,
-   "ash_top_ft": 8000,
-   "kind": null,
-   "activity": [],
-   "eruption": true,
-   "hazards": []
-  },
-  {
-   "id": "2026-10-22:342090",
-   "date": "2026-10-22",
-   "vnum": 342090,
-   "ash_n": 4,
-   "ash_top_ft": 14000,
-   "kind": null,
-   "activity": [],
-   "eruption": true,
-   "hazards": []
-  },
-  {
-   "id": "2026-10-22:351060",
-   "date": "2026-10-22",
-   "vnum": 351060,
-   "ash_n": 4,
-   "ash_top_ft": 18000,
-   "kind": null,
-   "activity": [],
-   "eruption": true,
-   "hazards": []
-  },
-  {
-   "id": "2026-10-22:352010",
-   "date": "2026-10-22",
-   "vnum": 352010,
-   "ash_n": 4,
-   "ash_top_ft": 17000,
-   "kind": null,
-   "activity": [],
-   "eruption": true,
-   "hazards": []
-  },
-  {
-   "id": "2026-10-22:352090",
-   "date": "2026-10-22",
-   "vnum": 352090,
-   "ash_n": 4,
-   "ash_top_ft": 21000,
-   "kind": null,
-   "activity": [],
-   "eruption": true,
-   "hazards": []
-  },
   {
    "id": "2026-10-23:241040",
    "date": "2026-10-23",
@@ -37484,10 +37560,71 @@
    "hazards": []
   },
   {
+   "id": "2026-11-20:263300",
+   "date": "2026-11-20",
+   "vnum": 263300,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": "ash",
+   "activity": [
+    "火山灰噴發"
+   ],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-20:268010",
+   "date": "2026-11-20",
+   "vnum": 268010,
+   "ash_n": 4,
+   "ash_top_ft": 8000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-20:268030",
+   "date": "2026-11-20",
+   "vnum": 268030,
+   "ash_n": 3,
+   "ash_top_ft": 7000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-20:272020",
+   "date": "2026-11-20",
+   "vnum": 272020,
+   "ash_n": 1,
+   "ash_top_ft": 9000,
+   "kind": "minor",
+   "activity": [
+    "小規模噴煙"
+   ],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-20:282080",
+   "date": "2026-11-20",
+   "vnum": 282080,
+   "ash_n": 0,
+   "ash_top_ft": 0,
+   "kind": "other",
+   "activity": [
+    "噴氣或氣體增加"
+   ],
+   "eruption": false,
+   "hazards": []
+  },
+  {
    "id": "2026-11-20:342030",
    "date": "2026-11-20",
    "vnum": 342030,
-   "ash_n": 1,
+   "ash_n": 5,
    "ash_top_ft": 13000,
    "kind": null,
    "activity": [],
@@ -37497,6 +37634,67 @@
   {
    "id": "2026-11-20:342090",
    "date": "2026-11-20",
+   "vnum": 342090,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": "ash",
+   "activity": [
+    "火山灰噴發"
+   ],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-20:351060",
+   "date": "2026-11-20",
+   "vnum": 351060,
+   "ash_n": 4,
+   "ash_top_ft": 20000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-20:352010",
+   "date": "2026-11-20",
+   "vnum": 352010,
+   "ash_n": 4,
+   "ash_top_ft": 15000,
+   "kind": null,
+   "activity": [],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-20:352090",
+   "date": "2026-11-20",
+   "vnum": 352090,
+   "ash_n": 5,
+   "ash_top_ft": 26000,
+   "kind": "ash",
+   "activity": [
+    "火山灰噴發"
+   ],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-21:268010",
+   "date": "2026-11-21",
+   "vnum": 268010,
+   "ash_n": 0,
+   "ash_top_ft": 0,
+   "kind": "ash",
+   "activity": [
+    "火山灰噴發"
+   ],
+   "eruption": true,
+   "hazards": []
+  },
+  {
+   "id": "2026-11-21:342090",
+   "date": "2026-11-21",
    "vnum": 342090,
    "ash_n": 1,
    "ash_top_ft": 15000,
