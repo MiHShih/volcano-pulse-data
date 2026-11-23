@@ -1,0 +1,9 @@
+{
+ "version": "0.20.1",
+ "channel": "stable",
+ "date": "2026-11-23",
+ "file": "volcano-update-v0.20.1.zip",
+ "sha256": "12282033c5304bbab50044c1f3e7b6534611be8fd7b9c1883c377c687c750e49",
+ "size": 16445628,
+ "min_version": "0.17.0"
+}
